@@ -33,13 +33,14 @@ export default function FactionPicker({
               onClick={() => onToggle(f.factionName)}
               disabled={disabled}
               className={`
-                px-3 py-2 rounded-lg text-sm font-medium text-left transition-all
+                px-3 py-2 rounded-lg text-sm font-medium text-left transition-colors
+                border-2
                 ${
                   isSelected
-                    ? "bg-amber-600 text-white ring-2 ring-amber-400"
+                    ? "bg-amber-600 text-white border-amber-400"
                     : disabled
-                      ? "bg-neutral-800 text-neutral-600 cursor-not-allowed"
-                      : "bg-neutral-800 text-neutral-200 hover:bg-neutral-700"
+                      ? "bg-neutral-800 text-neutral-600 border-transparent cursor-not-allowed"
+                      : "bg-neutral-800 text-neutral-200 border-transparent hover:bg-neutral-700"
                 }
               `}
             >
