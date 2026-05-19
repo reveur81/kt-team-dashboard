@@ -138,7 +138,7 @@ export function computeFactionStats(
       wins: d.wins,
       losses: d.losses,
       draws: d.draws,
-      winRate: d.games > 0 ? d.wins / d.games : 0,
+      winRate: (d.wins + d.losses) > 0 ? d.wins / (d.wins + d.losses) : 0,
       avgScore: d.games > 0 ? d.totalScore / d.games : 0,
       avgCritOps: d.games > 0 ? d.totalCritOps / d.games : 0,
       avgKillOps: d.games > 0 ? d.totalKillOps / d.games : 0,
@@ -193,6 +193,7 @@ export function computeMatchups(pairings: BcpPairing[]): Matchup[] {
 
   return Object.values(matchupData).map((d) => {
     const total = d.f1Wins + d.f2Wins + d.draws;
+    const decisive = d.f1Wins + d.f2Wins;
     return {
       faction1: d.f1,
       faction2: d.f2,
@@ -200,7 +201,7 @@ export function computeMatchups(pairings: BcpPairing[]): Matchup[] {
       faction2Wins: d.f2Wins,
       draws: d.draws,
       totalGames: total,
-      faction1WinRate: total > 0 ? d.f1Wins / total : 0,
+      faction1WinRate: decisive > 0 ? d.f1Wins / decisive : 0.5,
     };
   });
 }
