@@ -91,15 +91,15 @@ const DEFAULT_PROFILE = {
 };
 
 function marginWinColor(v: number): string {
-  if (v >= 7.6) return "text-green-400";
-  if (v >= 6.6) return "text-neutral-300";
+  if (v > 7.4) return "text-green-400";
+  if (v >= 6.9) return "text-yellow-300";
   return "text-red-400";
 }
 
 function marginLossColor(v: number): string {
   const abs = Math.abs(v);
-  if (abs <= 6.8) return "text-green-400";
-  if (abs <= 7.7) return "text-neutral-300";
+  if (abs < 6.9) return "text-green-400";
+  if (abs <= 7.5) return "text-yellow-300";
   return "text-red-400";
 }
 
@@ -185,8 +185,11 @@ export default function TeamProfiles({ teamStats }: Props) {
       </div>
 
       <div className="mt-4 pt-3 border-t border-neutral-800 text-[10px] text-neutral-500">
-        Marge haute en V : &gt;7.6 · Marge fiable en D : &lt;6.8 · Médiane :
-        7.2
+        <span className="text-green-400">■</span> Marge V haute &gt;7.4 · D fiable &lt;6.9
+        &nbsp;&nbsp;
+        <span className="text-yellow-300">■</span> Moyenne V 6.9–7.4 · D 6.9–7.5
+        &nbsp;&nbsp;
+        <span className="text-red-400">■</span> Marge V basse &lt;6.9 · D fragile &gt;7.5
       </div>
     </div>
   );

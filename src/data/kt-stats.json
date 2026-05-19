@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T19:25:28.470Z",
+  "generatedAt": "2026-05-19T19:43:15.128Z",
   "period": {
     "start": "2026-01-01",
     "end": "2026-05-19"
@@ -217,7 +217,7 @@
         "avgScoreInLoss": 6.957446808510638,
         "avgOppScoreInWin": 8.053571428571429,
         "avgOppScoreInLoss": 14.51063829787234,
-        "profile": "Explosive"
+        "profile": "Équilibrée"
       },
       {
         "factionName": "Elucidian Starstriders",
@@ -537,7 +537,7 @@
         "avgScoreInLoss": 7.9468302658486705,
         "avgOppScoreInWin": 8.290890269151138,
         "avgOppScoreInLoss": 15.379345603271984,
-        "profile": "Explosive"
+        "profile": "Équilibrée"
       },
       {
         "factionName": "Blooded",
@@ -637,7 +637,7 @@
         "avgScoreInLoss": 8.697826086956521,
         "avgOppScoreInWin": 8.45873786407767,
         "avgOppScoreInLoss": 15.571739130434782,
-        "profile": "Résistante"
+        "profile": "Bouclier"
       },
       {
         "factionName": "Vespid Stingwings",
@@ -777,7 +777,7 @@
         "avgScoreInLoss": 8.75,
         "avgOppScoreInWin": 8.631313131313131,
         "avgOppScoreInLoss": 15.84274193548387,
-        "profile": "Résistante"
+        "profile": "Bouclier"
       },
       {
         "factionName": "Hearthkyn Salvagers",
@@ -877,7 +877,7 @@
         "avgScoreInLoss": 7.426470588235294,
         "avgOppScoreInWin": 7.921568627450981,
         "avgOppScoreInLoss": 16.75,
-        "profile": "Kamikaze"
+        "profile": "Fragile"
       },
       {
         "factionName": "XV26 Stealth Battlesuits",
@@ -997,7 +997,7 @@
         "avgScoreInLoss": 7.391304347826087,
         "avgOppScoreInWin": 7.947368421052632,
         "avgOppScoreInLoss": 15.978260869565217,
-        "profile": "Kamikaze"
+        "profile": "Fragile"
       }
     ],
     "matchups": [
@@ -8471,7 +8471,7 @@
         "avgScoreInLoss": 8.226993865030675,
         "avgOppScoreInWin": 8.697247706422019,
         "avgOppScoreInLoss": 15.680981595092025,
-        "profile": "Chanceuse"
+        "profile": "Contrôleuse"
       },
       {
         "factionName": "Wolf Scouts",
@@ -8831,7 +8831,7 @@
         "avgScoreInLoss": 7.814457831325301,
         "avgOppScoreInWin": 8.213942307692308,
         "avgOppScoreInLoss": 15.332530120481927,
-        "profile": "Explosive"
+        "profile": "Équilibrée"
       },
       {
         "factionName": "[deleted, duplicate] Plague Marines",
@@ -8911,7 +8911,7 @@
         "avgScoreInLoss": 7.692607003891051,
         "avgOppScoreInWin": 8.148,
         "avgOppScoreInLoss": 15.342412451361868,
-        "profile": "Explosive"
+        "profile": "Équilibrée"
       },
       {
         "factionName": "Goremongers",
@@ -9031,7 +9031,7 @@
         "avgScoreInLoss": 8.70503597122302,
         "avgOppScoreInWin": 8.425068119891009,
         "avgOppScoreInLoss": 15.515587529976019,
-        "profile": "Résistante"
+        "profile": "Bouclier"
       },
       {
         "factionName": "Sanctifiers",
@@ -9291,7 +9291,7 @@
         "avgScoreInLoss": 7.129032258064516,
         "avgOppScoreInWin": 7.880952380952381,
         "avgOppScoreInLoss": 16.741935483870968,
-        "profile": "Kamikaze"
+        "profile": "Fragile"
       },
       {
         "factionName": "Battleclade",
@@ -9371,7 +9371,7 @@
         "avgScoreInLoss": 7.666666666666667,
         "avgOppScoreInWin": 7.833333333333333,
         "avgOppScoreInLoss": 16.333333333333332,
-        "profile": "Kamikaze"
+        "profile": "Fragile"
       }
     ],
     "matchups": [
@@ -16739,7 +16739,7 @@
         "avgScoreInLoss": 8.32258064516129,
         "avgOppScoreInWin": 8.70503597122302,
         "avgOppScoreInLoss": 15.344086021505376,
-        "profile": "Dominante"
+        "profile": "Contrôleuse"
       },
       {
         "factionName": "Ratlings",
@@ -16779,7 +16779,7 @@
         "avgScoreInLoss": 8.054054054054054,
         "avgOppScoreInWin": 9.115384615384615,
         "avgOppScoreInLoss": 15.378378378378379,
-        "profile": "Chanceuse"
+        "profile": "Contrôleuse"
       },
       {
         "factionName": "Hand of the Archon",
@@ -16839,7 +16839,7 @@
         "avgScoreInLoss": 9.384615384615385,
         "avgOppScoreInWin": 8.757575757575758,
         "avgOppScoreInLoss": 15.76923076923077,
-        "profile": "Dominante"
+        "profile": "Contrôleuse"
       },
       {
         "factionName": "Fellgor Ravagers",
@@ -16919,7 +16919,7 @@
         "avgScoreInLoss": 9.851851851851851,
         "avgOppScoreInWin": 8.848484848484848,
         "avgOppScoreInLoss": 15.814814814814815,
-        "profile": "Dominante"
+        "profile": "Contrôleuse"
       },
       {
         "factionName": "Blades of Khaine",
@@ -17199,7 +17199,7 @@
         "avgScoreInLoss": 8.68918918918919,
         "avgOppScoreInWin": 8.76865671641791,
         "avgOppScoreInLoss": 15.641891891891891,
-        "profile": "Résistante"
+        "profile": "Bouclier"
       },
       {
         "factionName": "Blooded",
@@ -17239,7 +17239,7 @@
         "avgScoreInLoss": 8.830508474576272,
         "avgOppScoreInWin": 9.641509433962264,
         "avgOppScoreInLoss": 16.152542372881356,
-        "profile": "Fragile"
+        "profile": "Bouclier"
       },
       {
         "factionName": "Canoptek Circle",
@@ -17259,7 +17259,7 @@
         "avgScoreInLoss": 8.193548387096774,
         "avgOppScoreInWin": 8.12962962962963,
         "avgOppScoreInLoss": 15.419354838709678,
-        "profile": "Fragile"
+        "profile": "Bouclier"
       },
       {
         "factionName": "Nemesis Claw",
@@ -17299,7 +17299,7 @@
         "avgScoreInLoss": 8.4,
         "avgOppScoreInWin": 9.5,
         "avgOppScoreInLoss": 15.533333333333333,
-        "profile": "Kamikaze"
+        "profile": "Résistante"
       },
       {
         "factionName": "Elucidian Starstriders",
@@ -17419,7 +17419,7 @@
         "avgScoreInLoss": 9.333333333333334,
         "avgOppScoreInWin": 10.772727272727273,
         "avgOppScoreInLoss": 16.8,
-        "profile": "Fragile"
+        "profile": "Bouclier"
       },
       {
         "factionName": "Kasrkin",
@@ -17539,7 +17539,7 @@
         "avgScoreInLoss": 7.666666666666667,
         "avgOppScoreInWin": 3.5,
         "avgOppScoreInLoss": 15.166666666666666,
-        "profile": "Kamikaze"
+        "profile": "Résistante"
       },
       {
         "factionName": "Pathfinders",

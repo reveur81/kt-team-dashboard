@@ -166,21 +166,15 @@ export function computeFactionStats(
     }
   }
 
-  // Seuils pour les profils
-  const allMarginWins: number[] = [];
-  const allMarginLosses: number[] = [];
-  for (const d of Object.values(factionData)) {
-    if (d.winsCount > 0) allMarginWins.push(d.totalMarginWin / d.winsCount);
-    if (d.lossesCount > 0) allMarginLosses.push(Math.abs(d.totalMarginLoss / d.lossesCount));
-  }
-  const medianMarginWin = median(allMarginWins);
-  const medianMarginLoss = median(allMarginLosses);
+  // Seuils pour les profils (tiers équilibrés sur KT classifiées)
+  const MARGIN_WIN_HIGH = 7.4;
+  const MARGIN_LOSS_HIGH = 7.5;
 
   function getProfile(wr: number, marginWin: number, marginLoss: number): string {
     const highWR = wr >= 0.55;
     const lowWR = wr < 0.48;
-    const highMarginW = marginWin >= medianMarginWin;
-    const highMarginL = Math.abs(marginLoss) >= medianMarginLoss;
+    const highMarginW = marginWin > MARGIN_WIN_HIGH;
+    const highMarginL = Math.abs(marginLoss) > MARGIN_LOSS_HIGH;
 
     if (highWR && highMarginW && !highMarginL) return "Dominante";
     if (highWR && highMarginW && highMarginL) return "Bulldozer";
