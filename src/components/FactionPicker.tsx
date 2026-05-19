@@ -23,7 +23,7 @@ export default function FactionPicker({
       <p className="text-sm text-neutral-400 mb-4">
         Choisis {maxSelections} kill teams pour ton équipe
       </p>
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
+      <div className="flex flex-wrap gap-2">
         {[...factions].sort((a, b) => a.factionName.localeCompare(b.factionName)).map((f) => {
           const isSelected = selected.includes(f.factionName);
           const disabled = !isSelected && selected.length >= maxSelections;
@@ -32,10 +32,10 @@ export default function FactionPicker({
               key={f.factionName}
               onClick={() => onToggle(f.factionName)}
               disabled={disabled}
-              style={{ height: "52px" }}
+              style={{ width: "calc(50% - 4px)", height: "52px" }}
               className={`
                 px-2 rounded-lg text-sm font-medium text-left transition-colors
-                border-2 flex flex-col justify-center
+                border-2 flex flex-col justify-center shrink-0
                 ${
                   isSelected
                     ? "bg-amber-600 text-white border-amber-400"
