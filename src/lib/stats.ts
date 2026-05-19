@@ -182,16 +182,22 @@ export function computeFactionStats(
     const highMarginW = marginWin >= medianMarginWin;
     const highMarginL = Math.abs(marginLoss) >= medianMarginLoss;
 
+    // WR élevé (≥55%)
     if (highWR && highMarginW && !highMarginL) return "Dominante";
     if (highWR && highMarginW && highMarginL) return "Bulldozer";
     if (highWR && !highMarginW && !highMarginL) return "Contrôleuse";
     if (highWR && !highMarginW && highMarginL) return "Chanceuse";
+    // WR moyen (48-55%)
+    if (!highWR && !lowWR && highMarginW && highMarginL) return "Explosive";
+    if (!highWR && !lowWR && highMarginW && !highMarginL) return "Solide";
+    if (!highWR && !lowWR && !highMarginW && !highMarginL) return "Défensive";
+    if (!highWR && !lowWR && !highMarginW && highMarginL) return "Délicate";
+    // WR faible (<48%)
     if (lowWR && highMarginW && !highMarginL) return "Résistante";
-    if (lowWR && !highMarginW && !highMarginL) return "Bouclier";
     if (lowWR && highMarginW && highMarginL) return "Kamikaze";
+    if (lowWR && !highMarginW && !highMarginL) return "Tenace";
     if (lowWR && !highMarginW && highMarginL) return "Fragile";
-    if (highMarginW && highMarginL) return "Explosive";
-    return "Équilibrée";
+    return "Défensive";
   }
 
   return Object.entries(factionData)

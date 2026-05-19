@@ -10,6 +10,7 @@ const PROFILES: Record<
   string,
   { icon: string; color: string; bg: string; border: string; desc: string }
 > = {
+  // WR élevé
   Dominante: {
     icon: "👑",
     color: "text-green-300",
@@ -38,6 +39,7 @@ const PROFILES: Record<
     border: "border-yellow-700",
     desc: "Gagne souvent de justesse, s'effondre en défaite",
   },
+  // WR moyen
   Explosive: {
     icon: "💥",
     color: "text-orange-300",
@@ -45,13 +47,28 @@ const PROFILES: Record<
     border: "border-orange-800",
     desc: "50/50 mais toujours des blowouts",
   },
-  "Équilibrée": {
-    icon: "⚖️",
-    color: "text-neutral-300",
-    bg: "bg-neutral-800",
-    border: "border-neutral-700",
-    desc: "50/50 avec des matchs serrés",
+  Solide: {
+    icon: "💎",
+    color: "text-emerald-300",
+    bg: "bg-emerald-900/30",
+    border: "border-emerald-700",
+    desc: "50/50 mais gagne large et perd de peu, bon pour le différentiel",
   },
+  "Défensive": {
+    icon: "🔒",
+    color: "text-sky-300",
+    bg: "bg-sky-900/30",
+    border: "border-sky-700",
+    desc: "50/50 avec des matchs serrés, stable",
+  },
+  "Délicate": {
+    icon: "⚡",
+    color: "text-amber-300",
+    bg: "bg-amber-900/30",
+    border: "border-amber-700",
+    desc: "50/50 mais gagne de justesse et s'effondre en défaite",
+  },
+  // WR faible
   "Résistante": {
     icon: "🛡️",
     color: "text-teal-300",
@@ -66,12 +83,12 @@ const PROFILES: Record<
     border: "border-red-800",
     desc: "Perd souvent, tout est explosif",
   },
-  Bouclier: {
-    icon: "🧱",
+  Tenace: {
+    icon: "✊",
     color: "text-cyan-300",
     bg: "bg-cyan-900/30",
     border: "border-cyan-700",
-    desc: "Perd souvent mais toujours de peu, protège le différentiel",
+    desc: "Perd souvent mais toujours de peu, ne lâche rien",
   },
   Fragile: {
     icon: "💔",

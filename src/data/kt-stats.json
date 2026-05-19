@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T19:59:05.014Z",
+  "generatedAt": "2026-05-19T20:15:34.967Z",
   "period": {
     "start": "2026-01-01",
     "end": "2026-05-19"
@@ -55,9 +55,9 @@
     "XV26 Stealth Battlesuits"
   ],
   "all": {
-    "eventsCount": 587,
-    "totalPairings": 17688,
-    "totalPlayers": 9720,
+    "eventsCount": 588,
+    "totalPairings": 17698,
+    "totalPlayers": 9730,
     "factionStats": [
       {
         "factionName": "Murderwing",
@@ -70,7 +70,7 @@
         "avgCritOps": 3.3753903810118677,
         "avgKillOps": 3.1286695815115553,
         "avgTacOps": 3.4978138663335416,
-        "pickRate": 0.049078416403097395,
+        "pickRate": 0.04902494825144351,
         "avgMarginWin": 7.926220204313281,
         "avgMarginLoss": -6.8544303797468356,
         "avgScoreInWin": 15.754824063564131,
@@ -90,7 +90,7 @@
         "avgCritOps": 3.2016742770167426,
         "avgKillOps": 3.4318873668188736,
         "avgTacOps": 3.434931506849315,
-        "pickRate": 0.07950703457301778,
+        "pickRate": 0.07942041616733848,
         "avgMarginWin": 7.913623595505618,
         "avgMarginLoss": -6.765088207985144,
         "avgScoreInWin": 15.775280898876405,
@@ -110,7 +110,7 @@
         "avgCritOps": 3.453333333333333,
         "avgKillOps": 3.02,
         "avgTacOps": 3.6066666666666665,
-        "pickRate": 0.01286945141236776,
+        "pickRate": 0.012855430874822965,
         "avgMarginWin": 6.884462151394422,
         "avgMarginLoss": -7.242105263157895,
         "avgScoreInWin": 15.601593625498008,
@@ -130,7 +130,7 @@
         "avgCritOps": 2.861111111111111,
         "avgKillOps": 2.4166666666666665,
         "avgTacOps": 2.4722222222222223,
-        "pickRate": 0.0011996946231868251,
+        "pickRate": 0.0011983876239241747,
         "avgMarginWin": 5.578947368421052,
         "avgMarginLoss": -8.4,
         "avgScoreInWin": 14.736842105263158,
@@ -150,14 +150,14 @@
         "avgCritOps": 2.917525773195876,
         "avgKillOps": 2.7938144329896906,
         "avgTacOps": 2.9536082474226806,
-        "pickRate": 0.005998473115934126,
+        "pickRate": 0.005991938119620874,
         "avgMarginWin": 6.445544554455446,
         "avgMarginLoss": -7.333333333333333,
         "avgScoreInWin": 14.198019801980198,
         "avgScoreInLoss": 7.404761904761905,
         "avgOppScoreInWin": 7.752475247524752,
         "avgOppScoreInLoss": 14.738095238095237,
-        "profile": "Équilibrée"
+        "profile": "Délicate"
       },
       {
         "factionName": "Chaos Cult",
@@ -170,14 +170,14 @@
         "avgCritOps": 3.201923076923077,
         "avgKillOps": 3.2153846153846155,
         "avgTacOps": 3.542307692307692,
-        "pickRate": 0.014723524920929218,
+        "pickRate": 0.014707484475433054,
         "avgMarginWin": 6.553030303030303,
         "avgMarginLoss": -6.624434389140271,
         "avgScoreInWin": 15.344696969696969,
         "avgScoreInLoss": 8.79185520361991,
         "avgOppScoreInWin": 8.791666666666666,
         "avgOppScoreInLoss": 15.416289592760181,
-        "profile": "Équilibrée"
+        "profile": "Défensive"
       },
       {
         "factionName": "Mandrakes",
@@ -190,14 +190,14 @@
         "avgCritOps": 3.212406015037594,
         "avgKillOps": 3.361842105263158,
         "avgTacOps": 3.7847744360902253,
-        "pickRate": 0.03162831279310721,
+        "pickRate": 0.03159385553981915,
         "avgMarginWin": 8.134057971014492,
         "avgMarginLoss": -6.9654427645788335,
         "avgScoreInWin": 16.132246376811594,
         "avgScoreInLoss": 8.900647948164147,
         "avgOppScoreInWin": 7.9981884057971016,
         "avgOppScoreInLoss": 15.86609071274298,
-        "profile": "Équilibrée"
+        "profile": "Solide"
       },
       {
         "factionName": "Hunter Clade",
@@ -210,7 +210,7 @@
         "avgCritOps": 2.69811320754717,
         "avgKillOps": 2.9622641509433962,
         "avgTacOps": 2.7169811320754715,
-        "pickRate": 0.0032718944268731597,
+        "pickRate": 0.0032683298834295673,
         "avgMarginWin": 7.339285714285714,
         "avgMarginLoss": -7.553191489361702,
         "avgScoreInWin": 15.392857142857142,
@@ -221,23 +221,23 @@
       },
       {
         "factionName": "Elucidian Starstriders",
-        "gamesPlayed": 184,
-        "wins": 92,
-        "losses": 79,
+        "gamesPlayed": 186,
+        "wins": 93,
+        "losses": 80,
         "draws": 13,
-        "winRate": 0.5380116959064327,
-        "avgScore": 12.244565217391305,
-        "avgCritOps": 3.141304347826087,
-        "avgKillOps": 2.9402173913043477,
-        "avgTacOps": 3.3967391304347827,
-        "pickRate": 0.0055622205256843716,
-        "avgMarginWin": 8.391304347826088,
-        "avgMarginLoss": -6.30379746835443,
-        "avgScoreInWin": 15.782608695652174,
-        "avgScoreInLoss": 8.405063291139241,
-        "avgOppScoreInWin": 7.391304347826087,
-        "avgOppScoreInLoss": 14.708860759493671,
-        "profile": "Équilibrée"
+        "winRate": 0.5375722543352601,
+        "avgScore": 12.25268817204301,
+        "avgCritOps": 3.139784946236559,
+        "avgKillOps": 2.9408602150537635,
+        "avgTacOps": 3.4086021505376345,
+        "pickRate": 0.005665105131277917,
+        "avgMarginWin": 8.397849462365592,
+        "avgMarginLoss": -6.25,
+        "avgScoreInWin": 15.763440860215054,
+        "avgScoreInLoss": 8.45,
+        "avgOppScoreInWin": 7.365591397849462,
+        "avgOppScoreInLoss": 14.7,
+        "profile": "Solide"
       },
       {
         "factionName": "Raveners",
@@ -250,14 +250,14 @@
         "avgCritOps": 3.180940892641737,
         "avgKillOps": 3.149577804583836,
         "avgTacOps": 3.1248492159227985,
-        "pickRate": 0.048969353255534954,
+        "pickRate": 0.04891600392199586,
         "avgMarginWin": 6.495157384987894,
         "avgMarginLoss": -6.79696132596685,
         "avgScoreInWin": 15.168280871670703,
         "avgScoreInLoss": 8.244475138121548,
         "avgOppScoreInWin": 8.673123486682808,
         "avgOppScoreInLoss": 15.041436464088397,
-        "profile": "Équilibrée"
+        "profile": "Défensive"
       },
       {
         "factionName": "Brood Brothers",
@@ -270,14 +270,14 @@
         "avgCritOps": 3.327332242225859,
         "avgKillOps": 2.944353518821604,
         "avgTacOps": 3.8543371522094927,
-        "pickRate": 0.019195113970989202,
+        "pickRate": 0.019174201982786795,
         "avgMarginWin": 7.061688311688312,
         "avgMarginLoss": -6.9489051094890515,
         "avgScoreInWin": 15.983766233766234,
         "avgScoreInLoss": 8.894160583941606,
         "avgOppScoreInWin": 8.922077922077921,
         "avgOppScoreInLoss": 15.843065693430656,
-        "profile": "Équilibrée"
+        "profile": "Défensive"
       },
       {
         "factionName": "Hand of the Archon",
@@ -290,7 +290,7 @@
         "avgCritOps": 2.9873817034700316,
         "avgKillOps": 3.414826498422713,
         "avgTacOps": 3.367507886435331,
-        "pickRate": 0.0177772930526775,
+        "pickRate": 0.017757925699967318,
         "avgMarginWin": 7.61128526645768,
         "avgMarginLoss": -7.73943661971831,
         "avgScoreInWin": 15.77742946708464,
@@ -310,34 +310,34 @@
         "avgCritOps": 3.186301369863014,
         "avgKillOps": 2.967123287671233,
         "avgTacOps": 3.8164383561643835,
-        "pickRate": 0.010688188461118988,
+        "pickRate": 0.010676544285869921,
         "avgMarginWin": 6.9890710382513666,
         "avgMarginLoss": -6.509090909090909,
         "avgScoreInWin": 15.584699453551913,
         "avgScoreInLoss": 8.969696969696969,
         "avgOppScoreInWin": 8.595628415300547,
         "avgOppScoreInLoss": 15.478787878787879,
-        "profile": "Équilibrée"
+        "profile": "Défensive"
       },
       {
         "factionName": "Canoptek Circle",
-        "gamesPlayed": 1108,
-        "wins": 543,
-        "losses": 509,
+        "gamesPlayed": 1110,
+        "wins": 544,
+        "losses": 510,
         "draws": 56,
-        "winRate": 0.5161596958174905,
-        "avgScore": 11.537003610108304,
-        "avgCritOps": 3.026173285198556,
-        "avgKillOps": 2.7879061371841156,
-        "avgTacOps": 3.371841155234657,
-        "pickRate": 0.03304613371141891,
-        "avgMarginWin": 6.289134438305709,
-        "avgMarginLoss": -6.648330058939096,
-        "avgScoreInWin": 14.697974217311234,
-        "avgScoreInLoss": 8.18860510805501,
-        "avgOppScoreInWin": 8.408839779005525,
-        "avgOppScoreInLoss": 14.836935166994106,
-        "profile": "Équilibrée"
+        "winRate": 0.5161290322580645,
+        "avgScore": 11.54144144144144,
+        "avgCritOps": 3.026126126126126,
+        "avgKillOps": 2.789189189189189,
+        "avgTacOps": 3.374774774774775,
+        "pickRate": 0.033119076152086285,
+        "avgMarginWin": 6.297794117647059,
+        "avgMarginLoss": -6.654901960784314,
+        "avgScoreInWin": 14.704044117647058,
+        "avgScoreInLoss": 8.192156862745097,
+        "avgOppScoreInWin": 8.40625,
+        "avgOppScoreInLoss": 14.847058823529412,
+        "profile": "Défensive"
       },
       {
         "factionName": "Wrecka Krew",
@@ -350,7 +350,7 @@
         "avgCritOps": 2.900262467191601,
         "avgKillOps": 3.2808398950131235,
         "avgTacOps": 3.146981627296588,
-        "pickRate": 0.06914603555458611,
+        "pickRate": 0.06907070486981153,
         "avgMarginWin": 7.75044404973357,
         "avgMarginLoss": -7.68655303030303,
         "avgScoreInWin": 15.727353463587923,
@@ -370,14 +370,14 @@
         "avgCritOps": 3.0944444444444446,
         "avgKillOps": 3.4611111111111112,
         "avgTacOps": 3.15,
-        "pickRate": 0.006107536263496564,
+        "pickRate": 0.006100882449068526,
         "avgMarginWin": 7.606741573033708,
         "avgMarginLoss": -7.011764705882353,
         "avgScoreInWin": 15.258426966292134,
         "avgScoreInLoss": 8.68235294117647,
         "avgOppScoreInWin": 7.651685393258427,
         "avgOppScoreInLoss": 15.694117647058823,
-        "profile": "Équilibrée"
+        "profile": "Solide"
       },
       {
         "factionName": "Farstalker Kinband",
@@ -390,54 +390,54 @@
         "avgCritOps": 3.3659574468085105,
         "avgKillOps": 2.880851063829787,
         "avgTacOps": 3.547517730496454,
-        "pickRate": 0.019740429708801396,
+        "pickRate": 0.019718923630025056,
         "avgMarginWin": 7.331360946745562,
         "avgMarginLoss": -6.813455657492355,
         "avgScoreInWin": 15.698224852071005,
         "avgScoreInLoss": 8.79816513761468,
         "avgOppScoreInWin": 8.366863905325443,
         "avgOppScoreInLoss": 15.611620795107033,
-        "profile": "Équilibrée"
+        "profile": "Solide"
       },
       {
         "factionName": "Fellgor Ravagers",
-        "gamesPlayed": 619,
+        "gamesPlayed": 621,
         "wins": 297,
-        "losses": 290,
-        "draws": 32,
-        "winRate": 0.5059625212947189,
-        "avgScore": 12.250403877221325,
-        "avgCritOps": 3.3424878836833605,
-        "avgKillOps": 2.7980613893376414,
-        "avgTacOps": 3.5993537964458806,
-        "pickRate": 0.018213545642927254,
+        "losses": 291,
+        "draws": 33,
+        "winRate": 0.5051020408163265,
+        "avgScore": 12.241545893719806,
+        "avgCritOps": 3.3413848631239937,
+        "avgKillOps": 2.7971014492753623,
+        "avgTacOps": 3.5958132045088567,
+        "pickRate": 0.01830264734720558,
         "avgMarginWin": 6.794612794612795,
-        "avgMarginLoss": -6.3517241379310345,
+        "avgMarginLoss": -6.350515463917525,
         "avgScoreInWin": 15.542087542087542,
-        "avgScoreInLoss": 8.913793103448276,
+        "avgScoreInLoss": 8.900343642611684,
         "avgOppScoreInWin": 8.747474747474747,
-        "avgOppScoreInLoss": 15.26551724137931,
-        "profile": "Équilibrée"
+        "avgOppScoreInLoss": 15.25085910652921,
+        "profile": "Défensive"
       },
       {
         "factionName": "Blades of Khaine",
-        "gamesPlayed": 664,
-        "wins": 323,
+        "gamesPlayed": 668,
+        "wins": 327,
         "losses": 322,
         "draws": 19,
-        "winRate": 0.5007751937984496,
-        "avgScore": 12.112951807228916,
-        "avgCritOps": 3.2560240963855422,
-        "avgKillOps": 3.1174698795180724,
-        "avgTacOps": 3.549698795180723,
-        "pickRate": 0.019304177118551643,
-        "avgMarginWin": 7.371517027863777,
+        "winRate": 0.5038520801232665,
+        "avgScore": 12.12874251497006,
+        "avgCritOps": 3.2559880239520957,
+        "avgKillOps": 3.122754491017964,
+        "avgTacOps": 3.55688622754491,
+        "pickRate": 0.019501034971129753,
+        "avgMarginWin": 7.3577981651376145,
         "avgMarginLoss": -7.313664596273292,
-        "avgScoreInWin": 15.702786377708978,
+        "avgScoreInWin": 15.691131498470948,
         "avgScoreInLoss": 8.58695652173913,
-        "avgOppScoreInWin": 8.3312693498452,
+        "avgOppScoreInWin": 8.333333333333334,
         "avgOppScoreInLoss": 15.900621118012422,
-        "profile": "Équilibrée"
+        "profile": "Solide"
       },
       {
         "factionName": "[deleted, duplicate] Plague Marines",
@@ -470,34 +470,14 @@
         "avgCritOps": 3.2509727626459144,
         "avgKillOps": 2.678988326848249,
         "avgTacOps": 3.342412451361868,
-        "pickRate": 0.015159777511178973,
+        "pickRate": 0.015143261793223662,
         "avgMarginWin": 6.82520325203252,
         "avgMarginLoss": -7.748987854251012,
         "avgScoreInWin": 15.678861788617887,
         "avgScoreInLoss": 7.481781376518219,
         "avgOppScoreInWin": 8.853658536585366,
         "avgOppScoreInLoss": 15.23076923076923,
-        "profile": "Équilibrée"
-      },
-      {
-        "factionName": "Goremongers",
-        "gamesPlayed": 877,
-        "wins": 410,
-        "losses": 413,
-        "draws": 54,
-        "winRate": 0.49817739975698666,
-        "avgScore": 11.995438996579248,
-        "avgCritOps": 3.347776510832383,
-        "avgKillOps": 2.9395667046750287,
-        "avgTacOps": 3.3272519954389965,
-        "pickRate": 0.024430145053986257,
-        "avgMarginWin": 7.426829268292683,
-        "avgMarginLoss": -7.556900726392252,
-        "avgScoreInWin": 15.85609756097561,
-        "avgScoreInLoss": 8.401937046004843,
-        "avgOppScoreInWin": 8.429268292682927,
-        "avgOppScoreInLoss": 15.958837772397095,
-        "profile": "Explosive"
+        "profile": "Délicate"
       },
       {
         "factionName": "Nemesis Claw",
@@ -510,33 +490,53 @@
         "avgCritOps": 3.197498354180382,
         "avgKillOps": 3.2323897300855826,
         "avgTacOps": 2.9763001974983543,
-        "pickRate": 0.04646090086159887,
+        "pickRate": 0.046410284344699855,
         "avgMarginWin": 7.488980716253444,
         "avgMarginLoss": -7.069577080491133,
         "avgScoreInWin": 15.425619834710744,
         "avgScoreInLoss": 8.249658935879946,
         "avgOppScoreInWin": 7.9366391184573,
         "avgOppScoreInLoss": 15.319236016371077,
-        "profile": "Équilibrée"
+        "profile": "Solide"
       },
       {
         "factionName": "Angels of Death",
-        "gamesPlayed": 2044,
-        "wins": 966,
-        "losses": 978,
-        "draws": 100,
-        "winRate": 0.49691358024691357,
-        "avgScore": 11.700097847358121,
-        "avgCritOps": 2.975538160469667,
-        "avgKillOps": 3.0861056751467713,
-        "avgTacOps": 3.1267123287671232,
-        "pickRate": 0.06543788853746318,
-        "avgMarginWin": 7.295031055900621,
-        "avgMarginLoss": -7.432515337423313,
-        "avgScoreInWin": 15.58592132505176,
-        "avgScoreInLoss": 7.9468302658486705,
-        "avgOppScoreInWin": 8.290890269151138,
-        "avgOppScoreInLoss": 15.379345603271984,
+        "gamesPlayed": 2050,
+        "wins": 969,
+        "losses": 980,
+        "draws": 101,
+        "winRate": 0.49717804002052335,
+        "avgScore": 11.70390243902439,
+        "avgCritOps": 2.978048780487805,
+        "avgKillOps": 3.0897560975609757,
+        "avgTacOps": 3.1258536585365855,
+        "pickRate": 0.06569343065693431,
+        "avgMarginWin": 7.307533539731682,
+        "avgMarginLoss": -7.437755102040816,
+        "avgScoreInWin": 15.591331269349846,
+        "avgScoreInLoss": 7.942857142857143,
+        "avgOppScoreInWin": 8.283797729618163,
+        "avgOppScoreInLoss": 15.380612244897959,
+        "profile": "Explosive"
+      },
+      {
+        "factionName": "Goremongers",
+        "gamesPlayed": 879,
+        "wins": 410,
+        "losses": 415,
+        "draws": 54,
+        "winRate": 0.49696969696969695,
+        "avgScore": 11.987485779294653,
+        "avgCritOps": 3.3447098976109215,
+        "avgKillOps": 2.938566552901024,
+        "avgTacOps": 3.3253697383390217,
+        "pickRate": 0.024512474125721755,
+        "avgMarginWin": 7.426829268292683,
+        "avgMarginLoss": -7.56144578313253,
+        "avgScoreInWin": 15.85609756097561,
+        "avgScoreInLoss": 8.402409638554216,
+        "avgOppScoreInWin": 8.429268292682927,
+        "avgOppScoreInLoss": 15.963855421686747,
         "profile": "Explosive"
       },
       {
@@ -550,14 +550,14 @@
         "avgCritOps": 3.180451127819549,
         "avgKillOps": 3.0977443609022557,
         "avgTacOps": 2.9849624060150375,
-        "pickRate": 0.00403533645981023,
+        "pickRate": 0.004030940189563134,
         "avgMarginWin": 6.129032258064516,
         "avgMarginLoss": -6.292307692307692,
         "avgScoreInWin": 14.338709677419354,
         "avgScoreInLoss": 8.523076923076923,
         "avgOppScoreInWin": 8.209677419354838,
         "avgOppScoreInLoss": 14.815384615384616,
-        "profile": "Équilibrée"
+        "profile": "Défensive"
       },
       {
         "factionName": "Celestian Insidiants",
@@ -570,14 +570,14 @@
         "avgCritOps": 3.243675099866844,
         "avgKillOps": 2.8655126498002663,
         "avgTacOps": 3.515312916111851,
-        "pickRate": 0.04384338532010034,
+        "pickRate": 0.043795620437956206,
         "avgMarginWin": 6.62043795620438,
         "avgMarginLoss": -7.188365650969529,
         "avgScoreInWin": 15.312408759124088,
         "avgScoreInLoss": 8.40027700831025,
         "avgOppScoreInWin": 8.691970802919709,
         "avgOppScoreInLoss": 15.588642659279778,
-        "profile": "Équilibrée"
+        "profile": "Défensive"
       },
       {
         "factionName": "Legionary",
@@ -590,7 +590,7 @@
         "avgCritOps": 2.914027149321267,
         "avgKillOps": 3.0407239819004523,
         "avgTacOps": 2.751131221719457,
-        "pickRate": 0.007416294034245829,
+        "pickRate": 0.007408214402440353,
         "avgMarginWin": 7.88,
         "avgMarginLoss": -8.435185185185185,
         "avgScoreInWin": 15.32,
@@ -610,7 +610,7 @@
         "avgCritOps": 2.875993640699523,
         "avgKillOps": 3.057233704292528,
         "avgTacOps": 3.1558028616852147,
-        "pickRate": 0.01864979823317701,
+        "pickRate": 0.018629480335548534,
         "avgMarginWin": 7.066666666666666,
         "avgMarginLoss": -7.680645161290323,
         "avgScoreInWin": 15.347368421052632,
@@ -630,7 +630,7 @@
         "avgCritOps": 3.222584147665581,
         "avgKillOps": 2.753528773072747,
         "avgTacOps": 3.451682953311618,
-        "pickRate": 0.028683607808921364,
+        "pickRate": 0.02865235864473254,
         "avgMarginWin": 7.16747572815534,
         "avgMarginLoss": -6.873913043478261,
         "avgScoreInWin": 15.62621359223301,
@@ -641,22 +641,22 @@
       },
       {
         "factionName": "Vespid Stingwings",
-        "gamesPlayed": 693,
+        "gamesPlayed": 695,
         "wins": 311,
-        "losses": 349,
+        "losses": 351,
         "draws": 33,
-        "winRate": 0.4712121212121212,
-        "avgScore": 11.805194805194805,
-        "avgCritOps": 2.919191919191919,
-        "avgKillOps": 2.981240981240981,
-        "avgTacOps": 3.334776334776335,
-        "pickRate": 0.021158250627113098,
+        "winRate": 0.4697885196374622,
+        "avgScore": 11.78273381294964,
+        "avgCritOps": 2.9107913669064747,
+        "avgKillOps": 2.9798561151079137,
+        "avgTacOps": 3.3280575539568344,
+        "pickRate": 0.02124414424229219,
         "avgMarginWin": 7.565916398713826,
-        "avgMarginLoss": -7.593123209169055,
+        "avgMarginLoss": -7.618233618233618,
         "avgScoreInWin": 15.781350482315112,
-        "avgScoreInLoss": 8.292263610315187,
+        "avgScoreInLoss": 8.267806267806268,
         "avgOppScoreInWin": 8.215434083601286,
-        "avgOppScoreInLoss": 15.885386819484241,
+        "avgOppScoreInLoss": 15.886039886039885,
         "profile": "Kamikaze"
       },
       {
@@ -670,14 +670,14 @@
         "avgCritOps": 3.1025641025641026,
         "avgKillOps": 2.66025641025641,
         "avgTacOps": 3.450854700854701,
-        "pickRate": 0.013960082887992147,
+        "pickRate": 0.013944874169299489,
         "avgMarginWin": 6.197044334975369,
         "avgMarginLoss": -6.547008547008547,
         "avgScoreInWin": 14.817733990147783,
         "avgScoreInLoss": 8.807692307692308,
         "avgOppScoreInWin": 8.620689655172415,
         "avgOppScoreInLoss": 15.354700854700855,
-        "profile": "Bouclier"
+        "profile": "Tenace"
       },
       {
         "factionName": "Novitiates",
@@ -690,7 +690,7 @@
         "avgCritOps": 2.563380281690141,
         "avgKillOps": 2.6901408450704225,
         "avgTacOps": 2.8450704225352115,
-        "pickRate": 0.002181262951248773,
+        "pickRate": 0.002178886588953045,
         "avgMarginWin": 6.65625,
         "avgMarginLoss": -8.405405405405405,
         "avgScoreInWin": 15.21875,
@@ -710,7 +710,7 @@
         "avgCritOps": 3.058419243986254,
         "avgKillOps": 2.8247422680412373,
         "avgTacOps": 3.457044673539519,
-        "pickRate": 0.008397862362307777,
+        "pickRate": 0.008388713367469222,
         "avgMarginWin": 7.625,
         "avgMarginLoss": -7.731543624161074,
         "avgScoreInWin": 15.859375,
@@ -730,7 +730,7 @@
         "avgCritOps": 2.9334799340296867,
         "avgKillOps": 3.0450797141286423,
         "avgTacOps": 3.090709180868609,
-        "pickRate": 0.057694405060530043,
+        "pickRate": 0.05763155027780804,
         "avgMarginWin": 7.721437740693196,
         "avgMarginLoss": -7.746014877789586,
         "avgScoreInWin": 15.761232349165597,
@@ -750,14 +750,14 @@
         "avgCritOps": 2.8915343915343916,
         "avgKillOps": 2.865079365079365,
         "avgTacOps": 2.9708994708994707,
-        "pickRate": 0.011560693641618497,
+        "pickRate": 0.011548098921451139,
         "avgMarginWin": 6.854304635761589,
         "avgMarginLoss": -6.804232804232805,
         "avgScoreInWin": 14.688741721854305,
         "avgScoreInLoss": 8.084656084656086,
         "avgOppScoreInWin": 7.8344370860927155,
         "avgOppScoreInLoss": 14.88888888888889,
-        "profile": "Bouclier"
+        "profile": "Tenace"
       },
       {
         "factionName": "Hernkyn Yaegir",
@@ -770,7 +770,7 @@
         "avgCritOps": 3.1733615221987317,
         "avgKillOps": 2.788583509513742,
         "avgTacOps": 3.321353065539112,
-        "pickRate": 0.013632893445304831,
+        "pickRate": 0.013618041180956532,
         "avgMarginWin": 7.171717171717172,
         "avgMarginLoss": -7.092741935483871,
         "avgScoreInWin": 15.803030303030303,
@@ -790,7 +790,7 @@
         "avgCritOps": 2.694300518134715,
         "avgKillOps": 2.7253886010362693,
         "avgTacOps": 2.976683937823834,
-        "pickRate": 0.011451630494056059,
+        "pickRate": 0.011439154592003486,
         "avgMarginWin": 6.192546583850931,
         "avgMarginLoss": -8.173267326732674,
         "avgScoreInWin": 14.70807453416149,
@@ -810,14 +810,14 @@
         "avgCritOps": 2.8076923076923075,
         "avgKillOps": 2.8205128205128207,
         "avgTacOps": 3.146153846153846,
-        "pickRate": 0.012433198822118007,
+        "pickRate": 0.012419653557032357,
         "avgMarginWin": 6.441717791411043,
         "avgMarginLoss": -6.548543689320389,
         "avgScoreInWin": 15.049079754601227,
         "avgScoreInLoss": 8.70873786407767,
         "avgOppScoreInWin": 8.607361963190185,
         "avgOppScoreInLoss": 15.257281553398059,
-        "profile": "Bouclier"
+        "profile": "Tenace"
       },
       {
         "factionName": "Void-Dancer Troupe",
@@ -830,7 +830,7 @@
         "avgCritOps": 2.4782608695652173,
         "avgKillOps": 2.369565217391304,
         "avgTacOps": 2.7065217391304346,
-        "pickRate": 0.003053768131748282,
+        "pickRate": 0.003050441224534263,
         "avgMarginWin": 8.179487179487179,
         "avgMarginLoss": -8.5,
         "avgScoreInWin": 15.846153846153847,
@@ -850,7 +850,7 @@
         "avgCritOps": 2.813974591651543,
         "avgKillOps": 2.939201451905626,
         "avgTacOps": 3.0535390199637025,
-        "pickRate": 0.03370051259679354,
+        "pickRate": 0.033663797799324546,
         "avgMarginWin": 7.031390134529148,
         "avgMarginLoss": -7.642123287671233,
         "avgScoreInWin": 15.417040358744394,
@@ -870,7 +870,7 @@
         "avgCritOps": 2.7401574803149606,
         "avgKillOps": 2.716535433070866,
         "avgTacOps": 2.7007874015748032,
-        "pickRate": 0.004362525902497546,
+        "pickRate": 0.00435777317790609,
         "avgMarginWin": 7.235294117647059,
         "avgMarginLoss": -9.323529411764707,
         "avgScoreInWin": 15.156862745098039,
@@ -890,7 +890,7 @@
         "avgCritOps": 2.656940063091483,
         "avgKillOps": 2.691640378548896,
         "avgTacOps": 3.19794952681388,
-        "pickRate": 0.03882648053222816,
+        "pickRate": 0.0387841812833642,
         "avgMarginWin": 6.191780821917808,
         "avgMarginLoss": -7.527536231884058,
         "avgScoreInWin": 14.473581213307241,
@@ -910,14 +910,14 @@
         "avgCritOps": 2.8751974723538702,
         "avgKillOps": 2.7677725118483414,
         "avgTacOps": 3.118483412322275,
-        "pickRate": 0.018322608790489695,
+        "pickRate": 0.01830264734720558,
         "avgMarginWin": 6.755102040816326,
         "avgMarginLoss": -7.096590909090909,
         "avgScoreInWin": 15.16326530612245,
         "avgScoreInLoss": 8.284090909090908,
         "avgOppScoreInWin": 8.408163265306122,
         "avgOppScoreInLoss": 15.380681818181818,
-        "profile": "Bouclier"
+        "profile": "Tenace"
       },
       {
         "factionName": "Wyrmblade",
@@ -930,7 +930,7 @@
         "avgCritOps": 2.505050505050505,
         "avgKillOps": 2.6161616161616164,
         "avgTacOps": 2.282828282828283,
-        "pickRate": 0.0032718944268731597,
+        "pickRate": 0.0032683298834295673,
         "avgMarginWin": 6.513513513513513,
         "avgMarginLoss": -8.037037037037036,
         "avgScoreInWin": 14.27027027027027,
@@ -950,7 +950,7 @@
         "avgCritOps": 2.4719101123595504,
         "avgKillOps": 2.764044943820225,
         "avgTacOps": 2.6179775280898876,
-        "pickRate": 0.003053768131748282,
+        "pickRate": 0.003050441224534263,
         "avgMarginWin": 7.484848484848484,
         "avgMarginLoss": -8.88679245283019,
         "avgScoreInWin": 15.333333333333334,
@@ -970,7 +970,7 @@
         "avgCritOps": 2.210526315789474,
         "avgKillOps": 2.138755980861244,
         "avgTacOps": 2.148325358851675,
-        "pickRate": 0.006870978296433635,
+        "pickRate": 0.0068634927552020915,
         "avgMarginWin": 5.826086956521739,
         "avgMarginLoss": -8.0390625,
         "avgScoreInWin": 14.492753623188406,
@@ -990,7 +990,7 @@
         "avgCritOps": 2.0933333333333333,
         "avgKillOps": 2.4,
         "avgTacOps": 2.013333333333333,
-        "pickRate": 0.002181262951248773,
+        "pickRate": 0.002178886588953045,
         "avgMarginWin": 7.105263157894737,
         "avgMarginLoss": -8.58695652173913,
         "avgScoreInWin": 15.052631578947368,
@@ -2570,11 +2570,11 @@
       {
         "faction1": "Angels of Death",
         "faction2": "Canoptek Circle",
-        "faction1Wins": 33,
-        "faction2Wins": 32,
+        "faction1Wins": 34,
+        "faction2Wins": 33,
         "draws": 3,
-        "totalGames": 68,
-        "faction1WinRate": 0.5076923076923077
+        "totalGames": 70,
+        "faction1WinRate": 0.5074626865671642
       },
       {
         "faction1": "Deathwatch",
@@ -4064,11 +4064,11 @@
       {
         "faction1": "Blades of Khaine",
         "faction2": "Fellgor Ravagers",
-        "faction1Wins": 6,
+        "faction1Wins": 7,
         "faction2Wins": 7,
         "draws": 0,
-        "totalGames": 13,
-        "faction1WinRate": 0.46153846153846156
+        "totalGames": 14,
+        "faction1WinRate": 0.5
       },
       {
         "faction1": "Raveners",
@@ -4658,11 +4658,11 @@
       {
         "faction1": "Angels of Death",
         "faction2": "Vespid Stingwings",
-        "faction1Wins": 16,
+        "faction1Wins": 18,
         "faction2Wins": 15,
         "draws": 2,
-        "totalGames": 33,
-        "faction1WinRate": 0.5161290322580645
+        "totalGames": 35,
+        "faction1WinRate": 0.5454545454545454
       },
       {
         "faction1": "Novitiates",
@@ -5515,8 +5515,8 @@
         "faction2": "Fellgor Ravagers",
         "faction1Wins": 12,
         "faction2Wins": 17,
-        "draws": 1,
-        "totalGames": 30,
+        "draws": 2,
+        "totalGames": 31,
         "faction1WinRate": 0.41379310344827586
       },
       {
@@ -6080,11 +6080,11 @@
       {
         "faction1": "Blades of Khaine",
         "faction2": "Goremongers",
-        "faction1Wins": 12,
+        "faction1Wins": 14,
         "faction2Wins": 6,
         "draws": 1,
-        "totalGames": 19,
-        "faction1WinRate": 0.6666666666666666
+        "totalGames": 21,
+        "faction1WinRate": 0.7
       },
       {
         "faction1": "Blades of Khaine",
@@ -6270,10 +6270,10 @@
         "faction1": "Angels of Death",
         "faction2": "Elucidian Starstriders",
         "faction1Wins": 5,
-        "faction2Wins": 5,
+        "faction2Wins": 6,
         "draws": 2,
-        "totalGames": 12,
-        "faction1WinRate": 0.5
+        "totalGames": 13,
+        "faction1WinRate": 0.45454545454545453
       },
       {
         "faction1": "Goremongers",
@@ -6782,11 +6782,11 @@
       {
         "faction1": "Blades of Khaine",
         "faction2": "Elucidian Starstriders",
-        "faction1Wins": 1,
+        "faction1Wins": 2,
         "faction2Wins": 3,
         "draws": 0,
-        "totalGames": 4,
-        "faction1WinRate": 0.25
+        "totalGames": 5,
+        "faction1WinRate": 0.4
       },
       {
         "faction1": "Blades of Khaine",
@@ -8591,7 +8591,7 @@
         "avgScoreInLoss": 8.333333333333334,
         "avgOppScoreInWin": 7.440476190476191,
         "avgOppScoreInLoss": 14.521739130434783,
-        "profile": "Équilibrée"
+        "profile": "Solide"
       },
       {
         "factionName": "Hunter Clade",
@@ -8631,7 +8631,7 @@
         "avgScoreInLoss": 8.338028169014084,
         "avgOppScoreInWin": 7.625,
         "avgOppScoreInLoss": 15.619718309859154,
-        "profile": "Équilibrée"
+        "profile": "Solide"
       },
       {
         "factionName": "Imperial Navy Breachers",
@@ -8651,7 +8651,7 @@
         "avgScoreInLoss": 8.896296296296295,
         "avgOppScoreInWin": 8.5,
         "avgOppScoreInLoss": 15.555555555555555,
-        "profile": "Équilibrée"
+        "profile": "Solide"
       },
       {
         "factionName": "Brood Brothers",
@@ -8671,7 +8671,7 @@
         "avgScoreInLoss": 8.84274193548387,
         "avgOppScoreInWin": 8.941818181818181,
         "avgOppScoreInLoss": 15.850806451612904,
-        "profile": "Équilibrée"
+        "profile": "Défensive"
       },
       {
         "factionName": "Wrecka Krew",
@@ -8731,7 +8731,7 @@
         "avgScoreInLoss": 8.187919463087248,
         "avgOppScoreInWin": 8.439672801635991,
         "avgOppScoreInLoss": 14.756152125279643,
-        "profile": "Équilibrée"
+        "profile": "Défensive"
       },
       {
         "factionName": "Raveners",
@@ -8751,7 +8751,7 @@
         "avgScoreInLoss": 8.232963549920761,
         "avgOppScoreInWin": 8.666666666666666,
         "avgOppScoreInLoss": 14.996830427892235,
-        "profile": "Équilibrée"
+        "profile": "Défensive"
       },
       {
         "factionName": "Legionary",
@@ -8791,7 +8791,7 @@
         "avgScoreInLoss": 8.228571428571428,
         "avgOppScoreInWin": 7.914330218068536,
         "avgOppScoreInLoss": 15.226984126984126,
-        "profile": "Équilibrée"
+        "profile": "Solide"
       },
       {
         "factionName": "Farstalker Kinband",
@@ -8811,7 +8811,7 @@
         "avgScoreInLoss": 8.76923076923077,
         "avgOppScoreInWin": 8.32,
         "avgOppScoreInLoss": 15.65551839464883,
-        "profile": "Équilibrée"
+        "profile": "Solide"
       },
       {
         "factionName": "Angels of Death",
@@ -8871,7 +8871,7 @@
         "avgScoreInLoss": 8.885714285714286,
         "avgOppScoreInWin": 8.716666666666667,
         "avgOppScoreInLoss": 15.293877551020408,
-        "profile": "Équilibrée"
+        "profile": "Défensive"
       },
       {
         "factionName": "Blades of Khaine",
@@ -8891,7 +8891,7 @@
         "avgScoreInLoss": 8.60344827586207,
         "avgOppScoreInWin": 8.225352112676056,
         "avgOppScoreInLoss": 15.910344827586206,
-        "profile": "Équilibrée"
+        "profile": "Solide"
       },
       {
         "factionName": "Kasrkin",
@@ -8951,7 +8951,7 @@
         "avgScoreInLoss": 8.454545454545455,
         "avgOppScoreInWin": 7.9245283018867925,
         "avgOppScoreInLoss": 14.618181818181819,
-        "profile": "Équilibrée"
+        "profile": "Défensive"
       },
       {
         "factionName": "Celestian Insidiants",
@@ -8971,7 +8971,7 @@
         "avgScoreInLoss": 8.316225165562914,
         "avgOppScoreInWin": 8.518134715025907,
         "avgOppScoreInLoss": 15.478476821192054,
-        "profile": "Équilibrée"
+        "profile": "Défensive"
       },
       {
         "factionName": "Exaction Squad",
@@ -8991,7 +8991,7 @@
         "avgScoreInLoss": 7.380952380952381,
         "avgOppScoreInWin": 8.783505154639176,
         "avgOppScoreInLoss": 15.204761904761904,
-        "profile": "Équilibrée"
+        "profile": "Délicate"
       },
       {
         "factionName": "Vespid Stingwings",
@@ -9111,7 +9111,7 @@
         "avgScoreInLoss": 8.668202764976959,
         "avgOppScoreInWin": 8.702857142857143,
         "avgOppScoreInLoss": 15.88479262672811,
-        "profile": "Bouclier"
+        "profile": "Tenace"
       },
       {
         "factionName": "Ratlings",
@@ -9131,7 +9131,7 @@
         "avgScoreInLoss": 8.763033175355451,
         "avgOppScoreInWin": 8.49112426035503,
         "avgOppScoreInLoss": 15.374407582938389,
-        "profile": "Bouclier"
+        "profile": "Tenace"
       },
       {
         "factionName": "Void-Dancer Troupe",
@@ -9171,7 +9171,7 @@
         "avgScoreInLoss": 8.710843373493976,
         "avgOppScoreInWin": 8.587301587301587,
         "avgOppScoreInLoss": 15.198795180722891,
-        "profile": "Bouclier"
+        "profile": "Tenace"
       },
       {
         "factionName": "XV26 Stealth Battlesuits",
@@ -9211,7 +9211,7 @@
         "avgScoreInLoss": 7.935483870967742,
         "avgOppScoreInWin": 7.7631578947368425,
         "avgOppScoreInLoss": 14.90967741935484,
-        "profile": "Bouclier"
+        "profile": "Tenace"
       },
       {
         "factionName": "Plague Marines",
@@ -9311,7 +9311,7 @@
         "avgScoreInLoss": 8.094276094276093,
         "avgOppScoreInWin": 8.628865979381443,
         "avgOppScoreInLoss": 15.427609427609427,
-        "profile": "Bouclier"
+        "profile": "Tenace"
       },
       {
         "factionName": "Warp Coven",
@@ -16677,9 +16677,9 @@
     ]
   },
   "q2": {
-    "eventsCount": 69,
-    "totalPairings": 2125,
-    "totalPlayers": 1195,
+    "eventsCount": 70,
+    "totalPairings": 2135,
+    "totalPlayers": 1205,
     "factionStats": [
       {
         "factionName": "Hearthkyn Salvagers",
@@ -16692,7 +16692,7 @@
         "avgCritOps": 3.327272727272727,
         "avgKillOps": 3.4545454545454546,
         "avgTacOps": 3.5272727272727273,
-        "pickRate": 0.012556053811659192,
+        "pickRate": 0.012444444444444444,
         "avgMarginWin": 5.5,
         "avgMarginLoss": -9.368421052631579,
         "avgScoreInWin": 15.529411764705882,
@@ -16712,7 +16712,7 @@
         "avgCritOps": 3.933333333333333,
         "avgKillOps": 3.1333333333333333,
         "avgTacOps": 4.133333333333334,
-        "pickRate": 0.0053811659192825115,
+        "pickRate": 0.005333333333333333,
         "avgMarginWin": 7.444444444444445,
         "avgMarginLoss": -6.333333333333333,
         "avgScoreInWin": 15.555555555555555,
@@ -16732,7 +16732,7 @@
         "avgCritOps": 3.452,
         "avgKillOps": 3.356,
         "avgTacOps": 3.808,
-        "pickRate": 0.06188340807174888,
+        "pickRate": 0.06133333333333333,
         "avgMarginWin": 7.244604316546763,
         "avgMarginLoss": -7.021505376344086,
         "avgScoreInWin": 15.949640287769784,
@@ -16752,7 +16752,7 @@
         "avgCritOps": 3.610169491525424,
         "avgKillOps": 3.288135593220339,
         "avgTacOps": 3.9491525423728815,
-        "pickRate": 0.015246636771300448,
+        "pickRate": 0.015111111111111112,
         "avgMarginWin": 6.5,
         "avgMarginLoss": -5.956521739130435,
         "avgScoreInWin": 15.764705882352942,
@@ -16772,7 +16772,7 @@
         "avgCritOps": 3.425531914893617,
         "avgKillOps": 2.627659574468085,
         "avgTacOps": 3.606382978723404,
-        "pickRate": 0.021524663677130046,
+        "pickRate": 0.021333333333333333,
         "avgMarginWin": 6.461538461538462,
         "avgMarginLoss": -7.324324324324325,
         "avgScoreInWin": 15.576923076923077,
@@ -16792,7 +16792,7 @@
         "avgCritOps": 3.203125,
         "avgKillOps": 3.796875,
         "avgTacOps": 4.265625,
-        "pickRate": 0.015246636771300448,
+        "pickRate": 0.015111111111111112,
         "avgMarginWin": 8.91891891891892,
         "avgMarginLoss": -6.814814814814815,
         "avgScoreInWin": 16.756756756756758,
@@ -16812,7 +16812,7 @@
         "avgCritOps": 3.5428571428571427,
         "avgKillOps": 3.0142857142857142,
         "avgTacOps": 4.2,
-        "pickRate": 0.017040358744394617,
+        "pickRate": 0.016888888888888887,
         "avgMarginWin": 7.421052631578948,
         "avgMarginLoss": -6.035714285714286,
         "avgScoreInWin": 16.157894736842106,
@@ -16820,6 +16820,26 @@
         "avgOppScoreInWin": 8.736842105263158,
         "avgOppScoreInLoss": 15.142857142857142,
         "profile": "Dominante"
+      },
+      {
+        "factionName": "Blades of Khaine",
+        "gamesPlayed": 78,
+        "wins": 43,
+        "losses": 32,
+        "draws": 3,
+        "winRate": 0.5733333333333334,
+        "avgScore": 12.256410256410257,
+        "avgCritOps": 3.3974358974358974,
+        "avgKillOps": 3.0128205128205128,
+        "avgTacOps": 3.7051282051282053,
+        "pickRate": 0.019555555555555555,
+        "avgMarginWin": 6.232558139534884,
+        "avgMarginLoss": -7.375,
+        "avgScoreInWin": 15.279069767441861,
+        "avgScoreInLoss": 8.4375,
+        "avgOppScoreInWin": 9.046511627906977,
+        "avgOppScoreInLoss": 15.8125,
+        "profile": "Chanceuse"
       },
       {
         "factionName": "Brood Brothers",
@@ -16832,33 +16852,13 @@
         "avgCritOps": 3.5161290322580645,
         "avgKillOps": 3.096774193548387,
         "avgTacOps": 4.129032258064516,
-        "pickRate": 0.013452914798206279,
+        "pickRate": 0.013333333333333334,
         "avgMarginWin": 7.0606060606060606,
         "avgMarginLoss": -6.384615384615385,
         "avgScoreInWin": 15.818181818181818,
         "avgScoreInLoss": 9.384615384615385,
         "avgOppScoreInWin": 8.757575757575758,
         "avgOppScoreInLoss": 15.76923076923077,
-        "profile": "Dominante"
-      },
-      {
-        "factionName": "Fellgor Ravagers",
-        "gamesPlayed": 105,
-        "wins": 57,
-        "losses": 45,
-        "draws": 3,
-        "winRate": 0.5588235294117647,
-        "avgScore": 13.18095238095238,
-        "avgCritOps": 3.7333333333333334,
-        "avgKillOps": 3.1523809523809523,
-        "avgTacOps": 4.076190476190476,
-        "pickRate": 0.023318385650224215,
-        "avgMarginWin": 7.56140350877193,
-        "avgMarginLoss": -6.044444444444444,
-        "avgScoreInWin": 16.43859649122807,
-        "avgScoreInLoss": 9.066666666666666,
-        "avgOppScoreInWin": 8.87719298245614,
-        "avgOppScoreInLoss": 15.11111111111111,
         "profile": "Dominante"
       },
       {
@@ -16872,7 +16872,7 @@
         "avgCritOps": 3.115183246073298,
         "avgKillOps": 3.2094240837696337,
         "avgTacOps": 3.3769633507853403,
-        "pickRate": 0.04932735426008968,
+        "pickRate": 0.04888888888888889,
         "avgMarginWin": 8.450980392156863,
         "avgMarginLoss": -7.54320987654321,
         "avgScoreInWin": 15.852941176470589,
@@ -16892,7 +16892,7 @@
         "avgCritOps": 3.3333333333333335,
         "avgKillOps": 4,
         "avgTacOps": 3.5555555555555554,
-        "pickRate": 0.0026905829596412557,
+        "pickRate": 0.0026666666666666666,
         "avgMarginWin": 9.8,
         "avgMarginLoss": -9.5,
         "avgScoreInWin": 17,
@@ -16900,6 +16900,26 @@
         "avgOppScoreInWin": 7.2,
         "avgOppScoreInLoss": 17,
         "profile": "Bulldozer"
+      },
+      {
+        "factionName": "Fellgor Ravagers",
+        "gamesPlayed": 107,
+        "wins": 57,
+        "losses": 46,
+        "draws": 4,
+        "winRate": 0.5533980582524272,
+        "avgScore": 13.11214953271028,
+        "avgCritOps": 3.7196261682242993,
+        "avgKillOps": 3.1401869158878504,
+        "avgTacOps": 4.046728971962617,
+        "pickRate": 0.024,
+        "avgMarginWin": 7.56140350877193,
+        "avgMarginLoss": -6.043478260869565,
+        "avgScoreInWin": 16.43859649122807,
+        "avgScoreInLoss": 8.978260869565217,
+        "avgOppScoreInWin": 8.87719298245614,
+        "avgOppScoreInLoss": 15.021739130434783,
+        "profile": "Dominante"
       },
       {
         "factionName": "Inquisitorial Agents",
@@ -16912,7 +16932,7 @@
         "avgCritOps": 3.816666666666667,
         "avgKillOps": 3.316666666666667,
         "avgTacOps": 3.8333333333333335,
-        "pickRate": 0.013452914798206279,
+        "pickRate": 0.013333333333333334,
         "avgMarginWin": 7.212121212121212,
         "avgMarginLoss": -5.962962962962963,
         "avgScoreInWin": 16.060606060606062,
@@ -16922,44 +16942,24 @@
         "profile": "Dominante"
       },
       {
-        "factionName": "Blades of Khaine",
-        "gamesPlayed": 74,
-        "wins": 39,
-        "losses": 32,
-        "draws": 3,
-        "winRate": 0.5492957746478874,
-        "avgScore": 12.121621621621621,
-        "avgCritOps": 3.4054054054054053,
-        "avgKillOps": 2.9594594594594597,
-        "avgTacOps": 3.6486486486486487,
-        "pickRate": 0.017937219730941704,
-        "avgMarginWin": 6.230769230769231,
-        "avgMarginLoss": -7.375,
-        "avgScoreInWin": 15.333333333333334,
-        "avgScoreInLoss": 8.4375,
-        "avgOppScoreInWin": 9.102564102564102,
-        "avgOppScoreInLoss": 15.8125,
-        "profile": "Équilibrée"
-      },
-      {
         "factionName": "Goremongers",
-        "gamesPlayed": 108,
+        "gamesPlayed": 110,
         "wins": 58,
-        "losses": 48,
+        "losses": 50,
         "draws": 2,
-        "winRate": 0.5471698113207547,
-        "avgScore": 12.87962962962963,
-        "avgCritOps": 3.712962962962963,
-        "avgKillOps": 3.2222222222222223,
-        "avgTacOps": 3.861111111111111,
-        "pickRate": 0.02600896860986547,
+        "winRate": 0.5370370370370371,
+        "avgScore": 12.8,
+        "avgCritOps": 3.6818181818181817,
+        "avgKillOps": 3.209090909090909,
+        "avgTacOps": 3.8363636363636364,
+        "pickRate": 0.02666666666666667,
         "avgMarginWin": 6.982758620689655,
-        "avgMarginLoss": -6.770833333333333,
+        "avgMarginLoss": -6.84,
         "avgScoreInWin": 15.948275862068966,
-        "avgScoreInLoss": 9.1875,
+        "avgScoreInLoss": 9.16,
         "avgOppScoreInWin": 8.96551724137931,
-        "avgOppScoreInLoss": 15.958333333333334,
-        "profile": "Équilibrée"
+        "avgOppScoreInLoss": 16,
+        "profile": "Défensive"
       },
       {
         "factionName": "Hierotek Circle",
@@ -16972,14 +16972,14 @@
         "avgCritOps": 3.4078947368421053,
         "avgKillOps": 3.3684210526315788,
         "avgTacOps": 3.513157894736842,
-        "pickRate": 0.017937219730941704,
+        "pickRate": 0.017777777777777778,
         "avgMarginWin": 7.72972972972973,
         "avgMarginLoss": -6.029411764705882,
         "avgScoreInWin": 15.783783783783784,
         "avgScoreInLoss": 8.764705882352942,
         "avgOppScoreInWin": 8.054054054054054,
         "avgOppScoreInLoss": 14.794117647058824,
-        "profile": "Équilibrée"
+        "profile": "Solide"
       },
       {
         "factionName": "Murderwing",
@@ -16992,14 +16992,14 @@
         "avgCritOps": 3.1956521739130435,
         "avgKillOps": 2.9184782608695654,
         "avgTacOps": 3.5760869565217392,
-        "pickRate": 0.045739910313901344,
+        "pickRate": 0.04533333333333334,
         "avgMarginWin": 6.877777777777778,
         "avgMarginLoss": -8.204819277108435,
         "avgScoreInWin": 15.433333333333334,
         "avgScoreInLoss": 8.385542168674698,
         "avgOppScoreInWin": 8.555555555555555,
         "avgOppScoreInLoss": 16.59036144578313,
-        "profile": "Équilibrée"
+        "profile": "Délicate"
       },
       {
         "factionName": "Tempestus Aquilons",
@@ -17012,14 +17012,14 @@
         "avgCritOps": 3.2666666666666666,
         "avgKillOps": 2.9444444444444446,
         "avgTacOps": 3.8222222222222224,
-        "pickRate": 0.0242152466367713,
+        "pickRate": 0.024,
         "avgMarginWin": 7,
         "avgMarginLoss": -7.488372093023256,
         "avgScoreInWin": 15.733333333333333,
         "avgScoreInLoss": 8.627906976744185,
         "avgOppScoreInWin": 8.733333333333333,
         "avgOppScoreInLoss": 16.11627906976744,
-        "profile": "Équilibrée"
+        "profile": "Délicate"
       },
       {
         "factionName": "Imperial Navy Breachers",
@@ -17032,14 +17032,14 @@
         "avgCritOps": 3.4126984126984126,
         "avgKillOps": 3.1904761904761907,
         "avgTacOps": 3.9047619047619047,
-        "pickRate": 0.015246636771300448,
+        "pickRate": 0.015111111111111112,
         "avgMarginWin": 6.548387096774194,
         "avgMarginLoss": -5.833333333333333,
         "avgScoreInWin": 15.612903225806452,
         "avgScoreInLoss": 9.3,
         "avgOppScoreInWin": 9.064516129032258,
         "avgOppScoreInLoss": 15.133333333333333,
-        "profile": "Équilibrée"
+        "profile": "Défensive"
       },
       {
         "factionName": "Plague Marines",
@@ -17052,14 +17052,14 @@
         "avgCritOps": 3.282758620689655,
         "avgKillOps": 3.2896551724137932,
         "avgTacOps": 3.56551724137931,
-        "pickRate": 0.039461883408071746,
+        "pickRate": 0.03911111111111111,
         "avgMarginWin": 7.47887323943662,
         "avgMarginLoss": -6.732394366197183,
         "avgScoreInWin": 16.014084507042252,
         "avgScoreInLoss": 8.408450704225352,
         "avgOppScoreInWin": 8.535211267605634,
         "avgOppScoreInLoss": 15.140845070422536,
-        "profile": "Équilibrée"
+        "profile": "Solide"
       },
       {
         "factionName": "Hunter Clade",
@@ -17072,14 +17072,14 @@
         "avgCritOps": 2.8333333333333335,
         "avgKillOps": 3.5,
         "avgTacOps": 3.5,
-        "pickRate": 0.0017937219730941704,
+        "pickRate": 0.0017777777777777779,
         "avgMarginWin": 4,
         "avgMarginLoss": -5.333333333333333,
         "avgScoreInWin": 16.333333333333332,
         "avgScoreInLoss": 8,
         "avgOppScoreInWin": 12.333333333333334,
         "avgOppScoreInLoss": 13.333333333333334,
-        "profile": "Équilibrée"
+        "profile": "Défensive"
       },
       {
         "factionName": "Deathwatch",
@@ -17092,7 +17092,7 @@
         "avgCritOps": 3.1623376623376624,
         "avgKillOps": 3.0714285714285716,
         "avgTacOps": 3.5974025974025974,
-        "pickRate": 0.03766816143497758,
+        "pickRate": 0.037333333333333336,
         "avgMarginWin": 8.712328767123287,
         "avgMarginLoss": -7.6891891891891895,
         "avgScoreInWin": 16.506849315068493,
@@ -17112,34 +17112,14 @@
         "avgCritOps": 3.0555555555555554,
         "avgKillOps": 3.3253968253968256,
         "avgTacOps": 3.9365079365079363,
-        "pickRate": 0.033183856502242155,
+        "pickRate": 0.03288888888888889,
         "avgMarginWin": 8.475409836065573,
         "avgMarginLoss": -7.079365079365079,
         "avgScoreInWin": 16.18032786885246,
         "avgScoreInLoss": 8.904761904761905,
         "avgOppScoreInWin": 7.704918032786885,
         "avgOppScoreInLoss": 15.984126984126984,
-        "profile": "Équilibrée"
-      },
-      {
-        "factionName": "Vespid Stingwings",
-        "gamesPlayed": 71,
-        "wins": 31,
-        "losses": 33,
-        "draws": 7,
-        "winRate": 0.484375,
-        "avgScore": 11.23943661971831,
-        "avgCritOps": 2.9577464788732395,
-        "avgKillOps": 3.0985915492957745,
-        "avgTacOps": 3.3661971830985915,
-        "pickRate": 0.017937219730941704,
-        "avgMarginWin": 6.967741935483871,
-        "avgMarginLoss": -8.030303030303031,
-        "avgScoreInWin": 15.451612903225806,
-        "avgScoreInLoss": 7.303030303030303,
-        "avgOppScoreInWin": 8.483870967741936,
-        "avgOppScoreInLoss": 15.333333333333334,
-        "profile": "Équilibrée"
+        "profile": "Solide"
       },
       {
         "factionName": "Battleclade",
@@ -17152,14 +17132,14 @@
         "avgCritOps": 3.234234234234234,
         "avgKillOps": 3,
         "avgTacOps": 3.5225225225225225,
-        "pickRate": 0.02780269058295964,
+        "pickRate": 0.027555555555555555,
         "avgMarginWin": 7.1568627450980395,
         "avgMarginLoss": -5.818181818181818,
         "avgScoreInWin": 14.72549019607843,
         "avgScoreInLoss": 9.309090909090909,
         "avgOppScoreInWin": 7.568627450980392,
         "avgOppScoreInLoss": 15.127272727272727,
-        "profile": "Équilibrée"
+        "profile": "Solide"
       },
       {
         "factionName": "Scout Squad",
@@ -17172,33 +17152,33 @@
         "avgCritOps": 3.2,
         "avgKillOps": 3.2375,
         "avgTacOps": 3.375,
-        "pickRate": 0.021524663677130046,
+        "pickRate": 0.021333333333333333,
         "avgMarginWin": 6.108108108108108,
         "avgMarginLoss": -6.8,
         "avgScoreInWin": 14.783783783783784,
         "avgScoreInLoss": 8.7,
         "avgOppScoreInWin": 8.675675675675675,
         "avgOppScoreInLoss": 15.5,
-        "profile": "Équilibrée"
+        "profile": "Défensive"
       },
       {
         "factionName": "Angels of Death",
-        "gamesPlayed": 298,
-        "wins": 134,
-        "losses": 148,
-        "draws": 16,
-        "winRate": 0.475177304964539,
-        "avgScore": 12.265100671140939,
-        "avgCritOps": 3.4496644295302015,
-        "avgKillOps": 3.2114093959731544,
-        "avgTacOps": 3.5805369127516777,
-        "pickRate": 0.08251121076233184,
-        "avgMarginWin": 7.335820895522388,
-        "avgMarginLoss": -6.952702702702703,
-        "avgScoreInWin": 16.104477611940297,
-        "avgScoreInLoss": 8.68918918918919,
-        "avgOppScoreInWin": 8.76865671641791,
-        "avgOppScoreInLoss": 15.641891891891891,
+        "gamesPlayed": 304,
+        "wins": 137,
+        "losses": 150,
+        "draws": 17,
+        "winRate": 0.47735191637630664,
+        "avgScore": 12.279605263157896,
+        "avgCritOps": 3.4572368421052633,
+        "avgKillOps": 3.2335526315789473,
+        "avgTacOps": 3.5657894736842106,
+        "pickRate": 0.08444444444444445,
+        "avgMarginWin": 7.423357664233577,
+        "avgMarginLoss": -6.993333333333333,
+        "avgScoreInWin": 16.131386861313867,
+        "avgScoreInLoss": 8.653333333333334,
+        "avgOppScoreInWin": 8.708029197080291,
+        "avgOppScoreInLoss": 15.646666666666667,
         "profile": "Résistante"
       },
       {
@@ -17212,14 +17192,14 @@
         "avgCritOps": 3.526315789473684,
         "avgKillOps": 3.210526315789474,
         "avgTacOps": 3.210526315789474,
-        "pickRate": 0.004484304932735426,
+        "pickRate": 0.0044444444444444444,
         "avgMarginWin": 5.777777777777778,
         "avgMarginLoss": -7,
         "avgScoreInWin": 15.666666666666666,
         "avgScoreInLoss": 8.9,
         "avgOppScoreInWin": 9.88888888888889,
         "avgOppScoreInLoss": 15.9,
-        "profile": "Bouclier"
+        "profile": "Tenace"
       },
       {
         "factionName": "Celestian Insidiants",
@@ -17232,7 +17212,7 @@
         "avgCritOps": 3.302127659574468,
         "avgKillOps": 2.804255319148936,
         "avgTacOps": 3.6893617021276595,
-        "pickRate": 0.05291479820627803,
+        "pickRate": 0.052444444444444446,
         "avgMarginWin": 5.933962264150943,
         "avgMarginLoss": -7.322033898305085,
         "avgScoreInWin": 15.575471698113208,
@@ -17242,24 +17222,64 @@
         "profile": "Fragile"
       },
       {
-        "factionName": "Canoptek Circle",
-        "gamesPlayed": 125,
-        "wins": 54,
-        "losses": 62,
-        "draws": 9,
-        "winRate": 0.46551724137931033,
-        "avgScore": 11.232,
-        "avgCritOps": 3.088,
-        "avgKillOps": 2.728,
-        "avgTacOps": 3.44,
-        "pickRate": 0.029596412556053813,
-        "avgMarginWin": 6.296296296296297,
-        "avgMarginLoss": -7.225806451612903,
-        "avgScoreInWin": 14.425925925925926,
-        "avgScoreInLoss": 8.193548387096774,
-        "avgOppScoreInWin": 8.12962962962963,
-        "avgOppScoreInLoss": 15.419354838709678,
+        "factionName": "Vespid Stingwings",
+        "gamesPlayed": 73,
+        "wins": 31,
+        "losses": 35,
+        "draws": 7,
+        "winRate": 0.4696969696969697,
+        "avgScore": 11.04109589041096,
+        "avgCritOps": 2.8767123287671232,
+        "avgKillOps": 3.0821917808219177,
+        "avgTacOps": 3.3013698630136985,
+        "pickRate": 0.018666666666666668,
+        "avgMarginWin": 6.967741935483871,
+        "avgMarginLoss": -8.257142857142858,
+        "avgScoreInWin": 15.451612903225806,
+        "avgScoreInLoss": 7.114285714285714,
+        "avgOppScoreInWin": 8.483870967741936,
+        "avgOppScoreInLoss": 15.371428571428572,
         "profile": "Fragile"
+      },
+      {
+        "factionName": "Canoptek Circle",
+        "gamesPlayed": 127,
+        "wins": 55,
+        "losses": 63,
+        "draws": 9,
+        "winRate": 0.4661016949152542,
+        "avgScore": 11.275590551181102,
+        "avgCritOps": 3.0866141732283463,
+        "avgKillOps": 2.7401574803149606,
+        "avgTacOps": 3.4645669291338583,
+        "pickRate": 0.030222222222222223,
+        "avgMarginWin": 6.381818181818182,
+        "avgMarginLoss": -7.26984126984127,
+        "avgScoreInWin": 14.49090909090909,
+        "avgScoreInLoss": 8.222222222222221,
+        "avgOppScoreInWin": 8.10909090909091,
+        "avgOppScoreInLoss": 15.492063492063492,
+        "profile": "Fragile"
+      },
+      {
+        "factionName": "Elucidian Starstriders",
+        "gamesPlayed": 21,
+        "wins": 9,
+        "losses": 11,
+        "draws": 1,
+        "winRate": 0.45,
+        "avgScore": 12.952380952380953,
+        "avgCritOps": 1.619047619047619,
+        "avgKillOps": 1.8095238095238095,
+        "avgTacOps": 1.9523809523809523,
+        "pickRate": 0.005333333333333333,
+        "avgMarginWin": 10.88888888888889,
+        "avgMarginLoss": -6.636363636363637,
+        "avgScoreInWin": 17.555555555555557,
+        "avgScoreInLoss": 9.181818181818182,
+        "avgOppScoreInWin": 6.666666666666667,
+        "avgOppScoreInLoss": 15.818181818181818,
+        "profile": "Résistante"
       },
       {
         "factionName": "Nemesis Claw",
@@ -17272,7 +17292,7 @@
         "avgCritOps": 3.2577319587628866,
         "avgKillOps": 3.1649484536082473,
         "avgTacOps": 3.0670103092783507,
-        "pickRate": 0.05201793721973094,
+        "pickRate": 0.051555555555555556,
         "avgMarginWin": 7.619047619047619,
         "avgMarginLoss": -7.504854368932039,
         "avgScoreInWin": 15.726190476190476,
@@ -17292,7 +17312,7 @@
         "avgCritOps": 3.642857142857143,
         "avgKillOps": 3.0357142857142856,
         "avgTacOps": 3.4642857142857144,
-        "pickRate": 0.008071748878923767,
+        "pickRate": 0.008,
         "avgMarginWin": 7.416666666666667,
         "avgMarginLoss": -7.133333333333334,
         "avgScoreInWin": 16.916666666666668,
@@ -17300,26 +17320,6 @@
         "avgOppScoreInWin": 9.5,
         "avgOppScoreInLoss": 15.533333333333333,
         "profile": "Kamikaze"
-      },
-      {
-        "factionName": "Elucidian Starstriders",
-        "gamesPlayed": 19,
-        "wins": 8,
-        "losses": 10,
-        "draws": 1,
-        "winRate": 0.4444444444444444,
-        "avgScore": 12.947368421052632,
-        "avgCritOps": 1.4736842105263157,
-        "avgKillOps": 1.6842105263157894,
-        "avgTacOps": 1.6842105263157894,
-        "pickRate": 0.004484304932735426,
-        "avgMarginWin": 11.125,
-        "avgMarginLoss": -7.1,
-        "avgScoreInWin": 18,
-        "avgScoreInLoss": 8.9,
-        "avgOppScoreInWin": 6.875,
-        "avgOppScoreInLoss": 16,
-        "profile": "Résistante"
       },
       {
         "factionName": "Wrecka Krew",
@@ -17332,7 +17332,7 @@
         "avgCritOps": 2.876543209876543,
         "avgKillOps": 3.1934156378600824,
         "avgTacOps": 3.3909465020576133,
-        "pickRate": 0.06367713004484304,
+        "pickRate": 0.06311111111111112,
         "avgMarginWin": 7.834951456310679,
         "avgMarginLoss": -7.9147286821705425,
         "avgScoreInWin": 15.815533980582524,
@@ -17352,7 +17352,7 @@
         "avgCritOps": 2.6265060240963853,
         "avgKillOps": 2.674698795180723,
         "avgTacOps": 3.6566265060240966,
-        "pickRate": 0.04125560538116592,
+        "pickRate": 0.04088888888888889,
         "avgMarginWin": 6.130434782608695,
         "avgMarginLoss": -7.6,
         "avgScoreInWin": 14.81159420289855,
@@ -17372,7 +17372,7 @@
         "avgCritOps": 3,
         "avgKillOps": 2.9047619047619047,
         "avgTacOps": 3.1904761904761907,
-        "pickRate": 0.0053811659192825115,
+        "pickRate": 0.005333333333333333,
         "avgMarginWin": 4.222222222222222,
         "avgMarginLoss": -8.166666666666666,
         "avgScoreInWin": 14.11111111111111,
@@ -17392,7 +17392,7 @@
         "avgCritOps": 3.8448275862068964,
         "avgKillOps": 2.896551724137931,
         "avgTacOps": 3.413793103448276,
-        "pickRate": 0.013452914798206279,
+        "pickRate": 0.013333333333333334,
         "avgMarginWin": 8.434782608695652,
         "avgMarginLoss": -6.225806451612903,
         "avgScoreInWin": 16.52173913043478,
@@ -17412,7 +17412,7 @@
         "avgCritOps": 3.036363636363636,
         "avgKillOps": 3.4,
         "avgTacOps": 3.727272727272727,
-        "pickRate": 0.015246636771300448,
+        "pickRate": 0.015111111111111112,
         "avgMarginWin": 5.454545454545454,
         "avgMarginLoss": -7.466666666666667,
         "avgScoreInWin": 16.227272727272727,
@@ -17432,7 +17432,7 @@
         "avgCritOps": 2.8351648351648353,
         "avgKillOps": 2.901098901098901,
         "avgTacOps": 3.7362637362637363,
-        "pickRate": 0.021524663677130046,
+        "pickRate": 0.021333333333333333,
         "avgMarginWin": 6.514285714285714,
         "avgMarginLoss": -7.830188679245283,
         "avgScoreInWin": 15.742857142857142,
@@ -17452,14 +17452,14 @@
         "avgCritOps": 3.0434782608695654,
         "avgKillOps": 3.0434782608695654,
         "avgTacOps": 3.608695652173913,
-        "pickRate": 0.006278026905829596,
+        "pickRate": 0.006222222222222222,
         "avgMarginWin": 7,
         "avgMarginLoss": -5.642857142857143,
         "avgScoreInWin": 14.88888888888889,
         "avgScoreInLoss": 10.428571428571429,
         "avgOppScoreInWin": 7.888888888888889,
         "avgOppScoreInLoss": 16.071428571428573,
-        "profile": "Bouclier"
+        "profile": "Tenace"
       },
       {
         "factionName": "Void-Dancer Troupe",
@@ -17472,14 +17472,14 @@
         "avgCritOps": 5,
         "avgKillOps": 1.6666666666666667,
         "avgTacOps": 2.6666666666666665,
-        "pickRate": 0.0008968609865470852,
+        "pickRate": 0.0008888888888888889,
         "avgMarginWin": 2,
         "avgMarginLoss": -3,
         "avgScoreInWin": 15,
         "avgScoreInLoss": 10.5,
         "avgOppScoreInWin": 13,
         "avgOppScoreInLoss": 13.5,
-        "profile": "Bouclier"
+        "profile": "Tenace"
       },
       {
         "factionName": "Legionary",
@@ -17492,7 +17492,7 @@
         "avgCritOps": 3.0714285714285716,
         "avgKillOps": 2.5714285714285716,
         "avgTacOps": 2.642857142857143,
-        "pickRate": 0.007174887892376682,
+        "pickRate": 0.0071111111111111115,
         "avgMarginWin": 7.5,
         "avgMarginLoss": -8.88888888888889,
         "avgScoreInWin": 16.25,
@@ -17512,7 +17512,7 @@
         "avgCritOps": 2.4285714285714284,
         "avgKillOps": 2.642857142857143,
         "avgTacOps": 1.9285714285714286,
-        "pickRate": 0.003587443946188341,
+        "pickRate": 0.0035555555555555557,
         "avgMarginWin": 3.75,
         "avgMarginLoss": -8.5,
         "avgScoreInWin": 9.5,
@@ -17532,7 +17532,7 @@
         "avgCritOps": 2.3333333333333335,
         "avgKillOps": 2.6666666666666665,
         "avgTacOps": 2.3333333333333335,
-        "pickRate": 0.0026905829596412557,
+        "pickRate": 0.0026666666666666666,
         "avgMarginWin": 11,
         "avgMarginLoss": -7.5,
         "avgScoreInWin": 14.5,
@@ -17552,7 +17552,7 @@
         "avgCritOps": 2.2222222222222223,
         "avgKillOps": 2.888888888888889,
         "avgTacOps": 1.3333333333333333,
-        "pickRate": 0.0026905829596412557,
+        "pickRate": 0.0026666666666666666,
         "avgMarginWin": 6,
         "avgMarginLoss": -8.142857142857142,
         "avgScoreInWin": 16,
@@ -17899,11 +17899,11 @@
       {
         "faction1": "Blades of Khaine",
         "faction2": "Fellgor Ravagers",
-        "faction1Wins": 2,
+        "faction1Wins": 3,
         "faction2Wins": 2,
         "draws": 0,
-        "totalGames": 4,
-        "faction1WinRate": 0.5
+        "totalGames": 5,
+        "faction1WinRate": 0.6
       },
       {
         "faction1": "Celestian Insidiants",
@@ -18448,11 +18448,11 @@
       {
         "faction1": "Angels of Death",
         "faction2": "Vespid Stingwings",
-        "faction1Wins": 1,
+        "faction1Wins": 3,
         "faction2Wins": 1,
         "draws": 1,
-        "totalGames": 3,
-        "faction1WinRate": 0.5
+        "totalGames": 5,
+        "faction1WinRate": 0.75
       },
       {
         "faction1": "Battleclade",
@@ -18558,8 +18558,8 @@
         "faction2": "Fellgor Ravagers",
         "faction1Wins": 1,
         "faction2Wins": 4,
-        "draws": 0,
-        "totalGames": 5,
+        "draws": 1,
+        "totalGames": 6,
         "faction1WinRate": 0.2
       },
       {
@@ -19186,10 +19186,10 @@
       {
         "faction1": "Blades of Khaine",
         "faction2": "Goremongers",
-        "faction1Wins": 2,
+        "faction1Wins": 4,
         "faction2Wins": 0,
         "draws": 0,
-        "totalGames": 2,
+        "totalGames": 4,
         "faction1WinRate": 1
       },
       {
@@ -20005,11 +20005,11 @@
       {
         "faction1": "Angels of Death",
         "faction2": "Canoptek Circle",
-        "faction1Wins": 4,
-        "faction2Wins": 3,
+        "faction1Wins": 5,
+        "faction2Wins": 4,
         "draws": 2,
-        "totalGames": 9,
-        "faction1WinRate": 0.5714285714285714
+        "totalGames": 11,
+        "faction1WinRate": 0.5555555555555556
       },
       {
         "faction1": "Blades of Khaine",
@@ -20820,6 +20820,15 @@
         "draws": 1,
         "totalGames": 3,
         "faction1WinRate": 1
+      },
+      {
+        "faction1": "Angels of Death",
+        "faction2": "Elucidian Starstriders",
+        "faction1Wins": 0,
+        "faction2Wins": 1,
+        "draws": 1,
+        "totalGames": 2,
+        "faction1WinRate": 0
       },
       {
         "faction1": "Kasrkin",
