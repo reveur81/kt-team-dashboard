@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T12:24:00.371Z",
+  "generatedAt": "2026-05-19T17:36:35.025Z",
   "period": {
     "start": "2026-01-01",
     "end": "2026-05-19"
@@ -55,9 +55,9 @@
     "XV26 Stealth Battlesuits"
   ],
   "all": {
-    "eventsCount": 586,
-    "totalPairings": 17676,
-    "totalPlayers": 9712,
+    "eventsCount": 587,
+    "totalPairings": 17688,
+    "totalPlayers": 9720,
     "factionStats": [
       {
         "factionName": "Inquisitorial Agents",
@@ -70,20 +70,20 @@
         "avgCritOps": 3.449339207048458,
         "avgKillOps": 3.0198237885462555,
         "avgTacOps": 3.616740088105727,
-        "pickRate": 0.012880689881017357
+        "pickRate": 0.01286945141236776
       },
       {
         "factionName": "Murderwing",
-        "gamesPlayed": 1722,
-        "wins": 939,
-        "losses": 690,
-        "draws": 93,
-        "winRate": 0.5452961672473867,
-        "avgScore": 12.536585365853659,
-        "avgCritOps": 3.3606271777003482,
-        "avgKillOps": 3.1591173054587687,
-        "avgTacOps": 3.475609756097561,
-        "pickRate": 0.04901211658115926
+        "gamesPlayed": 1725,
+        "wins": 940,
+        "losses": 691,
+        "draws": 94,
+        "winRate": 0.5449275362318841,
+        "avgScore": 12.534492753623189,
+        "avgCritOps": 3.358260869565217,
+        "avgKillOps": 3.158840579710145,
+        "avgTacOps": 3.4765217391304346,
+        "pickRate": 0.049078416403097395
       },
       {
         "factionName": "Wolf Scouts",
@@ -96,7 +96,7 @@
         "avgCritOps": 3.1693158258465792,
         "avgKillOps": 3.4118866620594335,
         "avgTacOps": 3.3852798894263993,
-        "pickRate": 0.07957646545136994
+        "pickRate": 0.07950703457301778
       },
       {
         "factionName": "Hunter Clade",
@@ -109,7 +109,7 @@
         "avgCritOps": 2.69811320754717,
         "avgKillOps": 2.9622641509433962,
         "avgTacOps": 2.7169811320754715,
-        "pickRate": 0.0032747516646654297
+        "pickRate": 0.0032718944268731597
       },
       {
         "factionName": "Gellerpox Infected",
@@ -122,7 +122,7 @@
         "avgCritOps": 2.861111111111111,
         "avgKillOps": 2.4166666666666665,
         "avgTacOps": 2.4722222222222223,
-        "pickRate": 0.001200742277043991
+        "pickRate": 0.0011996946231868251
       },
       {
         "factionName": "Corsair Voidscarred",
@@ -135,7 +135,7 @@
         "avgCritOps": 2.917525773195876,
         "avgKillOps": 2.7938144329896906,
         "avgTacOps": 2.9536082474226806,
-        "pickRate": 0.006003711385219954
+        "pickRate": 0.005998473115934126
       },
       {
         "factionName": "Mandrakes",
@@ -148,7 +148,7 @@
         "avgCritOps": 3.208791208791209,
         "avgKillOps": 3.360805860805861,
         "avgTacOps": 3.7866300366300365,
-        "pickRate": 0.03165593275843249
+        "pickRate": 0.03162831279310721
       },
       {
         "factionName": "Chaos Cult",
@@ -161,7 +161,7 @@
         "avgCritOps": 3.201923076923077,
         "avgKillOps": 3.2153846153846155,
         "avgTacOps": 3.542307692307692,
-        "pickRate": 0.014736382490994434
+        "pickRate": 0.014723524920929218
       },
       {
         "factionName": "Hand of the Archon",
@@ -174,7 +174,7 @@
         "avgCritOps": 2.9968944099378882,
         "avgKillOps": 3.4177018633540373,
         "avgTacOps": 3.3649068322981366,
-        "pickRate": 0.0177928173780155
+        "pickRate": 0.0177772930526775
       },
       {
         "factionName": "Imperial Navy Breachers",
@@ -187,7 +187,7 @@
         "avgCritOps": 3.176,
         "avgKillOps": 2.965333333333333,
         "avgTacOps": 3.808,
-        "pickRate": 0.010697522104573736
+        "pickRate": 0.010688188461118988
       },
       {
         "factionName": "Elucidian Starstriders",
@@ -200,20 +200,20 @@
         "avgCritOps": 3.10752688172043,
         "avgKillOps": 2.9086021505376345,
         "avgTacOps": 3.360215053763441,
-        "pickRate": 0.005567077829931231
+        "pickRate": 0.0055622205256843716
       },
       {
         "factionName": "Raveners",
-        "gamesPlayed": 1735,
-        "wins": 860,
+        "gamesPlayed": 1738,
+        "wins": 861,
         "losses": 759,
-        "draws": 116,
-        "winRate": 0.4956772334293948,
-        "avgScore": 11.745244956772334,
-        "avgCritOps": 3.177521613832853,
-        "avgKillOps": 3.132564841498559,
-        "avgTacOps": 3.0945244956772333,
-        "pickRate": 0.04890295819233708
+        "draws": 118,
+        "winRate": 0.4953970080552359,
+        "avgScore": 11.748561565017262,
+        "avgCritOps": 3.178941311852704,
+        "avgKillOps": 3.1340621403912543,
+        "avgTacOps": 3.095512082853855,
+        "pickRate": 0.048969353255534954
       },
       {
         "factionName": "Phobos Strike Team",
@@ -226,7 +226,7 @@
         "avgCritOps": 3.064516129032258,
         "avgKillOps": 3.4731182795698925,
         "avgTacOps": 3.150537634408602,
-        "pickRate": 0.006112869774042135
+        "pickRate": 0.006107536263496564
       },
       {
         "factionName": "Wrecka Krew",
@@ -239,7 +239,7 @@
         "avgCritOps": 2.90032154340836,
         "avgKillOps": 3.2688906752411575,
         "avgTacOps": 3.112138263665595,
-        "pickRate": 0.06920641851326274
+        "pickRate": 0.06914603555458611
       },
       {
         "factionName": "Canoptek Circle",
@@ -252,7 +252,7 @@
         "avgCritOps": 3.0297723292469354,
         "avgKillOps": 2.7574430823117337,
         "avgTacOps": 3.371278458844133,
-        "pickRate": 0.03307499181312084
+        "pickRate": 0.03304613371141891
       },
       {
         "factionName": "Brood Brothers",
@@ -265,7 +265,7 @@
         "avgCritOps": 3.347639484978541,
         "avgKillOps": 2.944206008583691,
         "avgTacOps": 3.725321888412017,
-        "pickRate": 0.019211876432703855
+        "pickRate": 0.019195113970989202
       },
       {
         "factionName": "Blades of Khaine",
@@ -278,7 +278,7 @@
         "avgCritOps": 3.2440119760479043,
         "avgKillOps": 3.1137724550898205,
         "avgTacOps": 3.535928143712575,
-        "pickRate": 0.019321034821526036
+        "pickRate": 0.019304177118551643
       },
       {
         "factionName": "Fellgor Ravagers",
@@ -291,7 +291,7 @@
         "avgCritOps": 3.3508771929824563,
         "avgKillOps": 2.8086124401913874,
         "avgTacOps": 3.598086124401914,
-        "pickRate": 0.018229450933304223
+        "pickRate": 0.018213545642927254
       },
       {
         "factionName": "Exaction Squad",
@@ -304,7 +304,7 @@
         "avgCritOps": 3.253846153846154,
         "avgKillOps": 2.6884615384615387,
         "avgTacOps": 3.3384615384615386,
-        "pickRate": 0.015173016046283157
+        "pickRate": 0.015159777511178973
       },
       {
         "factionName": "Farstalker Kinband",
@@ -317,33 +317,33 @@
         "avgCritOps": 3.3586206896551722,
         "avgKillOps": 2.88,
         "avgTacOps": 3.550344827586207,
-        "pickRate": 0.01975766837681476
+        "pickRate": 0.019740429708801396
       },
       {
         "factionName": "Nemesis Claw",
-        "gamesPlayed": 1598,
-        "wins": 760,
+        "gamesPlayed": 1601,
+        "wins": 763,
         "losses": 770,
         "draws": 68,
-        "winRate": 0.4755944931163955,
-        "avgScore": 11.761576971214017,
-        "avgCritOps": 3.1871088861076347,
-        "avgKillOps": 3.2246558197747186,
-        "avgTacOps": 2.9843554443053817,
-        "pickRate": 0.04639231524942692
+        "winRate": 0.47657713928794504,
+        "avgScore": 11.771392879450344,
+        "avgCritOps": 3.1905059337913806,
+        "avgKillOps": 3.2279825109306683,
+        "avgTacOps": 2.986258588382261,
+        "pickRate": 0.04646090086159887
       },
       {
         "factionName": "Angels of Death",
-        "gamesPlayed": 2193,
+        "gamesPlayed": 2196,
         "wins": 1037,
-        "losses": 1046,
+        "losses": 1049,
         "draws": 110,
-        "winRate": 0.4728682170542636,
-        "avgScore": 11.64249886000912,
-        "avgCritOps": 2.9562243502051984,
-        "avgKillOps": 3.077063383492932,
-        "avgTacOps": 3.0870953032375743,
-        "pickRate": 0.06538587490448641
+        "winRate": 0.4722222222222222,
+        "avgScore": 11.632058287795992,
+        "avgCritOps": 2.95264116575592,
+        "avgKillOps": 3.075591985428051,
+        "avgTacOps": 3.0842440801457194,
+        "pickRate": 0.06543788853746318
       },
       {
         "factionName": "Goremongers",
@@ -356,7 +356,7 @@
         "avgCritOps": 3.3433667781493868,
         "avgKillOps": 2.958751393534002,
         "avgTacOps": 3.3333333333333335,
-        "pickRate": 0.02445147909616854
+        "pickRate": 0.024430145053986257
       },
       {
         "factionName": "Blooded",
@@ -369,7 +369,7 @@
         "avgCritOps": 3.180451127819549,
         "avgKillOps": 3.0977443609022557,
         "avgTacOps": 2.9849624060150375,
-        "pickRate": 0.004038860386420697
+        "pickRate": 0.00403533645981023
       },
       {
         "factionName": "Celestian Insidiants",
@@ -382,7 +382,7 @@
         "avgCritOps": 3.2446540880503143,
         "avgKillOps": 2.8811320754716983,
         "avgTacOps": 3.4943396226415095,
-        "pickRate": 0.04388167230651675
+        "pickRate": 0.04384338532010034
       },
       {
         "factionName": "Legionary",
@@ -395,7 +395,7 @@
         "avgCritOps": 2.911111111111111,
         "avgKillOps": 3.057777777777778,
         "avgTacOps": 2.7377777777777776,
-        "pickRate": 0.007422770439908307
+        "pickRate": 0.007416294034245829
       },
       {
         "factionName": "Kasrkin",
@@ -408,7 +408,7 @@
         "avgCritOps": 2.8818897637795278,
         "avgKillOps": 3.059842519685039,
         "avgTacOps": 3.152755905511811,
-        "pickRate": 0.018666084488592947
+        "pickRate": 0.01864979823317701
       },
       {
         "factionName": "Novitiates",
@@ -421,7 +421,7 @@
         "avgCritOps": 2.563380281690141,
         "avgKillOps": 2.6901408450704225,
         "avgTacOps": 2.8450704225352115,
-        "pickRate": 0.0021831677764436196
+        "pickRate": 0.002181262951248773
       },
       {
         "factionName": "Vespid Stingwings",
@@ -434,20 +434,20 @@
         "avgCritOps": 2.893617021276596,
         "avgKillOps": 2.9659574468085106,
         "avgTacOps": 3.3134751773049644,
-        "pickRate": 0.02117672743150311
+        "pickRate": 0.021158250627113098
       },
       {
         "factionName": "Tempestus Aquilons",
-        "gamesPlayed": 938,
-        "wins": 421,
-        "losses": 468,
+        "gamesPlayed": 941,
+        "wins": 422,
+        "losses": 470,
         "draws": 49,
-        "winRate": 0.4488272921108742,
-        "avgScore": 11.939232409381663,
-        "avgCritOps": 3.2260127931769724,
-        "avgKillOps": 2.767590618336887,
-        "avgTacOps": 3.455223880597015,
-        "pickRate": 0.028599497871411417
+        "winRate": 0.44845908607863977,
+        "avgScore": 11.935175345377258,
+        "avgCritOps": 3.2231668437832095,
+        "avgKillOps": 2.7662061636556854,
+        "avgTacOps": 3.455897980871413,
+        "pickRate": 0.028683607808921364
       },
       {
         "factionName": "Sanctifiers",
@@ -460,7 +460,7 @@
         "avgCritOps": 3.058419243986254,
         "avgKillOps": 2.8247422680412373,
         "avgTacOps": 3.457044673539519,
-        "pickRate": 0.008405195939307936
+        "pickRate": 0.008397862362307777
       },
       {
         "factionName": "Ratlings",
@@ -473,7 +473,7 @@
         "avgCritOps": 3.0995762711864407,
         "avgKillOps": 2.663135593220339,
         "avgTacOps": 3.4491525423728815,
-        "pickRate": 0.013972273769239166
+        "pickRate": 0.013960082887992147
       },
       {
         "factionName": "Deathwatch",
@@ -486,7 +486,7 @@
         "avgCritOps": 2.934054611025245,
         "avgKillOps": 3.0571870170015454,
         "avgTacOps": 3.094796496651211,
-        "pickRate": 0.05774478768693374
+        "pickRate": 0.057694405060530043
       },
       {
         "factionName": "Void-Dancer Troupe",
@@ -499,7 +499,7 @@
         "avgCritOps": 2.4782608695652173,
         "avgKillOps": 2.369565217391304,
         "avgTacOps": 2.7065217391304346,
-        "pickRate": 0.0030564348870210675
+        "pickRate": 0.003053768131748282
       },
       {
         "factionName": "Scout Squad",
@@ -512,7 +512,7 @@
         "avgCritOps": 2.8121827411167515,
         "avgKillOps": 2.8248730964467006,
         "avgTacOps": 3.1522842639593907,
-        "pickRate": 0.012444056325728632
+        "pickRate": 0.012433198822118007
       },
       {
         "factionName": "Hernkyn Yaegir",
@@ -525,7 +525,7 @@
         "avgCritOps": 3.1878914405010437,
         "avgKillOps": 2.791231732776618,
         "avgTacOps": 3.346555323590814,
-        "pickRate": 0.013644798602772623
+        "pickRate": 0.013632893445304831
       },
       {
         "factionName": "Hearthkyn Salvagers",
@@ -538,20 +538,20 @@
         "avgCritOps": 2.694300518134715,
         "avgKillOps": 2.7253886010362693,
         "avgTacOps": 2.976683937823834,
-        "pickRate": 0.011461630826329004
+        "pickRate": 0.011451630494056059
       },
       {
         "factionName": "Plague Marines",
-        "gamesPlayed": 1131,
-        "wins": 460,
-        "losses": 597,
+        "gamesPlayed": 1134,
+        "wins": 461,
+        "losses": 599,
         "draws": 74,
-        "winRate": 0.40671971706454463,
-        "avgScore": 11.038903625110521,
-        "avgCritOps": 2.8178603006189213,
-        "avgKillOps": 2.938107869142352,
-        "avgTacOps": 3.061892130857648,
-        "pickRate": 0.033620783757231744
+        "winRate": 0.40652557319223986,
+        "avgScore": 11.042328042328043,
+        "avgCritOps": 2.8192239858906527,
+        "avgKillOps": 2.940917107583774,
+        "avgTacOps": 3.062610229276896,
+        "pickRate": 0.03370051259679354
       },
       {
         "factionName": "Veteran Guardsmen",
@@ -564,20 +564,20 @@
         "avgCritOps": 2.7404580152671754,
         "avgKillOps": 2.7557251908396947,
         "avgTacOps": 2.687022900763359,
-        "pickRate": 0.004366335552887239
+        "pickRate": 0.004362525902497546
       },
       {
         "factionName": "XV26 Stealth Battlesuits",
-        "gamesPlayed": 1313,
-        "wins": 530,
-        "losses": 710,
+        "gamesPlayed": 1316,
+        "wins": 532,
+        "losses": 711,
         "draws": 73,
-        "winRate": 0.4036557501904037,
-        "avgScore": 10.913937547600915,
-        "avgCritOps": 2.661843107387662,
-        "avgKillOps": 2.69002284843869,
-        "avgTacOps": 3.1926884996191927,
-        "pickRate": 0.03875122803187425
+        "winRate": 0.40425531914893614,
+        "avgScore": 10.91565349544073,
+        "avgCritOps": 2.6603343465045595,
+        "avgKillOps": 2.6930091185410334,
+        "avgTacOps": 3.1945288753799392,
+        "pickRate": 0.03882648053222816
       },
       {
         "factionName": "Hierotek Circle",
@@ -590,20 +590,20 @@
         "avgCritOps": 2.8947368421052633,
         "avgKillOps": 2.873684210526316,
         "avgTacOps": 2.9789473684210526,
-        "pickRate": 0.011570789215151185
+        "pickRate": 0.011560693641618497
       },
       {
         "factionName": "Battleclade",
-        "gamesPlayed": 642,
-        "wins": 249,
-        "losses": 356,
-        "draws": 37,
-        "winRate": 0.3878504672897196,
-        "avgScore": 11.146417445482866,
-        "avgCritOps": 2.897196261682243,
-        "avgKillOps": 2.764797507788162,
-        "avgTacOps": 3.130841121495327,
-        "pickRate": 0.018229450933304223
+        "gamesPlayed": 645,
+        "wins": 250,
+        "losses": 357,
+        "draws": 38,
+        "winRate": 0.3875968992248062,
+        "avgScore": 11.151937984496124,
+        "avgCritOps": 2.8930232558139535,
+        "avgKillOps": 2.772093023255814,
+        "avgTacOps": 3.1333333333333333,
+        "pickRate": 0.018322608790489695
       },
       {
         "factionName": "Wyrmblade",
@@ -616,7 +616,7 @@
         "avgCritOps": 2.505050505050505,
         "avgKillOps": 2.6161616161616164,
         "avgTacOps": 2.282828282828283,
-        "pickRate": 0.0032747516646654297
+        "pickRate": 0.0032718944268731597
       },
       {
         "factionName": "Warp Coven",
@@ -629,7 +629,7 @@
         "avgCritOps": 2.4719101123595504,
         "avgKillOps": 2.764044943820225,
         "avgTacOps": 2.6179775280898876,
-        "pickRate": 0.0030564348870210675
+        "pickRate": 0.003053768131748282
       },
       {
         "factionName": "Kommandos",
@@ -642,7 +642,7 @@
         "avgCritOps": 2.1784037558685445,
         "avgKillOps": 2.136150234741784,
         "avgTacOps": 2.164319248826291,
-        "pickRate": 0.006876978495797402
+        "pickRate": 0.006870978296433635
       },
       {
         "factionName": "[deleted, duplicate] Plague Marines",
@@ -668,7 +668,7 @@
         "avgCritOps": 2.0933333333333333,
         "avgKillOps": 2.4,
         "avgTacOps": 2.013333333333333,
-        "pickRate": 0.0021831677764436196
+        "pickRate": 0.002181262951248773
       }
     ],
     "matchups": [
@@ -828,20 +828,20 @@
       {
         "faction1": "Nemesis Claw",
         "faction2": "XV26 Stealth Battlesuits",
-        "faction1Wins": 29,
+        "faction1Wins": 30,
         "faction2Wins": 25,
         "draws": 1,
-        "totalGames": 55,
-        "faction1WinRate": 0.5272727272727272
+        "totalGames": 56,
+        "faction1WinRate": 0.5357142857142857
       },
       {
         "faction1": "Angels of Death",
         "faction2": "Plague Marines",
         "faction1Wins": 34,
-        "faction2Wins": 36,
+        "faction2Wins": 37,
         "draws": 4,
-        "totalGames": 74,
-        "faction1WinRate": 0.4594594594594595
+        "totalGames": 75,
+        "faction1WinRate": 0.4533333333333333
       },
       {
         "faction1": "Angels of Death",
@@ -925,22 +925,13 @@
         "faction1WinRate": 0.30612244897959184
       },
       {
-        "faction1": "Wolf Scouts",
-        "faction2": "Wolf Scouts",
-        "faction1Wins": 127,
-        "faction2Wins": 0,
-        "draws": 6,
-        "totalGames": 133,
-        "faction1WinRate": 0.9548872180451128
-      },
-      {
         "faction1": "Nemesis Claw",
         "faction2": "Tempestus Aquilons",
-        "faction1Wins": 33,
+        "faction1Wins": 34,
         "faction2Wins": 23,
         "draws": 1,
-        "totalGames": 57,
-        "faction1WinRate": 0.5789473684210527
+        "totalGames": 58,
+        "faction1WinRate": 0.5862068965517241
       },
       {
         "faction1": "Exaction Squad",
@@ -1153,10 +1144,10 @@
         "faction1": "Plague Marines",
         "faction2": "XV26 Stealth Battlesuits",
         "faction1Wins": 10,
-        "faction2Wins": 21,
+        "faction2Wins": 22,
         "draws": 3,
-        "totalGames": 34,
-        "faction1WinRate": 0.29411764705882354
+        "totalGames": 35,
+        "faction1WinRate": 0.2857142857142857
       },
       {
         "faction1": "Deathwatch",
@@ -1492,15 +1483,6 @@
         "faction1WinRate": 0.4583333333333333
       },
       {
-        "faction1": "Nemesis Claw",
-        "faction2": "Nemesis Claw",
-        "faction1Wins": 37,
-        "faction2Wins": 0,
-        "draws": 4,
-        "totalGames": 41,
-        "faction1WinRate": 0.9024390243902439
-      },
-      {
         "faction1": "Canoptek Circle",
         "faction2": "Fellgor Ravagers",
         "faction1Wins": 11,
@@ -1526,15 +1508,6 @@
         "draws": 1,
         "totalGames": 22,
         "faction1WinRate": 0.5
-      },
-      {
-        "faction1": "Canoptek Circle",
-        "faction2": "Canoptek Circle",
-        "faction1Wins": 17,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 17,
-        "faction1WinRate": 1
       },
       {
         "faction1": "Canoptek Circle",
@@ -1625,15 +1598,6 @@
         "draws": 7,
         "totalGames": 65,
         "faction1WinRate": 0.4307692307692308
-      },
-      {
-        "faction1": "XV26 Stealth Battlesuits",
-        "faction2": "XV26 Stealth Battlesuits",
-        "faction1Wins": 21,
-        "faction2Wins": 0,
-        "draws": 3,
-        "totalGames": 24,
-        "faction1WinRate": 0.875
       },
       {
         "faction1": "Canoptek Circle",
@@ -1753,15 +1717,6 @@
         "faction1WinRate": 0.5434782608695652
       },
       {
-        "faction1": "Vespid Stingwings",
-        "faction2": "Vespid Stingwings",
-        "faction1Wins": 6,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 6,
-        "faction1WinRate": 1
-      },
-      {
         "faction1": "Farstalker Kinband",
         "faction2": "Hearthkyn Salvagers",
         "faction1Wins": 8,
@@ -1850,15 +1805,6 @@
         "draws": 0,
         "totalGames": 2,
         "faction1WinRate": 1
-      },
-      {
-        "faction1": "Farstalker Kinband",
-        "faction2": "Farstalker Kinband",
-        "faction1Wins": 9,
-        "faction2Wins": 0,
-        "draws": 1,
-        "totalGames": 10,
-        "faction1WinRate": 0.9
       },
       {
         "faction1": "Phobos Strike Team",
@@ -1964,9 +1910,9 @@
         "faction2": "Raveners",
         "faction1Wins": 11,
         "faction2Wins": 18,
-        "draws": 4,
-        "totalGames": 33,
-        "faction1WinRate": 0.3333333333333333
+        "draws": 5,
+        "totalGames": 34,
+        "faction1WinRate": 0.3235294117647059
       },
       {
         "faction1": "Farstalker Kinband",
@@ -2149,15 +2095,6 @@
         "faction1WinRate": 0.4
       },
       {
-        "faction1": "Plague Marines",
-        "faction2": "Plague Marines",
-        "faction1Wins": 15,
-        "faction2Wins": 0,
-        "draws": 1,
-        "totalGames": 16,
-        "faction1WinRate": 0.9375
-      },
-      {
         "faction1": "Brood Brothers",
         "faction2": "Deathwatch",
         "faction1Wins": 21,
@@ -2285,15 +2222,6 @@
       },
       {
         "faction1": "Deathwatch",
-        "faction2": "Deathwatch",
-        "faction1Wins": 59,
-        "faction2Wins": 0,
-        "draws": 2,
-        "totalGames": 61,
-        "faction1WinRate": 0.9672131147540983
-      },
-      {
-        "faction1": "Deathwatch",
         "faction2": "Inquisitorial Agents",
         "faction1Wins": 13,
         "faction2Wins": 18,
@@ -2377,28 +2305,19 @@
         "faction1": "Angels of Death",
         "faction2": "Battleclade",
         "faction1Wins": 24,
-        "faction2Wins": 14,
+        "faction2Wins": 15,
         "draws": 3,
-        "totalGames": 41,
-        "faction1WinRate": 0.5853658536585366
-      },
-      {
-        "faction1": "Wrecka Krew",
-        "faction2": "Wrecka Krew",
-        "faction1Wins": 97,
-        "faction2Wins": 0,
-        "draws": 4,
-        "totalGames": 101,
-        "faction1WinRate": 0.9603960396039604
+        "totalGames": 42,
+        "faction1WinRate": 0.5714285714285714
       },
       {
         "faction1": "Angels of Death",
         "faction2": "Tempestus Aquilons",
         "faction1Wins": 22,
-        "faction2Wins": 26,
+        "faction2Wins": 27,
         "draws": 1,
-        "totalGames": 49,
-        "faction1WinRate": 0.4489795918367347
+        "totalGames": 50,
+        "faction1WinRate": 0.44
       },
       {
         "faction1": "Farstalker Kinband",
@@ -2501,15 +2420,6 @@
       },
       {
         "faction1": "Kommandos",
-        "faction2": "Kommandos",
-        "faction1Wins": 2,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 2,
-        "faction1WinRate": 1
-      },
-      {
-        "faction1": "Kommandos",
         "faction2": "Mandrakes",
         "faction1Wins": 3,
         "faction2Wins": 3,
@@ -2593,10 +2503,10 @@
         "faction1": "Battleclade",
         "faction2": "Nemesis Claw",
         "faction1Wins": 7,
-        "faction2Wins": 17,
+        "faction2Wins": 18,
         "draws": 1,
-        "totalGames": 25,
-        "faction1WinRate": 0.28
+        "totalGames": 26,
+        "faction1WinRate": 0.2692307692307692
       },
       {
         "faction1": "Sanctifiers",
@@ -2741,15 +2651,6 @@
         "draws": 0,
         "totalGames": 15,
         "faction1WinRate": 0.6666666666666666
-      },
-      {
-        "faction1": "Battleclade",
-        "faction2": "Battleclade",
-        "faction1Wins": 5,
-        "faction2Wins": 0,
-        "draws": 1,
-        "totalGames": 6,
-        "faction1WinRate": 0.8333333333333334
       },
       {
         "faction1": "Inquisitorial Agents",
@@ -2908,10 +2809,10 @@
         "faction1": "Plague Marines",
         "faction2": "Raveners",
         "faction1Wins": 19,
-        "faction2Wins": 28,
+        "faction2Wins": 29,
         "draws": 4,
-        "totalGames": 51,
-        "faction1WinRate": 0.37254901960784315
+        "totalGames": 52,
+        "faction1WinRate": 0.36538461538461536
       },
       {
         "faction1": "Raveners",
@@ -3940,15 +3841,6 @@
         "faction1WinRate": 0.43333333333333335
       },
       {
-        "faction1": "Exaction Squad",
-        "faction2": "Exaction Squad",
-        "faction1Wins": 3,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 3,
-        "faction1WinRate": 1
-      },
-      {
         "faction1": "Canoptek Circle",
         "faction2": "Exaction Squad",
         "faction1Wins": 15,
@@ -3974,24 +3866,6 @@
         "draws": 1,
         "totalGames": 16,
         "faction1WinRate": 0.5
-      },
-      {
-        "faction1": "Raveners",
-        "faction2": "Raveners",
-        "faction1Wins": 35,
-        "faction2Wins": 0,
-        "draws": 5,
-        "totalGames": 40,
-        "faction1WinRate": 0.875
-      },
-      {
-        "faction1": "Tempestus Aquilons",
-        "faction2": "Tempestus Aquilons",
-        "faction1Wins": 10,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 10,
-        "faction1WinRate": 1
       },
       {
         "faction1": "Blooded",
@@ -4136,15 +4010,6 @@
         "draws": 0,
         "totalGames": 29,
         "faction1WinRate": 0.6896551724137931
-      },
-      {
-        "faction1": "Mandrakes",
-        "faction2": "Mandrakes",
-        "faction1Wins": 14,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 14,
-        "faction1WinRate": 1
       },
       {
         "faction1": "Brood Brothers",
@@ -4408,15 +4273,6 @@
         "faction1WinRate": 0.75
       },
       {
-        "faction1": "Hernkyn Yaegir",
-        "faction2": "Hernkyn Yaegir",
-        "faction1Wins": 2,
-        "faction2Wins": 0,
-        "draws": 1,
-        "totalGames": 3,
-        "faction1WinRate": 0.6666666666666666
-      },
-      {
         "faction1": "Plague Marines",
         "faction2": "Vespid Stingwings",
         "faction1Wins": 6,
@@ -4469,15 +4325,6 @@
         "draws": 0,
         "totalGames": 5,
         "faction1WinRate": 0.4
-      },
-      {
-        "faction1": "Angels of Death",
-        "faction2": "Angels of Death",
-        "faction1Wins": 71,
-        "faction2Wins": 0,
-        "draws": 5,
-        "totalGames": 76,
-        "faction1WinRate": 0.9342105263157895
       },
       {
         "faction1": "Angels of Death",
@@ -5020,15 +4867,6 @@
         "faction1WinRate": 0.3
       },
       {
-        "faction1": "Legionary",
-        "faction2": "Legionary",
-        "faction1Wins": 2,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 2,
-        "faction1WinRate": 1
-      },
-      {
         "faction1": "Gellerpox Infected",
         "faction2": "Hierotek Circle",
         "faction1Wins": 1,
@@ -5344,15 +5182,6 @@
         "faction1WinRate": 0
       },
       {
-        "faction1": "Inquisitorial Agents",
-        "faction2": "Inquisitorial Agents",
-        "faction1Wins": 1,
-        "faction2Wins": 0,
-        "draws": 1,
-        "totalGames": 2,
-        "faction1WinRate": 0.5
-      },
-      {
         "faction1": "Angels of Death",
         "faction2": "Fellgor Ravagers",
         "faction1Wins": 12,
@@ -5540,15 +5369,6 @@
         "draws": 3,
         "totalGames": 14,
         "faction1WinRate": 0.35714285714285715
-      },
-      {
-        "faction1": "Goremongers",
-        "faction2": "Goremongers",
-        "faction1Wins": 9,
-        "faction2Wins": 0,
-        "draws": 1,
-        "totalGames": 10,
-        "faction1WinRate": 0.9
       },
       {
         "faction1": "Blooded",
@@ -5762,9 +5582,9 @@
         "faction2": "Raveners",
         "faction1Wins": 53,
         "faction2Wins": 37,
-        "draws": 10,
-        "totalGames": 100,
-        "faction1WinRate": 0.53
+        "draws": 11,
+        "totalGames": 101,
+        "faction1WinRate": 0.5247524752475248
       },
       {
         "faction1": "Elucidian Starstriders",
@@ -6201,11 +6021,11 @@
       {
         "faction1": "Murderwing",
         "faction2": "Tempestus Aquilons",
-        "faction1Wins": 22,
+        "faction1Wins": 23,
         "faction2Wins": 14,
         "draws": 4,
-        "totalGames": 40,
-        "faction1WinRate": 0.55
+        "totalGames": 41,
+        "faction1WinRate": 0.5609756097560976
       },
       {
         "faction1": "Battleclade",
@@ -6269,15 +6089,6 @@
         "draws": 0,
         "totalGames": 11,
         "faction1WinRate": 0.6363636363636364
-      },
-      {
-        "faction1": "Ratlings",
-        "faction2": "Ratlings",
-        "faction1Wins": 2,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 2,
-        "faction1WinRate": 1
       },
       {
         "faction1": "Chaos Cult",
@@ -6379,15 +6190,6 @@
         "faction1WinRate": 0.3333333333333333
       },
       {
-        "faction1": "Kasrkin",
-        "faction2": "Kasrkin",
-        "faction1Wins": 2,
-        "faction2Wins": 0,
-        "draws": 1,
-        "totalGames": 3,
-        "faction1WinRate": 0.6666666666666666
-      },
-      {
         "faction1": "Imperial Navy Breachers",
         "faction2": "Nemesis Claw",
         "faction1Wins": 13,
@@ -6404,15 +6206,6 @@
         "draws": 2,
         "totalGames": 6,
         "faction1WinRate": 0.16666666666666666
-      },
-      {
-        "faction1": "Hand of the Archon",
-        "faction2": "Hand of the Archon",
-        "faction1Wins": 5,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 5,
-        "faction1WinRate": 1
       },
       {
         "faction1": "Chaos Cult",
@@ -6535,19 +6328,10 @@
         "faction1": "Murderwing",
         "faction2": "XV26 Stealth Battlesuits",
         "faction1Wins": 41,
-        "faction2Wins": 15,
+        "faction2Wins": 16,
         "draws": 3,
-        "totalGames": 59,
-        "faction1WinRate": 0.6949152542372882
-      },
-      {
-        "faction1": "Scout Squad",
-        "faction2": "Scout Squad",
-        "faction1Wins": 2,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 2,
-        "faction1WinRate": 1
+        "totalGames": 60,
+        "faction1WinRate": 0.6833333333333333
       },
       {
         "faction1": "Celestian Insidiants",
@@ -6566,15 +6350,6 @@
         "draws": 10,
         "totalGames": 94,
         "faction1WinRate": 0.2978723404255319
-      },
-      {
-        "faction1": "Murderwing",
-        "faction2": "Murderwing",
-        "faction1Wins": 59,
-        "faction2Wins": 0,
-        "draws": 3,
-        "totalGames": 62,
-        "faction1WinRate": 0.9516129032258065
       },
       {
         "faction1": "Angels of Death",
@@ -6683,15 +6458,6 @@
         "draws": 0,
         "totalGames": 4,
         "faction1WinRate": 0.25
-      },
-      {
-        "faction1": "Celestian Insidiants",
-        "faction2": "Celestian Insidiants",
-        "faction1Wins": 43,
-        "faction2Wins": 0,
-        "draws": 1,
-        "totalGames": 44,
-        "faction1WinRate": 0.9772727272727273
       },
       {
         "faction1": "Blades of Khaine",
@@ -6955,15 +6721,6 @@
         "faction1WinRate": 0.4
       },
       {
-        "faction1": "Imperial Navy Breachers",
-        "faction2": "Imperial Navy Breachers",
-        "faction1Wins": 5,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 5,
-        "faction1WinRate": 1
-      },
-      {
         "faction1": "Angels of Death",
         "faction2": "Hernkyn Yaegir",
         "faction1Wins": 16,
@@ -7061,15 +6818,6 @@
         "draws": 0,
         "totalGames": 2,
         "faction1WinRate": 0
-      },
-      {
-        "faction1": "Fellgor Ravagers",
-        "faction2": "Fellgor Ravagers",
-        "faction1Wins": 4,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 4,
-        "faction1WinRate": 1
       },
       {
         "faction1": "Kommandos",
@@ -7513,15 +7261,6 @@
         "faction1WinRate": 0.5
       },
       {
-        "faction1": "Phobos Strike Team",
-        "faction2": "Phobos Strike Team",
-        "faction1Wins": 3,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 3,
-        "faction1WinRate": 1
-      },
-      {
         "faction1": "Celestian Insidiants",
         "faction2": "Legionary",
         "faction1Wins": 0,
@@ -7891,15 +7630,6 @@
         "faction1WinRate": 0.5
       },
       {
-        "faction1": "Blades of Khaine",
-        "faction2": "Blades of Khaine",
-        "faction1Wins": 1,
-        "faction2Wins": 0,
-        "draws": 1,
-        "totalGames": 2,
-        "faction1WinRate": 0.5
-      },
-      {
         "faction1": "Elucidian Starstriders",
         "faction2": "Void-Dancer Troupe",
         "faction1Wins": 2,
@@ -7979,15 +7709,6 @@
         "draws": 0,
         "totalGames": 2,
         "faction1WinRate": 0.5
-      },
-      {
-        "faction1": "Veteran Guardsmen",
-        "faction2": "Veteran Guardsmen",
-        "faction1Wins": 2,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 2,
-        "faction1WinRate": 1
       },
       {
         "faction1": "Exaction Squad",
@@ -8096,15 +7817,6 @@
         "draws": 0,
         "totalGames": 3,
         "faction1WinRate": 0.6666666666666666
-      },
-      {
-        "faction1": "Brood Brothers",
-        "faction2": "Brood Brothers",
-        "faction1Wins": 34,
-        "faction2Wins": 0,
-        "draws": 10,
-        "totalGames": 44,
-        "faction1WinRate": 0.7727272727272727
       },
       {
         "faction1": "Chaos Cult",
@@ -9258,15 +8970,6 @@
         "faction1WinRate": 0.29545454545454547
       },
       {
-        "faction1": "Wolf Scouts",
-        "faction2": "Wolf Scouts",
-        "faction1Wins": 120,
-        "faction2Wins": 0,
-        "draws": 6,
-        "totalGames": 126,
-        "faction1WinRate": 0.9523809523809523
-      },
-      {
         "faction1": "Nemesis Claw",
         "faction2": "Tempestus Aquilons",
         "faction1Wins": 30,
@@ -9825,15 +9528,6 @@
         "faction1WinRate": 0.5
       },
       {
-        "faction1": "Nemesis Claw",
-        "faction2": "Nemesis Claw",
-        "faction1Wins": 30,
-        "faction2Wins": 0,
-        "draws": 4,
-        "totalGames": 34,
-        "faction1WinRate": 0.8823529411764706
-      },
-      {
         "faction1": "Canoptek Circle",
         "faction2": "Fellgor Ravagers",
         "faction1Wins": 11,
@@ -9859,15 +9553,6 @@
         "draws": 1,
         "totalGames": 21,
         "faction1WinRate": 0.47619047619047616
-      },
-      {
-        "faction1": "Canoptek Circle",
-        "faction2": "Canoptek Circle",
-        "faction1Wins": 14,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 14,
-        "faction1WinRate": 1
       },
       {
         "faction1": "Canoptek Circle",
@@ -9958,15 +9643,6 @@
         "draws": 6,
         "totalGames": 59,
         "faction1WinRate": 0.4406779661016949
-      },
-      {
-        "faction1": "XV26 Stealth Battlesuits",
-        "faction2": "XV26 Stealth Battlesuits",
-        "faction1Wins": 18,
-        "faction2Wins": 0,
-        "draws": 3,
-        "totalGames": 21,
-        "faction1WinRate": 0.8571428571428571
       },
       {
         "faction1": "Canoptek Circle",
@@ -10086,15 +9762,6 @@
         "faction1WinRate": 0.5681818181818182
       },
       {
-        "faction1": "Vespid Stingwings",
-        "faction2": "Vespid Stingwings",
-        "faction1Wins": 6,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 6,
-        "faction1WinRate": 1
-      },
-      {
         "faction1": "Farstalker Kinband",
         "faction2": "Hearthkyn Salvagers",
         "faction1Wins": 7,
@@ -10183,15 +9850,6 @@
         "draws": 0,
         "totalGames": 2,
         "faction1WinRate": 1
-      },
-      {
-        "faction1": "Farstalker Kinband",
-        "faction2": "Farstalker Kinband",
-        "faction1Wins": 8,
-        "faction2Wins": 0,
-        "draws": 1,
-        "totalGames": 9,
-        "faction1WinRate": 0.8888888888888888
       },
       {
         "faction1": "Phobos Strike Team",
@@ -10482,15 +10140,6 @@
         "faction1WinRate": 0.42857142857142855
       },
       {
-        "faction1": "Plague Marines",
-        "faction2": "Plague Marines",
-        "faction1Wins": 13,
-        "faction2Wins": 0,
-        "draws": 1,
-        "totalGames": 14,
-        "faction1WinRate": 0.9285714285714286
-      },
-      {
         "faction1": "Brood Brothers",
         "faction2": "Deathwatch",
         "faction1Wins": 20,
@@ -10618,15 +10267,6 @@
       },
       {
         "faction1": "Deathwatch",
-        "faction2": "Deathwatch",
-        "faction1Wins": 53,
-        "faction2Wins": 0,
-        "draws": 2,
-        "totalGames": 55,
-        "faction1WinRate": 0.9636363636363636
-      },
-      {
-        "faction1": "Deathwatch",
         "faction2": "Inquisitorial Agents",
         "faction1Wins": 11,
         "faction2Wins": 17,
@@ -10714,15 +10354,6 @@
         "draws": 3,
         "totalGames": 31,
         "faction1WinRate": 0.6774193548387096
-      },
-      {
-        "faction1": "Wrecka Krew",
-        "faction2": "Wrecka Krew",
-        "faction1Wins": 87,
-        "faction2Wins": 0,
-        "draws": 3,
-        "totalGames": 90,
-        "faction1WinRate": 0.9666666666666667
       },
       {
         "faction1": "Angels of Death",
@@ -10831,15 +10462,6 @@
         "draws": 2,
         "totalGames": 17,
         "faction1WinRate": 0.47058823529411764
-      },
-      {
-        "faction1": "Kommandos",
-        "faction2": "Kommandos",
-        "faction1Wins": 2,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 2,
-        "faction1WinRate": 1
       },
       {
         "faction1": "Kommandos",
@@ -11074,15 +10696,6 @@
         "draws": 0,
         "totalGames": 12,
         "faction1WinRate": 0.5833333333333334
-      },
-      {
-        "faction1": "Battleclade",
-        "faction2": "Battleclade",
-        "faction1Wins": 3,
-        "faction2Wins": 0,
-        "draws": 1,
-        "totalGames": 4,
-        "faction1WinRate": 0.75
       },
       {
         "faction1": "Inquisitorial Agents",
@@ -12264,15 +11877,6 @@
         "faction1WinRate": 0.41379310344827586
       },
       {
-        "faction1": "Exaction Squad",
-        "faction2": "Exaction Squad",
-        "faction1Wins": 2,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 2,
-        "faction1WinRate": 1
-      },
-      {
         "faction1": "Canoptek Circle",
         "faction2": "Exaction Squad",
         "faction1Wins": 13,
@@ -12298,24 +11902,6 @@
         "draws": 1,
         "totalGames": 16,
         "faction1WinRate": 0.5
-      },
-      {
-        "faction1": "Raveners",
-        "faction2": "Raveners",
-        "faction1Wins": 30,
-        "faction2Wins": 0,
-        "draws": 4,
-        "totalGames": 34,
-        "faction1WinRate": 0.8823529411764706
-      },
-      {
-        "faction1": "Tempestus Aquilons",
-        "faction2": "Tempestus Aquilons",
-        "faction1Wins": 8,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 8,
-        "faction1WinRate": 1
       },
       {
         "faction1": "Blooded",
@@ -12460,15 +12046,6 @@
         "draws": 0,
         "totalGames": 27,
         "faction1WinRate": 0.7037037037037037
-      },
-      {
-        "faction1": "Mandrakes",
-        "faction2": "Mandrakes",
-        "faction1Wins": 13,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 13,
-        "faction1WinRate": 1
       },
       {
         "faction1": "Brood Brothers",
@@ -12732,15 +12309,6 @@
         "faction1WinRate": 1
       },
       {
-        "faction1": "Hernkyn Yaegir",
-        "faction2": "Hernkyn Yaegir",
-        "faction1Wins": 2,
-        "faction2Wins": 0,
-        "draws": 1,
-        "totalGames": 3,
-        "faction1WinRate": 0.6666666666666666
-      },
-      {
         "faction1": "Plague Marines",
         "faction2": "Vespid Stingwings",
         "faction1Wins": 6,
@@ -12793,15 +12361,6 @@
         "draws": 0,
         "totalGames": 4,
         "faction1WinRate": 0.5
-      },
-      {
-        "faction1": "Angels of Death",
-        "faction2": "Angels of Death",
-        "faction1Wins": 60,
-        "faction2Wins": 0,
-        "draws": 2,
-        "totalGames": 62,
-        "faction1WinRate": 0.967741935483871
       },
       {
         "faction1": "Angels of Death",
@@ -13344,15 +12903,6 @@
         "faction1WinRate": 0.25
       },
       {
-        "faction1": "Legionary",
-        "faction2": "Legionary",
-        "faction1Wins": 2,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 2,
-        "faction1WinRate": 1
-      },
-      {
         "faction1": "Gellerpox Infected",
         "faction2": "Hierotek Circle",
         "faction1Wins": 1,
@@ -13837,15 +13387,6 @@
         "draws": 3,
         "totalGames": 14,
         "faction1WinRate": 0.35714285714285715
-      },
-      {
-        "faction1": "Goremongers",
-        "faction2": "Goremongers",
-        "faction1Wins": 7,
-        "faction2Wins": 0,
-        "draws": 1,
-        "totalGames": 8,
-        "faction1WinRate": 0.875
       },
       {
         "faction1": "Blooded",
@@ -14568,15 +14109,6 @@
         "faction1WinRate": 0.6363636363636364
       },
       {
-        "faction1": "Ratlings",
-        "faction2": "Ratlings",
-        "faction1Wins": 2,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 2,
-        "faction1WinRate": 1
-      },
-      {
         "faction1": "Chaos Cult",
         "faction2": "Sanctifiers",
         "faction1Wins": 3,
@@ -14667,15 +14199,6 @@
         "faction1WinRate": 0.14285714285714285
       },
       {
-        "faction1": "Kasrkin",
-        "faction2": "Kasrkin",
-        "faction1Wins": 2,
-        "faction2Wins": 0,
-        "draws": 1,
-        "totalGames": 3,
-        "faction1WinRate": 0.6666666666666666
-      },
-      {
         "faction1": "Imperial Navy Breachers",
         "faction2": "Nemesis Claw",
         "faction1Wins": 10,
@@ -14692,15 +14215,6 @@
         "draws": 2,
         "totalGames": 6,
         "faction1WinRate": 0.16666666666666666
-      },
-      {
-        "faction1": "Hand of the Archon",
-        "faction2": "Hand of the Archon",
-        "faction1Wins": 5,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 5,
-        "faction1WinRate": 1
       },
       {
         "faction1": "Chaos Cult",
@@ -14829,15 +14343,6 @@
         "faction1WinRate": 0.6862745098039216
       },
       {
-        "faction1": "Scout Squad",
-        "faction2": "Scout Squad",
-        "faction1Wins": 2,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 2,
-        "faction1WinRate": 1
-      },
-      {
         "faction1": "Celestian Insidiants",
         "faction2": "Vespid Stingwings",
         "faction1Wins": 19,
@@ -14854,15 +14359,6 @@
         "draws": 9,
         "totalGames": 77,
         "faction1WinRate": 0.33766233766233766
-      },
-      {
-        "faction1": "Murderwing",
-        "faction2": "Murderwing",
-        "faction1Wins": 54,
-        "faction2Wins": 0,
-        "draws": 3,
-        "totalGames": 57,
-        "faction1WinRate": 0.9473684210526315
       },
       {
         "faction1": "Angels of Death",
@@ -14971,15 +14467,6 @@
         "draws": 0,
         "totalGames": 4,
         "faction1WinRate": 0.25
-      },
-      {
-        "faction1": "Celestian Insidiants",
-        "faction2": "Celestian Insidiants",
-        "faction1Wins": 36,
-        "faction2Wins": 0,
-        "draws": 1,
-        "totalGames": 37,
-        "faction1WinRate": 0.972972972972973
       },
       {
         "faction1": "Blades of Khaine",
@@ -15234,15 +14721,6 @@
         "faction1WinRate": 0.3333333333333333
       },
       {
-        "faction1": "Imperial Navy Breachers",
-        "faction2": "Imperial Navy Breachers",
-        "faction1Wins": 5,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 5,
-        "faction1WinRate": 1
-      },
-      {
         "faction1": "Angels of Death",
         "faction2": "Hernkyn Yaegir",
         "faction1Wins": 11,
@@ -15340,15 +14818,6 @@
         "draws": 0,
         "totalGames": 2,
         "faction1WinRate": 0
-      },
-      {
-        "faction1": "Fellgor Ravagers",
-        "faction2": "Fellgor Ravagers",
-        "faction1Wins": 2,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 2,
-        "faction1WinRate": 1
       },
       {
         "faction1": "Kommandos",
@@ -15792,15 +15261,6 @@
         "faction1WinRate": 0.42857142857142855
       },
       {
-        "faction1": "Phobos Strike Team",
-        "faction2": "Phobos Strike Team",
-        "faction1Wins": 3,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 3,
-        "faction1WinRate": 1
-      },
-      {
         "faction1": "Celestian Insidiants",
         "faction2": "Legionary",
         "faction1Wins": 0,
@@ -16170,15 +15630,6 @@
         "faction1WinRate": 0.5
       },
       {
-        "faction1": "Blades of Khaine",
-        "faction2": "Blades of Khaine",
-        "faction1Wins": 1,
-        "faction2Wins": 0,
-        "draws": 1,
-        "totalGames": 2,
-        "faction1WinRate": 0.5
-      },
-      {
         "faction1": "Elucidian Starstriders",
         "faction2": "Void-Dancer Troupe",
         "faction1Wins": 2,
@@ -16357,15 +15808,6 @@
         "draws": 0,
         "totalGames": 3,
         "faction1WinRate": 0.6666666666666666
-      },
-      {
-        "faction1": "Brood Brothers",
-        "faction2": "Brood Brothers",
-        "faction1Wins": 34,
-        "faction2Wins": 0,
-        "draws": 10,
-        "totalGames": 44,
-        "faction1WinRate": 0.7727272727272727
       },
       {
         "faction1": "Murderwing",
@@ -16577,9 +16019,9 @@
     ]
   },
   "q2": {
-    "eventsCount": 68,
-    "totalPairings": 2113,
-    "totalPlayers": 1187,
+    "eventsCount": 69,
+    "totalPairings": 2125,
+    "totalPlayers": 1195,
     "factionStats": [
       {
         "factionName": "Hearthkyn Salvagers",
@@ -16592,7 +16034,7 @@
         "avgCritOps": 3.327272727272727,
         "avgKillOps": 3.4545454545454546,
         "avgTacOps": 3.5272727272727273,
-        "pickRate": 0.012646793134598013
+        "pickRate": 0.012556053811659192
       },
       {
         "factionName": "Veteran Guardsmen",
@@ -16605,7 +16047,7 @@
         "avgCritOps": 3.764705882352941,
         "avgKillOps": 3.176470588235294,
         "avgTacOps": 3.9411764705882355,
-        "pickRate": 0.005420054200542005
+        "pickRate": 0.0053811659192825115
       },
       {
         "factionName": "Hand of the Archon",
@@ -16618,7 +16060,7 @@
         "avgCritOps": 3.203125,
         "avgKillOps": 3.796875,
         "avgTacOps": 4.265625,
-        "pickRate": 0.015356820234869015
+        "pickRate": 0.015246636771300448
       },
       {
         "factionName": "Ratlings",
@@ -16631,7 +16073,7 @@
         "avgCritOps": 3.610169491525424,
         "avgKillOps": 3.288135593220339,
         "avgTacOps": 3.9491525423728815,
-        "pickRate": 0.015356820234869015
+        "pickRate": 0.015246636771300448
       },
       {
         "factionName": "Warp Coven",
@@ -16644,20 +16086,7 @@
         "avgCritOps": 3.3333333333333335,
         "avgKillOps": 4,
         "avgTacOps": 3.5555555555555554,
-        "pickRate": 0.0027100271002710027
-      },
-      {
-        "factionName": "Raveners",
-        "gamesPlayed": 259,
-        "wins": 143,
-        "losses": 98,
-        "draws": 18,
-        "winRate": 0.5521235521235521,
-        "avgScore": 12.59073359073359,
-        "avgCritOps": 3.447876447876448,
-        "avgKillOps": 3.305019305019305,
-        "avgTacOps": 3.772200772200772,
-        "pickRate": 0.06142728093947606
+        "pickRate": 0.0026905829596412557
       },
       {
         "factionName": "Exaction Squad",
@@ -16670,7 +16099,20 @@
         "avgCritOps": 3.4166666666666665,
         "avgKillOps": 2.6458333333333335,
         "avgTacOps": 3.6145833333333335,
-        "pickRate": 0.02168021680216802
+        "pickRate": 0.021524663677130046
+      },
+      {
+        "factionName": "Raveners",
+        "gamesPlayed": 262,
+        "wins": 144,
+        "losses": 98,
+        "draws": 20,
+        "winRate": 0.549618320610687,
+        "avgScore": 12.603053435114504,
+        "avgCritOps": 3.454198473282443,
+        "avgKillOps": 3.312977099236641,
+        "avgTacOps": 3.7709923664122136,
+        "pickRate": 0.06188340807174888
       },
       {
         "factionName": "Farstalker Kinband",
@@ -16683,7 +16125,7 @@
         "avgCritOps": 3.5833333333333335,
         "avgKillOps": 3,
         "avgTacOps": 4.208333333333333,
-        "pickRate": 0.017163504968383016
+        "pickRate": 0.017040358744394617
       },
       {
         "factionName": "Fellgor Ravagers",
@@ -16696,7 +16138,7 @@
         "avgCritOps": 3.761467889908257,
         "avgKillOps": 3.18348623853211,
         "avgTacOps": 4.110091743119266,
-        "pickRate": 0.023486901535682024
+        "pickRate": 0.023318385650224215
       },
       {
         "factionName": "Goremongers",
@@ -16709,7 +16151,7 @@
         "avgCritOps": 3.6785714285714284,
         "avgKillOps": 3.2410714285714284,
         "avgTacOps": 3.875,
-        "pickRate": 0.026196928635953028
+        "pickRate": 0.02600896860986547
       },
       {
         "factionName": "Brood Brothers",
@@ -16722,7 +16164,7 @@
         "avgCritOps": 3.5161290322580645,
         "avgKillOps": 3.096774193548387,
         "avgTacOps": 4.129032258064516,
-        "pickRate": 0.013550135501355014
+        "pickRate": 0.013452914798206279
       },
       {
         "factionName": "Inquisitorial Agents",
@@ -16735,7 +16177,7 @@
         "avgCritOps": 3.7903225806451615,
         "avgKillOps": 3.306451612903226,
         "avgTacOps": 3.8548387096774195,
-        "pickRate": 0.013550135501355014
+        "pickRate": 0.013452914798206279
       },
       {
         "factionName": "Wolf Scouts",
@@ -16748,7 +16190,7 @@
         "avgCritOps": 3.126829268292683,
         "avgKillOps": 3.204878048780488,
         "avgTacOps": 3.3609756097560974,
-        "pickRate": 0.04968383017163505
+        "pickRate": 0.04932735426008968
       },
       {
         "factionName": "Blades of Khaine",
@@ -16761,20 +16203,20 @@
         "avgCritOps": 3.4054054054054053,
         "avgKillOps": 2.9594594594594597,
         "avgTacOps": 3.6486486486486487,
-        "pickRate": 0.018066847335140017
+        "pickRate": 0.017937219730941704
       },
       {
         "factionName": "Tempestus Aquilons",
-        "gamesPlayed": 91,
-        "wins": 46,
-        "losses": 43,
+        "gamesPlayed": 94,
+        "wins": 47,
+        "losses": 45,
         "draws": 2,
-        "winRate": 0.5054945054945055,
-        "avgScore": 12.307692307692308,
-        "avgCritOps": 3.2967032967032965,
-        "avgKillOps": 2.978021978021978,
-        "avgTacOps": 3.8461538461538463,
-        "pickRate": 0.023486901535682024
+        "winRate": 0.5,
+        "avgScore": 12.25531914893617,
+        "avgCritOps": 3.265957446808511,
+        "avgKillOps": 2.9574468085106385,
+        "avgTacOps": 3.8404255319148937,
+        "pickRate": 0.0242152466367713
       },
       {
         "factionName": "Hunter Clade",
@@ -16787,33 +16229,7 @@
         "avgCritOps": 2.8333333333333335,
         "avgKillOps": 3.5,
         "avgTacOps": 3.5,
-        "pickRate": 0.0018066847335140017
-      },
-      {
-        "factionName": "Plague Marines",
-        "gamesPlayed": 146,
-        "wins": 72,
-        "losses": 71,
-        "draws": 3,
-        "winRate": 0.4931506849315068,
-        "avgScore": 12.136986301369863,
-        "avgCritOps": 3.26027397260274,
-        "avgKillOps": 3.26027397260274,
-        "avgTacOps": 3.5684931506849313,
-        "pickRate": 0.03884372177055104
-      },
-      {
-        "factionName": "Murderwing",
-        "gamesPlayed": 191,
-        "wins": 94,
-        "losses": 87,
-        "draws": 10,
-        "winRate": 0.49214659685863876,
-        "avgScore": 11.858638743455497,
-        "avgCritOps": 3.193717277486911,
-        "avgKillOps": 2.9633507853403143,
-        "avgTacOps": 3.5445026178010473,
-        "pickRate": 0.045167118337850046
+        "pickRate": 0.0017937219730941704
       },
       {
         "factionName": "Imperial Navy Breachers",
@@ -16826,7 +16242,33 @@
         "avgCritOps": 3.4126984126984126,
         "avgKillOps": 3.1904761904761907,
         "avgTacOps": 3.9047619047619047,
-        "pickRate": 0.015356820234869015
+        "pickRate": 0.015246636771300448
+      },
+      {
+        "factionName": "Plague Marines",
+        "gamesPlayed": 149,
+        "wins": 73,
+        "losses": 73,
+        "draws": 3,
+        "winRate": 0.4899328859060403,
+        "avgScore": 12.140939597315436,
+        "avgCritOps": 3.261744966442953,
+        "avgKillOps": 3.2751677852348995,
+        "avgTacOps": 3.563758389261745,
+        "pickRate": 0.039461883408071746
+      },
+      {
+        "factionName": "Murderwing",
+        "gamesPlayed": 194,
+        "wins": 95,
+        "losses": 88,
+        "draws": 11,
+        "winRate": 0.4896907216494845,
+        "avgScore": 11.850515463917526,
+        "avgCritOps": 3.1752577319587627,
+        "avgKillOps": 2.963917525773196,
+        "avgTacOps": 3.551546391752577,
+        "pickRate": 0.045739910313901344
       },
       {
         "factionName": "Hierotek Circle",
@@ -16839,7 +16281,7 @@
         "avgCritOps": 3.4078947368421053,
         "avgKillOps": 3.3684210526315788,
         "avgTacOps": 3.513157894736842,
-        "pickRate": 0.018066847335140017
+        "pickRate": 0.017937219730941704
       },
       {
         "factionName": "Mandrakes",
@@ -16852,7 +16294,7 @@
         "avgCritOps": 3.0625,
         "avgKillOps": 3.3203125,
         "avgTacOps": 3.9453125,
-        "pickRate": 0.03342366757000903
+        "pickRate": 0.033183856502242155
       },
       {
         "factionName": "Deathwatch",
@@ -16865,7 +16307,7 @@
         "avgCritOps": 3.1325301204819276,
         "avgKillOps": 3.102409638554217,
         "avgTacOps": 3.6144578313253013,
-        "pickRate": 0.037940379403794036
+        "pickRate": 0.03766816143497758
       },
       {
         "factionName": "Blooded",
@@ -16878,20 +16320,7 @@
         "avgCritOps": 3.526315789473684,
         "avgKillOps": 3.210526315789474,
         "avgTacOps": 3.210526315789474,
-        "pickRate": 0.004516711833785004
-      },
-      {
-        "factionName": "Battleclade",
-        "gamesPlayed": 112,
-        "wins": 52,
-        "losses": 56,
-        "draws": 4,
-        "winRate": 0.4642857142857143,
-        "avgScore": 11.839285714285714,
-        "avgCritOps": 3.2767857142857144,
-        "avgKillOps": 2.9285714285714284,
-        "avgTacOps": 3.517857142857143,
-        "pickRate": 0.02710027100271003
+        "pickRate": 0.004484304932735426
       },
       {
         "factionName": "Scout Squad",
@@ -16904,7 +16333,20 @@
         "avgCritOps": 3.2,
         "avgKillOps": 3.2375,
         "avgTacOps": 3.375,
-        "pickRate": 0.02168021680216802
+        "pickRate": 0.021524663677130046
+      },
+      {
+        "factionName": "Battleclade",
+        "gamesPlayed": 115,
+        "wins": 53,
+        "losses": 57,
+        "draws": 5,
+        "winRate": 0.4608695652173913,
+        "avgScore": 11.852173913043478,
+        "avgCritOps": 3.243478260869565,
+        "avgKillOps": 2.965217391304348,
+        "avgTacOps": 3.5217391304347827,
+        "pickRate": 0.02780269058295964
       },
       {
         "factionName": "Celestian Insidiants",
@@ -16917,20 +16359,33 @@
         "avgCritOps": 3.317269076305221,
         "avgKillOps": 2.8313253012048194,
         "avgTacOps": 3.646586345381526,
-        "pickRate": 0.053297199638663056
+        "pickRate": 0.05291479820627803
       },
       {
         "factionName": "Angels of Death",
-        "gamesPlayed": 323,
+        "gamesPlayed": 326,
         "wins": 145,
-        "losses": 156,
+        "losses": 159,
         "draws": 22,
-        "winRate": 0.44891640866873067,
-        "avgScore": 12.043343653250774,
-        "avgCritOps": 3.386996904024768,
-        "avgKillOps": 3.1609907120743035,
-        "avgTacOps": 3.4953560371517027,
-        "pickRate": 0.08220415537488708
+        "winRate": 0.4447852760736196,
+        "avgScore": 11.969325153374234,
+        "avgCritOps": 3.3588957055214723,
+        "avgKillOps": 3.1503067484662575,
+        "avgTacOps": 3.4723926380368098,
+        "pickRate": 0.08251121076233184
+      },
+      {
+        "factionName": "Nemesis Claw",
+        "gamesPlayed": 208,
+        "wins": 91,
+        "losses": 110,
+        "draws": 7,
+        "winRate": 0.4375,
+        "avgScore": 11.754807692307692,
+        "avgCritOps": 3.264423076923077,
+        "avgKillOps": 3.173076923076923,
+        "avgTacOps": 3.1298076923076925,
+        "pickRate": 0.05201793721973094
       },
       {
         "factionName": "Vespid Stingwings",
@@ -16943,7 +16398,7 @@
         "avgCritOps": 2.9577464788732395,
         "avgKillOps": 3.0985915492957745,
         "avgTacOps": 3.3661971830985915,
-        "pickRate": 0.018066847335140017
+        "pickRate": 0.017937219730941704
       },
       {
         "factionName": "Canoptek Circle",
@@ -16956,20 +16411,7 @@
         "avgCritOps": 3.099236641221374,
         "avgKillOps": 2.717557251908397,
         "avgTacOps": 3.4580152671755724,
-        "pickRate": 0.02981029810298103
-      },
-      {
-        "factionName": "Nemesis Claw",
-        "gamesPlayed": 205,
-        "wins": 88,
-        "losses": 110,
-        "draws": 7,
-        "winRate": 0.4292682926829268,
-        "avgScore": 11.678048780487805,
-        "avgCritOps": 3.2390243902439027,
-        "avgKillOps": 3.1463414634146343,
-        "avgTacOps": 3.1170731707317074,
-        "pickRate": 0.051490514905149054
+        "pickRate": 0.029596412556053813
       },
       {
         "factionName": "Sanctifiers",
@@ -16982,7 +16424,7 @@
         "avgCritOps": 3.642857142857143,
         "avgKillOps": 3.0357142857142856,
         "avgTacOps": 3.4642857142857144,
-        "pickRate": 0.008130081300813009
+        "pickRate": 0.008071748878923767
       },
       {
         "factionName": "Elucidian Starstriders",
@@ -16995,7 +16437,7 @@
         "avgCritOps": 1.3333333333333333,
         "avgKillOps": 1.5238095238095237,
         "avgTacOps": 1.5238095238095237,
-        "pickRate": 0.004516711833785004
+        "pickRate": 0.004484304932735426
       },
       {
         "factionName": "Corsair Voidscarred",
@@ -17008,7 +16450,7 @@
         "avgCritOps": 3,
         "avgKillOps": 2.9047619047619047,
         "avgTacOps": 3.1904761904761907,
-        "pickRate": 0.005420054200542005
+        "pickRate": 0.0053811659192825115
       },
       {
         "factionName": "Wrecka Krew",
@@ -17021,20 +16463,20 @@
         "avgCritOps": 2.871698113207547,
         "avgKillOps": 3.1962264150943396,
         "avgTacOps": 3.369811320754717,
-        "pickRate": 0.06413730803974707
+        "pickRate": 0.06367713004484304
       },
       {
         "factionName": "XV26 Stealth Battlesuits",
-        "gamesPlayed": 169,
-        "wins": 70,
-        "losses": 92,
+        "gamesPlayed": 172,
+        "wins": 72,
+        "losses": 93,
         "draws": 7,
-        "winRate": 0.41420118343195267,
-        "avgScore": 11.136094674556213,
-        "avgCritOps": 2.633136094674556,
-        "avgKillOps": 2.6863905325443787,
-        "avgTacOps": 3.6153846153846154,
-        "pickRate": 0.04065040650406504
+        "winRate": 0.4186046511627907,
+        "avgScore": 11.145348837209303,
+        "avgCritOps": 2.622093023255814,
+        "avgKillOps": 2.7093023255813953,
+        "avgTacOps": 3.622093023255814,
+        "pickRate": 0.04125560538116592
       },
       {
         "factionName": "Chaos Cult",
@@ -17047,7 +16489,7 @@
         "avgCritOps": 3.036363636363636,
         "avgKillOps": 3.4,
         "avgTacOps": 3.727272727272727,
-        "pickRate": 0.015356820234869015
+        "pickRate": 0.015246636771300448
       },
       {
         "factionName": "Hernkyn Yaegir",
@@ -17060,7 +16502,7 @@
         "avgCritOps": 3.8448275862068964,
         "avgKillOps": 2.896551724137931,
         "avgTacOps": 3.413793103448276,
-        "pickRate": 0.013550135501355014
+        "pickRate": 0.013452914798206279
       },
       {
         "factionName": "Phobos Strike Team",
@@ -17073,7 +16515,7 @@
         "avgCritOps": 3.0434782608695654,
         "avgKillOps": 3.0434782608695654,
         "avgTacOps": 3.608695652173913,
-        "pickRate": 0.006323396567299007
+        "pickRate": 0.006278026905829596
       },
       {
         "factionName": "Kasrkin",
@@ -17086,7 +16528,7 @@
         "avgCritOps": 2.8351648351648353,
         "avgKillOps": 2.901098901098901,
         "avgTacOps": 3.7362637362637363,
-        "pickRate": 0.02168021680216802
+        "pickRate": 0.021524663677130046
       },
       {
         "factionName": "Void-Dancer Troupe",
@@ -17099,7 +16541,7 @@
         "avgCritOps": 5,
         "avgKillOps": 1.6666666666666667,
         "avgTacOps": 2.6666666666666665,
-        "pickRate": 0.0009033423667570009
+        "pickRate": 0.0008968609865470852
       },
       {
         "factionName": "Legionary",
@@ -17112,7 +16554,7 @@
         "avgCritOps": 3.0714285714285716,
         "avgKillOps": 2.5714285714285716,
         "avgTacOps": 2.642857142857143,
-        "pickRate": 0.007226738934056007
+        "pickRate": 0.007174887892376682
       },
       {
         "factionName": "Kommandos",
@@ -17125,7 +16567,7 @@
         "avgCritOps": 2.4285714285714284,
         "avgKillOps": 2.642857142857143,
         "avgTacOps": 1.9285714285714286,
-        "pickRate": 0.0036133694670280035
+        "pickRate": 0.003587443946188341
       },
       {
         "factionName": "Wyrmblade",
@@ -17138,7 +16580,7 @@
         "avgCritOps": 2.3333333333333335,
         "avgKillOps": 2.6666666666666665,
         "avgTacOps": 2.3333333333333335,
-        "pickRate": 0.0027100271002710027
+        "pickRate": 0.0026905829596412557
       },
       {
         "factionName": "Pathfinders",
@@ -17151,7 +16593,7 @@
         "avgCritOps": 2.2222222222222223,
         "avgKillOps": 2.888888888888889,
         "avgTacOps": 1.3333333333333333,
-        "pickRate": 0.0027100271002710027
+        "pickRate": 0.0026905829596412557
       }
     ],
     "matchups": [
@@ -17175,21 +16617,12 @@
       },
       {
         "faction1": "Plague Marines",
-        "faction2": "Plague Marines",
-        "faction1Wins": 2,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 2,
-        "faction1WinRate": 1
-      },
-      {
-        "faction1": "Plague Marines",
         "faction2": "Raveners",
         "faction1Wins": 2,
-        "faction2Wins": 5,
+        "faction2Wins": 6,
         "draws": 1,
-        "totalGames": 8,
-        "faction1WinRate": 0.25
+        "totalGames": 9,
+        "faction1WinRate": 0.2222222222222222
       },
       {
         "faction1": "Deathwatch",
@@ -17241,9 +16674,9 @@
         "faction2": "Raveners",
         "faction1Wins": 2,
         "faction2Wins": 2,
-        "draws": 1,
-        "totalGames": 5,
-        "faction1WinRate": 0.4
+        "draws": 2,
+        "totalGames": 6,
+        "faction1WinRate": 0.3333333333333333
       },
       {
         "faction1": "Mandrakes",
@@ -17498,15 +16931,6 @@
         "faction1WinRate": 0.5
       },
       {
-        "faction1": "Wrecka Krew",
-        "faction2": "Wrecka Krew",
-        "faction1Wins": 10,
-        "faction2Wins": 0,
-        "draws": 1,
-        "totalGames": 11,
-        "faction1WinRate": 0.9090909090909091
-      },
-      {
         "faction1": "Blades of Khaine",
         "faction2": "Fellgor Ravagers",
         "faction1Wins": 2,
@@ -17613,15 +17037,6 @@
         "draws": 0,
         "totalGames": 2,
         "faction1WinRate": 0
-      },
-      {
-        "faction1": "Canoptek Circle",
-        "faction2": "Canoptek Circle",
-        "faction1Wins": 3,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 3,
-        "faction1WinRate": 1
       },
       {
         "faction1": "Wrecka Krew",
@@ -17808,18 +17223,9 @@
         "faction2": "Raveners",
         "faction1Wins": 5,
         "faction2Wins": 8,
-        "draws": 1,
-        "totalGames": 14,
-        "faction1WinRate": 0.35714285714285715
-      },
-      {
-        "faction1": "Murderwing",
-        "faction2": "Murderwing",
-        "faction1Wins": 5,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 5,
-        "faction1WinRate": 1
+        "draws": 2,
+        "totalGames": 15,
+        "faction1WinRate": 0.3333333333333333
       },
       {
         "faction1": "Celestian Insidiants",
@@ -17912,15 +17318,6 @@
         "faction1WinRate": 0.2727272727272727
       },
       {
-        "faction1": "Celestian Insidiants",
-        "faction2": "Celestian Insidiants",
-        "faction1Wins": 7,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 7,
-        "faction1WinRate": 1
-      },
-      {
         "faction1": "Ratlings",
         "faction2": "Scout Squad",
         "faction1Wins": 1,
@@ -17960,10 +17357,10 @@
         "faction1": "Murderwing",
         "faction2": "XV26 Stealth Battlesuits",
         "faction1Wins": 6,
-        "faction2Wins": 2,
+        "faction2Wins": 3,
         "draws": 0,
-        "totalGames": 8,
-        "faction1WinRate": 0.75
+        "totalGames": 9,
+        "faction1WinRate": 0.6666666666666666
       },
       {
         "faction1": "Elucidian Starstriders",
@@ -17986,11 +17383,11 @@
       {
         "faction1": "Nemesis Claw",
         "faction2": "XV26 Stealth Battlesuits",
-        "faction1Wins": 5,
+        "faction1Wins": 6,
         "faction2Wins": 5,
         "draws": 0,
-        "totalGames": 10,
-        "faction1WinRate": 0.5
+        "totalGames": 11,
+        "faction1WinRate": 0.5454545454545454
       },
       {
         "faction1": "Murderwing",
@@ -18113,10 +17510,10 @@
         "faction1": "Angels of Death",
         "faction2": "Battleclade",
         "faction1Wins": 3,
-        "faction2Wins": 7,
+        "faction2Wins": 8,
         "draws": 0,
-        "totalGames": 10,
-        "faction1WinRate": 0.3
+        "totalGames": 11,
+        "faction1WinRate": 0.2727272727272727
       },
       {
         "faction1": "Mandrakes",
@@ -18135,15 +17532,6 @@
         "draws": 2,
         "totalGames": 18,
         "faction1WinRate": 0.4444444444444444
-      },
-      {
-        "faction1": "Battleclade",
-        "faction2": "Battleclade",
-        "faction1Wins": 2,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 2,
-        "faction1WinRate": 1
       },
       {
         "faction1": "Fellgor Ravagers",
@@ -18200,15 +17588,6 @@
         "faction1WinRate": 0.25
       },
       {
-        "faction1": "Deathwatch",
-        "faction2": "Deathwatch",
-        "faction1Wins": 6,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 6,
-        "faction1WinRate": 1
-      },
-      {
         "faction1": "Angels of Death",
         "faction2": "Fellgor Ravagers",
         "faction1Wins": 1,
@@ -18221,10 +17600,10 @@
         "faction1": "Angels of Death",
         "faction2": "Tempestus Aquilons",
         "faction1Wins": 2,
-        "faction2Wins": 6,
+        "faction2Wins": 7,
         "draws": 0,
-        "totalGames": 8,
-        "faction1WinRate": 0.25
+        "totalGames": 9,
+        "faction1WinRate": 0.2222222222222222
       },
       {
         "faction1": "Blades of Khaine",
@@ -18275,9 +17654,9 @@
         "faction1": "Battleclade",
         "faction2": "Nemesis Claw",
         "faction1Wins": 0,
-        "faction2Wins": 4,
+        "faction2Wins": 5,
         "draws": 0,
-        "totalGames": 4,
+        "totalGames": 5,
         "faction1WinRate": 0
       },
       {
@@ -18310,11 +17689,11 @@
       {
         "faction1": "Nemesis Claw",
         "faction2": "Tempestus Aquilons",
-        "faction1Wins": 3,
+        "faction1Wins": 4,
         "faction2Wins": 2,
         "draws": 0,
-        "totalGames": 5,
-        "faction1WinRate": 0.6
+        "totalGames": 6,
+        "faction1WinRate": 0.6666666666666666
       },
       {
         "faction1": "Chaos Cult",
@@ -18635,10 +18014,10 @@
         "faction1": "Plague Marines",
         "faction2": "XV26 Stealth Battlesuits",
         "faction1Wins": 1,
-        "faction2Wins": 4,
+        "faction2Wins": 5,
         "draws": 1,
-        "totalGames": 6,
-        "faction1WinRate": 0.16666666666666666
+        "totalGames": 7,
+        "faction1WinRate": 0.14285714285714285
       },
       {
         "faction1": "Inquisitorial Agents",
@@ -18657,15 +18036,6 @@
         "draws": 0,
         "totalGames": 8,
         "faction1WinRate": 0.5
-      },
-      {
-        "faction1": "Fellgor Ravagers",
-        "faction2": "Fellgor Ravagers",
-        "faction1Wins": 2,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 2,
-        "faction1WinRate": 1
       },
       {
         "faction1": "Exaction Squad",
@@ -18929,24 +18299,6 @@
         "faction1WinRate": 0.5
       },
       {
-        "faction1": "Goremongers",
-        "faction2": "Goremongers",
-        "faction1Wins": 2,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 2,
-        "faction1WinRate": 1
-      },
-      {
-        "faction1": "XV26 Stealth Battlesuits",
-        "faction2": "XV26 Stealth Battlesuits",
-        "faction1Wins": 3,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 3,
-        "faction1WinRate": 1
-      },
-      {
         "faction1": "Deathwatch",
         "faction2": "Inquisitorial Agents",
         "faction1Wins": 2,
@@ -19035,15 +18387,6 @@
         "draws": 0,
         "totalGames": 2,
         "faction1WinRate": 0.5
-      },
-      {
-        "faction1": "Raveners",
-        "faction2": "Raveners",
-        "faction1Wins": 5,
-        "faction2Wins": 0,
-        "draws": 1,
-        "totalGames": 6,
-        "faction1WinRate": 0.8333333333333334
       },
       {
         "faction1": "Blades of Khaine",
@@ -19688,10 +19031,10 @@
         "faction1": "Angels of Death",
         "faction2": "Plague Marines",
         "faction1Wins": 5,
-        "faction2Wins": 5,
+        "faction2Wins": 6,
         "draws": 0,
-        "totalGames": 10,
-        "faction1WinRate": 0.5
+        "totalGames": 11,
+        "faction1WinRate": 0.45454545454545453
       },
       {
         "faction1": "Angels of Death",
@@ -19703,15 +19046,6 @@
         "faction1WinRate": 0.4444444444444444
       },
       {
-        "faction1": "Angels of Death",
-        "faction2": "Angels of Death",
-        "faction1Wins": 11,
-        "faction2Wins": 0,
-        "draws": 3,
-        "totalGames": 14,
-        "faction1WinRate": 0.7857142857142857
-      },
-      {
         "faction1": "Blades of Khaine",
         "faction2": "Tempestus Aquilons",
         "faction1Wins": 1,
@@ -19719,15 +19053,6 @@
         "draws": 0,
         "totalGames": 2,
         "faction1WinRate": 0.5
-      },
-      {
-        "faction1": "Wolf Scouts",
-        "faction2": "Wolf Scouts",
-        "faction1Wins": 7,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 7,
-        "faction1WinRate": 1
       },
       {
         "faction1": "Nemesis Claw",
@@ -19899,15 +19224,6 @@
         "draws": 0,
         "totalGames": 3,
         "faction1WinRate": 0.6666666666666666
-      },
-      {
-        "faction1": "Nemesis Claw",
-        "faction2": "Nemesis Claw",
-        "faction1Wins": 7,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 7,
-        "faction1WinRate": 1
       },
       {
         "faction1": "Canoptek Circle",
@@ -20227,11 +19543,11 @@
       {
         "faction1": "Murderwing",
         "faction2": "Tempestus Aquilons",
-        "faction1Wins": 3,
+        "faction1Wins": 4,
         "faction2Wins": 1,
         "draws": 1,
-        "totalGames": 5,
-        "faction1WinRate": 0.6
+        "totalGames": 6,
+        "faction1WinRate": 0.6666666666666666
       },
       {
         "faction1": "Angels of Death",
@@ -20502,15 +19818,6 @@
         "draws": 1,
         "totalGames": 3,
         "faction1WinRate": 0
-      },
-      {
-        "faction1": "Tempestus Aquilons",
-        "faction2": "Tempestus Aquilons",
-        "faction1Wins": 2,
-        "faction2Wins": 0,
-        "draws": 0,
-        "totalGames": 2,
-        "faction1WinRate": 1
       },
       {
         "faction1": "Angels of Death",

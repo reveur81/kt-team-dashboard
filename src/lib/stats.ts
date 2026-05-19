@@ -159,6 +159,9 @@ export function computeMatchups(pairings: BcpPairing[]): Matchup[] {
     const g = parsePairingToGame(p);
     if (!g) continue;
 
+    // Exclure les matchups miroir (même faction vs même faction)
+    if (g.faction1 === g.faction2) continue;
+
     const [sorted1, sorted2] = [g.faction1, g.faction2].sort();
     const key = matchupKey(g.faction1, g.faction2);
 

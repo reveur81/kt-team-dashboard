@@ -90,9 +90,7 @@ export default function BattleSimulator({
         <div className="flex flex-wrap gap-1.5 max-h-40 overflow-y-auto">
           {availableFactions.map((f) => {
             const isSelected = opponentTeam.includes(f);
-            const isMyTeam = myTeam.includes(f);
-            const disabled =
-              isMyTeam || (!isSelected && opponentTeam.length >= 5);
+            const disabled = !isSelected && opponentTeam.length >= 5;
             return (
               <button
                 key={f}
@@ -208,6 +206,9 @@ export default function BattleSimulator({
                       {best.myFaction}{" "}
                       <span className="font-bold">
                         {(best.winRate * 100).toFixed(0)}%
+                      </span>
+                      <span className="text-xs opacity-60 ml-1">
+                        ({best.games}g)
                       </span>
                     </div>
                   </div>
