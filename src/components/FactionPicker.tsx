@@ -33,8 +33,8 @@ export default function FactionPicker({
               onClick={() => onToggle(f.factionName)}
               disabled={disabled}
               className={`
-                px-3 py-2 rounded-lg text-sm font-medium text-left transition-colors
-                border-2 w-full min-h-[52px]
+                px-2 py-2 rounded-lg text-sm font-medium text-left transition-colors
+                border-2 overflow-hidden box-border
                 ${
                   isSelected
                     ? "bg-amber-600 text-white border-amber-400"
@@ -44,8 +44,8 @@ export default function FactionPicker({
                 }
               `}
             >
-              <div className="truncate">{f.factionName}</div>
-              <div className="text-xs mt-0.5 opacity-70">
+              <div className="truncate text-xs sm:text-sm">{f.factionName}</div>
+              <div className="text-[10px] sm:text-xs mt-0.5 opacity-70">
                 {(f.winRate * 100).toFixed(1)}% WR &middot; {f.gamesPlayed}g
               </div>
             </button>
