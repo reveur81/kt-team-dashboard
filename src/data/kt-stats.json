@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T18:34:59.552Z",
+  "generatedAt": "2026-05-19T18:58:19.716Z",
   "period": {
     "start": "2026-01-01",
     "end": "2026-05-19"
@@ -70,7 +70,10 @@
         "avgCritOps": 3.3753903810118677,
         "avgKillOps": 3.1286695815115553,
         "avgTacOps": 3.4978138663335416,
-        "pickRate": 0.049078416403097395
+        "pickRate": 0.049078416403097395,
+        "avgMarginWin": 7.926220204313281,
+        "avgMarginLoss": -6.8544303797468356,
+        "profile": "Dominante"
       },
       {
         "factionName": "Wolf Scouts",
@@ -83,7 +86,10 @@
         "avgCritOps": 3.2016742770167426,
         "avgKillOps": 3.4318873668188736,
         "avgTacOps": 3.434931506849315,
-        "pickRate": 0.07950703457301778
+        "pickRate": 0.07950703457301778,
+        "avgMarginWin": 7.913623595505618,
+        "avgMarginLoss": -6.765088207985144,
+        "profile": "Dominante"
       },
       {
         "factionName": "Inquisitorial Agents",
@@ -96,7 +102,10 @@
         "avgCritOps": 3.453333333333333,
         "avgKillOps": 3.02,
         "avgTacOps": 3.6066666666666665,
-        "pickRate": 0.01286945141236776
+        "pickRate": 0.01286945141236776,
+        "avgMarginWin": 6.884462151394422,
+        "avgMarginLoss": -7.242105263157895,
+        "profile": "Contrôleuse"
       },
       {
         "factionName": "Gellerpox Infected",
@@ -109,7 +118,10 @@
         "avgCritOps": 2.861111111111111,
         "avgKillOps": 2.4166666666666665,
         "avgTacOps": 2.4722222222222223,
-        "pickRate": 0.0011996946231868251
+        "pickRate": 0.0011996946231868251,
+        "avgMarginWin": 5.578947368421052,
+        "avgMarginLoss": -8.4,
+        "profile": "Chanceuse"
       },
       {
         "factionName": "Corsair Voidscarred",
@@ -122,7 +134,10 @@
         "avgCritOps": 2.917525773195876,
         "avgKillOps": 2.7938144329896906,
         "avgTacOps": 2.9536082474226806,
-        "pickRate": 0.005998473115934126
+        "pickRate": 0.005998473115934126,
+        "avgMarginWin": 6.445544554455446,
+        "avgMarginLoss": -7.333333333333333,
+        "profile": "Défensive"
       },
       {
         "factionName": "Chaos Cult",
@@ -135,7 +150,10 @@
         "avgCritOps": 3.201923076923077,
         "avgKillOps": 3.2153846153846155,
         "avgTacOps": 3.542307692307692,
-        "pickRate": 0.014723524920929218
+        "pickRate": 0.014723524920929218,
+        "avgMarginWin": 6.553030303030303,
+        "avgMarginLoss": -6.624434389140271,
+        "profile": "Équilibrée"
       },
       {
         "factionName": "Mandrakes",
@@ -148,7 +166,10 @@
         "avgCritOps": 3.212406015037594,
         "avgKillOps": 3.361842105263158,
         "avgTacOps": 3.7847744360902253,
-        "pickRate": 0.03162831279310721
+        "pickRate": 0.03162831279310721,
+        "avgMarginWin": 8.134057971014492,
+        "avgMarginLoss": -6.9654427645788335,
+        "profile": "Offensive"
       },
       {
         "factionName": "Hunter Clade",
@@ -161,7 +182,10 @@
         "avgCritOps": 2.69811320754717,
         "avgKillOps": 2.9622641509433962,
         "avgTacOps": 2.7169811320754715,
-        "pickRate": 0.0032718944268731597
+        "pickRate": 0.0032718944268731597,
+        "avgMarginWin": 7.339285714285714,
+        "avgMarginLoss": -7.553191489361702,
+        "profile": "Explosive"
       },
       {
         "factionName": "Elucidian Starstriders",
@@ -174,7 +198,10 @@
         "avgCritOps": 3.141304347826087,
         "avgKillOps": 2.9402173913043477,
         "avgTacOps": 3.3967391304347827,
-        "pickRate": 0.0055622205256843716
+        "pickRate": 0.0055622205256843716,
+        "avgMarginWin": 8.391304347826088,
+        "avgMarginLoss": -6.30379746835443,
+        "profile": "Offensive"
       },
       {
         "factionName": "Raveners",
@@ -187,7 +214,10 @@
         "avgCritOps": 3.180940892641737,
         "avgKillOps": 3.149577804583836,
         "avgTacOps": 3.1248492159227985,
-        "pickRate": 0.048969353255534954
+        "pickRate": 0.048969353255534954,
+        "avgMarginWin": 6.495157384987894,
+        "avgMarginLoss": -6.79696132596685,
+        "profile": "Équilibrée"
       },
       {
         "factionName": "Brood Brothers",
@@ -200,7 +230,10 @@
         "avgCritOps": 3.327332242225859,
         "avgKillOps": 2.944353518821604,
         "avgTacOps": 3.8543371522094927,
-        "pickRate": 0.019195113970989202
+        "pickRate": 0.019195113970989202,
+        "avgMarginWin": 7.061688311688312,
+        "avgMarginLoss": -6.9489051094890515,
+        "profile": "Équilibrée"
       },
       {
         "factionName": "Hand of the Archon",
@@ -213,7 +246,10 @@
         "avgCritOps": 2.9873817034700316,
         "avgKillOps": 3.414826498422713,
         "avgTacOps": 3.367507886435331,
-        "pickRate": 0.0177772930526775
+        "pickRate": 0.0177772930526775,
+        "avgMarginWin": 7.61128526645768,
+        "avgMarginLoss": -7.73943661971831,
+        "profile": "Explosive"
       },
       {
         "factionName": "Imperial Navy Breachers",
@@ -226,7 +262,10 @@
         "avgCritOps": 3.186301369863014,
         "avgKillOps": 2.967123287671233,
         "avgTacOps": 3.8164383561643835,
-        "pickRate": 0.010688188461118988
+        "pickRate": 0.010688188461118988,
+        "avgMarginWin": 6.9890710382513666,
+        "avgMarginLoss": -6.509090909090909,
+        "profile": "Équilibrée"
       },
       {
         "factionName": "Canoptek Circle",
@@ -239,7 +278,10 @@
         "avgCritOps": 3.026173285198556,
         "avgKillOps": 2.7879061371841156,
         "avgTacOps": 3.371841155234657,
-        "pickRate": 0.03304613371141891
+        "pickRate": 0.03304613371141891,
+        "avgMarginWin": 6.289134438305709,
+        "avgMarginLoss": -6.648330058939096,
+        "profile": "Équilibrée"
       },
       {
         "factionName": "Wrecka Krew",
@@ -252,7 +294,10 @@
         "avgCritOps": 2.900262467191601,
         "avgKillOps": 3.2808398950131235,
         "avgTacOps": 3.146981627296588,
-        "pickRate": 0.06914603555458611
+        "pickRate": 0.06914603555458611,
+        "avgMarginWin": 7.75044404973357,
+        "avgMarginLoss": -7.68655303030303,
+        "profile": "Explosive"
       },
       {
         "factionName": "Phobos Strike Team",
@@ -265,7 +310,10 @@
         "avgCritOps": 3.0944444444444446,
         "avgKillOps": 3.4611111111111112,
         "avgTacOps": 3.15,
-        "pickRate": 0.006107536263496564
+        "pickRate": 0.006107536263496564,
+        "avgMarginWin": 7.606741573033708,
+        "avgMarginLoss": -7.011764705882353,
+        "profile": "Offensive"
       },
       {
         "factionName": "Farstalker Kinband",
@@ -278,7 +326,10 @@
         "avgCritOps": 3.3659574468085105,
         "avgKillOps": 2.880851063829787,
         "avgTacOps": 3.547517730496454,
-        "pickRate": 0.019740429708801396
+        "pickRate": 0.019740429708801396,
+        "avgMarginWin": 7.331360946745562,
+        "avgMarginLoss": -6.813455657492355,
+        "profile": "Offensive"
       },
       {
         "factionName": "Fellgor Ravagers",
@@ -291,7 +342,10 @@
         "avgCritOps": 3.3424878836833605,
         "avgKillOps": 2.7980613893376414,
         "avgTacOps": 3.5993537964458806,
-        "pickRate": 0.018213545642927254
+        "pickRate": 0.018213545642927254,
+        "avgMarginWin": 6.794612794612795,
+        "avgMarginLoss": -6.3517241379310345,
+        "profile": "Équilibrée"
       },
       {
         "factionName": "Blades of Khaine",
@@ -304,7 +358,10 @@
         "avgCritOps": 3.2560240963855422,
         "avgKillOps": 3.1174698795180724,
         "avgTacOps": 3.549698795180723,
-        "pickRate": 0.019304177118551643
+        "pickRate": 0.019304177118551643,
+        "avgMarginWin": 7.371517027863777,
+        "avgMarginLoss": -7.313664596273292,
+        "profile": "Offensive"
       },
       {
         "factionName": "[deleted, duplicate] Plague Marines",
@@ -317,7 +374,10 @@
         "avgCritOps": 2.4166666666666665,
         "avgKillOps": 2.75,
         "avgTacOps": 2.25,
-        "pickRate": 0
+        "pickRate": 0,
+        "avgMarginWin": 11,
+        "avgMarginLoss": -8,
+        "profile": "Explosive"
       },
       {
         "factionName": "Exaction Squad",
@@ -330,7 +390,10 @@
         "avgCritOps": 3.2509727626459144,
         "avgKillOps": 2.678988326848249,
         "avgTacOps": 3.342412451361868,
-        "pickRate": 0.015159777511178973
+        "pickRate": 0.015159777511178973,
+        "avgMarginWin": 6.82520325203252,
+        "avgMarginLoss": -7.748987854251012,
+        "profile": "Défensive"
       },
       {
         "factionName": "Goremongers",
@@ -343,7 +406,10 @@
         "avgCritOps": 3.347776510832383,
         "avgKillOps": 2.9395667046750287,
         "avgTacOps": 3.3272519954389965,
-        "pickRate": 0.024430145053986257
+        "pickRate": 0.024430145053986257,
+        "avgMarginWin": 7.426829268292683,
+        "avgMarginLoss": -7.556900726392252,
+        "profile": "Explosive"
       },
       {
         "factionName": "Nemesis Claw",
@@ -356,7 +422,10 @@
         "avgCritOps": 3.197498354180382,
         "avgKillOps": 3.2323897300855826,
         "avgTacOps": 2.9763001974983543,
-        "pickRate": 0.04646090086159887
+        "pickRate": 0.04646090086159887,
+        "avgMarginWin": 7.488980716253444,
+        "avgMarginLoss": -7.069577080491133,
+        "profile": "Offensive"
       },
       {
         "factionName": "Angels of Death",
@@ -369,7 +438,10 @@
         "avgCritOps": 2.975538160469667,
         "avgKillOps": 3.0861056751467713,
         "avgTacOps": 3.1267123287671232,
-        "pickRate": 0.06543788853746318
+        "pickRate": 0.06543788853746318,
+        "avgMarginWin": 7.295031055900621,
+        "avgMarginLoss": -7.432515337423313,
+        "profile": "Explosive"
       },
       {
         "factionName": "Blooded",
@@ -382,7 +454,10 @@
         "avgCritOps": 3.180451127819549,
         "avgKillOps": 3.0977443609022557,
         "avgTacOps": 2.9849624060150375,
-        "pickRate": 0.00403533645981023
+        "pickRate": 0.00403533645981023,
+        "avgMarginWin": 6.129032258064516,
+        "avgMarginLoss": -6.292307692307692,
+        "profile": "Équilibrée"
       },
       {
         "factionName": "Celestian Insidiants",
@@ -395,7 +470,10 @@
         "avgCritOps": 3.243675099866844,
         "avgKillOps": 2.8655126498002663,
         "avgTacOps": 3.515312916111851,
-        "pickRate": 0.04384338532010034
+        "pickRate": 0.04384338532010034,
+        "avgMarginWin": 6.62043795620438,
+        "avgMarginLoss": -7.188365650969529,
+        "profile": "Équilibrée"
       },
       {
         "factionName": "Legionary",
@@ -408,7 +486,10 @@
         "avgCritOps": 2.914027149321267,
         "avgKillOps": 3.0407239819004523,
         "avgTacOps": 2.751131221719457,
-        "pickRate": 0.007416294034245829
+        "pickRate": 0.007416294034245829,
+        "avgMarginWin": 7.88,
+        "avgMarginLoss": -8.435185185185185,
+        "profile": "Explosive"
       },
       {
         "factionName": "Kasrkin",
@@ -421,7 +502,10 @@
         "avgCritOps": 2.875993640699523,
         "avgKillOps": 3.057233704292528,
         "avgTacOps": 3.1558028616852147,
-        "pickRate": 0.01864979823317701
+        "pickRate": 0.01864979823317701,
+        "avgMarginWin": 7.066666666666666,
+        "avgMarginLoss": -7.680645161290323,
+        "profile": "Fragile"
       },
       {
         "factionName": "Tempestus Aquilons",
@@ -434,7 +518,10 @@
         "avgCritOps": 3.222584147665581,
         "avgKillOps": 2.753528773072747,
         "avgTacOps": 3.451682953311618,
-        "pickRate": 0.028683607808921364
+        "pickRate": 0.028683607808921364,
+        "avgMarginWin": 7.16747572815534,
+        "avgMarginLoss": -6.873913043478261,
+        "profile": "Résistante"
       },
       {
         "factionName": "Vespid Stingwings",
@@ -447,7 +534,10 @@
         "avgCritOps": 2.919191919191919,
         "avgKillOps": 2.981240981240981,
         "avgTacOps": 3.334776334776335,
-        "pickRate": 0.021158250627113098
+        "pickRate": 0.021158250627113098,
+        "avgMarginWin": 7.565916398713826,
+        "avgMarginLoss": -7.593123209169055,
+        "profile": "Kamikaze"
       },
       {
         "factionName": "Ratlings",
@@ -460,7 +550,10 @@
         "avgCritOps": 3.1025641025641026,
         "avgKillOps": 2.66025641025641,
         "avgTacOps": 3.450854700854701,
-        "pickRate": 0.013960082887992147
+        "pickRate": 0.013960082887992147,
+        "avgMarginWin": 6.197044334975369,
+        "avgMarginLoss": -6.547008547008547,
+        "profile": "Bouclier"
       },
       {
         "factionName": "Novitiates",
@@ -473,7 +566,10 @@
         "avgCritOps": 2.563380281690141,
         "avgKillOps": 2.6901408450704225,
         "avgTacOps": 2.8450704225352115,
-        "pickRate": 0.002181262951248773
+        "pickRate": 0.002181262951248773,
+        "avgMarginWin": 6.65625,
+        "avgMarginLoss": -8.405405405405405,
+        "profile": "Fragile"
       },
       {
         "factionName": "Sanctifiers",
@@ -486,7 +582,10 @@
         "avgCritOps": 3.058419243986254,
         "avgKillOps": 2.8247422680412373,
         "avgTacOps": 3.457044673539519,
-        "pickRate": 0.008397862362307777
+        "pickRate": 0.008397862362307777,
+        "avgMarginWin": 7.625,
+        "avgMarginLoss": -7.731543624161074,
+        "profile": "Kamikaze"
       },
       {
         "factionName": "Deathwatch",
@@ -499,7 +598,10 @@
         "avgCritOps": 2.9334799340296867,
         "avgKillOps": 3.0450797141286423,
         "avgTacOps": 3.090709180868609,
-        "pickRate": 0.057694405060530043
+        "pickRate": 0.057694405060530043,
+        "avgMarginWin": 7.721437740693196,
+        "avgMarginLoss": -7.746014877789586,
+        "profile": "Kamikaze"
       },
       {
         "factionName": "Hierotek Circle",
@@ -512,7 +614,10 @@
         "avgCritOps": 2.8915343915343916,
         "avgKillOps": 2.865079365079365,
         "avgTacOps": 2.9708994708994707,
-        "pickRate": 0.011560693641618497
+        "pickRate": 0.011560693641618497,
+        "avgMarginWin": 6.854304635761589,
+        "avgMarginLoss": -6.804232804232805,
+        "profile": "Bouclier"
       },
       {
         "factionName": "Hernkyn Yaegir",
@@ -525,7 +630,10 @@
         "avgCritOps": 3.1733615221987317,
         "avgKillOps": 2.788583509513742,
         "avgTacOps": 3.321353065539112,
-        "pickRate": 0.013632893445304831
+        "pickRate": 0.013632893445304831,
+        "avgMarginWin": 7.171717171717172,
+        "avgMarginLoss": -7.092741935483871,
+        "profile": "Résistante"
       },
       {
         "factionName": "Hearthkyn Salvagers",
@@ -538,7 +646,10 @@
         "avgCritOps": 2.694300518134715,
         "avgKillOps": 2.7253886010362693,
         "avgTacOps": 2.976683937823834,
-        "pickRate": 0.011451630494056059
+        "pickRate": 0.011451630494056059,
+        "avgMarginWin": 6.192546583850931,
+        "avgMarginLoss": -8.173267326732674,
+        "profile": "Fragile"
       },
       {
         "factionName": "Scout Squad",
@@ -551,7 +662,10 @@
         "avgCritOps": 2.8076923076923075,
         "avgKillOps": 2.8205128205128207,
         "avgTacOps": 3.146153846153846,
-        "pickRate": 0.012433198822118007
+        "pickRate": 0.012433198822118007,
+        "avgMarginWin": 6.441717791411043,
+        "avgMarginLoss": -6.548543689320389,
+        "profile": "Bouclier"
       },
       {
         "factionName": "Void-Dancer Troupe",
@@ -564,7 +678,10 @@
         "avgCritOps": 2.4782608695652173,
         "avgKillOps": 2.369565217391304,
         "avgTacOps": 2.7065217391304346,
-        "pickRate": 0.003053768131748282
+        "pickRate": 0.003053768131748282,
+        "avgMarginWin": 8.179487179487179,
+        "avgMarginLoss": -8.5,
+        "profile": "Kamikaze"
       },
       {
         "factionName": "Plague Marines",
@@ -577,7 +694,10 @@
         "avgCritOps": 2.813974591651543,
         "avgKillOps": 2.939201451905626,
         "avgTacOps": 3.0535390199637025,
-        "pickRate": 0.03370051259679354
+        "pickRate": 0.03370051259679354,
+        "avgMarginWin": 7.031390134529148,
+        "avgMarginLoss": -7.642123287671233,
+        "profile": "Fragile"
       },
       {
         "factionName": "Veteran Guardsmen",
@@ -590,7 +710,10 @@
         "avgCritOps": 2.7401574803149606,
         "avgKillOps": 2.716535433070866,
         "avgTacOps": 2.7007874015748032,
-        "pickRate": 0.004362525902497546
+        "pickRate": 0.004362525902497546,
+        "avgMarginWin": 7.235294117647059,
+        "avgMarginLoss": -9.323529411764707,
+        "profile": "Kamikaze"
       },
       {
         "factionName": "XV26 Stealth Battlesuits",
@@ -603,7 +726,10 @@
         "avgCritOps": 2.656940063091483,
         "avgKillOps": 2.691640378548896,
         "avgTacOps": 3.19794952681388,
-        "pickRate": 0.03882648053222816
+        "pickRate": 0.03882648053222816,
+        "avgMarginWin": 6.191780821917808,
+        "avgMarginLoss": -7.527536231884058,
+        "profile": "Fragile"
       },
       {
         "factionName": "Battleclade",
@@ -616,7 +742,10 @@
         "avgCritOps": 2.8751974723538702,
         "avgKillOps": 2.7677725118483414,
         "avgTacOps": 3.118483412322275,
-        "pickRate": 0.018322608790489695
+        "pickRate": 0.018322608790489695,
+        "avgMarginWin": 6.755102040816326,
+        "avgMarginLoss": -7.096590909090909,
+        "profile": "Bouclier"
       },
       {
         "factionName": "Wyrmblade",
@@ -629,7 +758,10 @@
         "avgCritOps": 2.505050505050505,
         "avgKillOps": 2.6161616161616164,
         "avgTacOps": 2.282828282828283,
-        "pickRate": 0.0032718944268731597
+        "pickRate": 0.0032718944268731597,
+        "avgMarginWin": 6.513513513513513,
+        "avgMarginLoss": -8.037037037037036,
+        "profile": "Fragile"
       },
       {
         "factionName": "Warp Coven",
@@ -642,7 +774,10 @@
         "avgCritOps": 2.4719101123595504,
         "avgKillOps": 2.764044943820225,
         "avgTacOps": 2.6179775280898876,
-        "pickRate": 0.003053768131748282
+        "pickRate": 0.003053768131748282,
+        "avgMarginWin": 7.484848484848484,
+        "avgMarginLoss": -8.88679245283019,
+        "profile": "Kamikaze"
       },
       {
         "factionName": "Kommandos",
@@ -655,7 +790,10 @@
         "avgCritOps": 2.210526315789474,
         "avgKillOps": 2.138755980861244,
         "avgTacOps": 2.148325358851675,
-        "pickRate": 0.006870978296433635
+        "pickRate": 0.006870978296433635,
+        "avgMarginWin": 5.826086956521739,
+        "avgMarginLoss": -8.0390625,
+        "profile": "Fragile"
       },
       {
         "factionName": "Pathfinders",
@@ -668,7 +806,10 @@
         "avgCritOps": 2.0933333333333333,
         "avgKillOps": 2.4,
         "avgTacOps": 2.013333333333333,
-        "pickRate": 0.002181262951248773
+        "pickRate": 0.002181262951248773,
+        "avgMarginWin": 7.105263157894737,
+        "avgMarginLoss": -8.58695652173913,
+        "profile": "Kamikaze"
       }
     ],
     "matchups": [
@@ -8115,7 +8256,10 @@
         "avgCritOps": 3.3987297106563163,
         "avgKillOps": 3.1559633027522938,
         "avgTacOps": 3.4876499647141848,
-        "pickRate": 0.0495406009436305
+        "pickRate": 0.0495406009436305,
+        "avgMarginWin": 8.04551201011378,
+        "avgMarginLoss": -6.6502732240437155,
+        "profile": "Dominante"
       },
       {
         "factionName": "Inquisitorial Agents",
@@ -8128,7 +8272,10 @@
         "avgCritOps": 3.3974358974358974,
         "avgKillOps": 2.9743589743589745,
         "avgTacOps": 3.571794871794872,
-        "pickRate": 0.012788676434070027
+        "pickRate": 0.012788676434070027,
+        "avgMarginWin": 6.834862385321101,
+        "avgMarginLoss": -7.45398773006135,
+        "profile": "Chanceuse"
       },
       {
         "factionName": "Wolf Scouts",
@@ -8141,7 +8288,10 @@
         "avgCritOps": 3.2084530160032827,
         "avgKillOps": 3.449322938038572,
         "avgTacOps": 3.439474764054165,
-        "pickRate": 0.0836851254035262
+        "pickRate": 0.0836851254035262,
+        "avgMarginWin": 7.872163388804841,
+        "avgMarginLoss": -6.701807228915663,
+        "profile": "Dominante"
       },
       {
         "factionName": "Corsair Voidscarred",
@@ -8154,7 +8304,10 @@
         "avgCritOps": 2.907514450867052,
         "avgKillOps": 2.7803468208092488,
         "avgTacOps": 2.9248554913294798,
-        "pickRate": 0.00608393344921778
+        "pickRate": 0.00608393344921778,
+        "avgMarginWin": 6.663043478260869,
+        "avgMarginLoss": -7.194444444444445,
+        "profile": "Contrôleuse"
       },
       {
         "factionName": "Chaos Cult",
@@ -8167,7 +8320,10 @@
         "avgCritOps": 3.221505376344086,
         "avgKillOps": 3.193548387096774,
         "avgTacOps": 3.520430107526882,
-        "pickRate": 0.014651105040973429
+        "pickRate": 0.014651105040973429,
+        "avgMarginWin": 6.652892561983471,
+        "avgMarginLoss": -6.492146596858639,
+        "profile": "Contrôleuse"
       },
       {
         "factionName": "Gellerpox Infected",
@@ -8180,7 +8336,10 @@
         "avgCritOps": 2.861111111111111,
         "avgKillOps": 2.4166666666666665,
         "avgTacOps": 2.4722222222222223,
-        "pickRate": 0.0013657809783958281
+        "pickRate": 0.0013657809783958281,
+        "avgMarginWin": 5.578947368421052,
+        "avgMarginLoss": -8.4,
+        "profile": "Chanceuse"
       },
       {
         "factionName": "Mandrakes",
@@ -8193,7 +8352,10 @@
         "avgCritOps": 3.2334754797441363,
         "avgKillOps": 3.366737739872068,
         "avgTacOps": 3.7643923240938166,
-        "pickRate": 0.03141296250310405
+        "pickRate": 0.03141296250310405,
+        "avgMarginWin": 8.091649694501019,
+        "avgMarginLoss": -6.9475,
+        "profile": "Dominante"
       },
       {
         "factionName": "Elucidian Starstriders",
@@ -8206,7 +8368,10 @@
         "avgCritOps": 3.3333333333333335,
         "avgKillOps": 3.084848484848485,
         "avgTacOps": 3.5939393939393938,
-        "pickRate": 0.005711447727837099
+        "pickRate": 0.005711447727837099,
+        "avgMarginWin": 8.130952380952381,
+        "avgMarginLoss": -6.188405797101449,
+        "profile": "Offensive"
       },
       {
         "factionName": "Hunter Clade",
@@ -8219,7 +8384,10 @@
         "avgCritOps": 2.69,
         "avgKillOps": 2.93,
         "avgTacOps": 2.67,
-        "pickRate": 0.003476533399553017
+        "pickRate": 0.003476533399553017,
+        "avgMarginWin": 7.528301886792453,
+        "avgMarginLoss": -7.704545454545454,
+        "profile": "Explosive"
       },
       {
         "factionName": "Phobos Strike Team",
@@ -8232,7 +8400,10 @@
         "avgCritOps": 3.1019108280254777,
         "avgKillOps": 3.522292993630573,
         "avgTacOps": 3.082802547770701,
-        "pickRate": 0.00608393344921778
+        "pickRate": 0.00608393344921778,
+        "avgMarginWin": 7.675,
+        "avgMarginLoss": -7.28169014084507,
+        "profile": "Offensive"
       },
       {
         "factionName": "Imperial Navy Breachers",
@@ -8245,7 +8416,10 @@
         "avgCritOps": 3.1390728476821192,
         "avgKillOps": 2.9205298013245033,
         "avgTacOps": 3.7980132450331126,
-        "pickRate": 0.01005711447727837
+        "pickRate": 0.01005711447727837,
+        "avgMarginWin": 7.078947368421052,
+        "avgMarginLoss": -6.659259259259259,
+        "profile": "Offensive"
       },
       {
         "factionName": "Brood Brothers",
@@ -8258,7 +8432,10 @@
         "avgCritOps": 3.3060109289617485,
         "avgKillOps": 2.9271402550091077,
         "avgTacOps": 3.8233151183970855,
-        "pickRate": 0.01999006704742985
+        "pickRate": 0.01999006704742985,
+        "avgMarginWin": 7.0618181818181816,
+        "avgMarginLoss": -7.008064516129032,
+        "profile": "Équilibrée"
       },
       {
         "factionName": "Wrecka Krew",
@@ -8271,7 +8448,10 @@
         "avgCritOps": 2.9030837004405288,
         "avgKillOps": 3.2912383749388154,
         "avgTacOps": 3.1179637787567303,
-        "pickRate": 0.06990315371244102
+        "pickRate": 0.06990315371244102,
+        "avgMarginWin": 7.741935483870968,
+        "avgMarginLoss": -7.654800431499461,
+        "profile": "Explosive"
       },
       {
         "factionName": "Hand of the Archon",
@@ -8284,7 +8464,10 @@
         "avgCritOps": 2.963157894736842,
         "avgKillOps": 3.3719298245614033,
         "avgTacOps": 3.2666666666666666,
-        "pickRate": 0.018127638440526447
+        "pickRate": 0.018127638440526447,
+        "avgMarginWin": 7.439716312056738,
+        "avgMarginLoss": -7.836575875486381,
+        "profile": "Explosive"
       },
       {
         "factionName": "Canoptek Circle",
@@ -8297,7 +8480,10 @@
         "avgCritOps": 3.018311291963377,
         "avgKillOps": 2.795523906408952,
         "avgTacOps": 3.363173957273652,
-        "pickRate": 0.03352371492426124
+        "pickRate": 0.03352371492426124,
+        "avgMarginWin": 6.288343558282208,
+        "avgMarginLoss": -6.568232662192393,
+        "profile": "Équilibrée"
       },
       {
         "factionName": "Raveners",
@@ -8310,7 +8496,10 @@
         "avgCritOps": 3.1328125,
         "avgKillOps": 3.1129261363636362,
         "avgTacOps": 3.0035511363636362,
-        "pickRate": 0.04718152470821952
+        "pickRate": 0.04718152470821952,
+        "avgMarginWin": 6.343522561863173,
+        "avgMarginLoss": -6.7638668779714735,
+        "profile": "Équilibrée"
       },
       {
         "factionName": "Legionary",
@@ -8323,7 +8512,10 @@
         "avgCritOps": 2.8911917098445596,
         "avgKillOps": 3.1088082901554404,
         "avgTacOps": 2.766839378238342,
-        "pickRate": 0.007449714427613608
+        "pickRate": 0.007449714427613608,
+        "avgMarginWin": 7.913043478260869,
+        "avgMarginLoss": -8.344444444444445,
+        "profile": "Explosive"
       },
       {
         "factionName": "Nemesis Claw",
@@ -8336,7 +8528,10 @@
         "avgCritOps": 3.188679245283019,
         "avgKillOps": 3.242264150943396,
         "avgTacOps": 2.963018867924528,
-        "pickRate": 0.045691581822696795
+        "pickRate": 0.045691581822696795,
+        "avgMarginWin": 7.47196261682243,
+        "avgMarginLoss": -6.998412698412698,
+        "profile": "Offensive"
       },
       {
         "factionName": "Farstalker Kinband",
@@ -8349,7 +8544,10 @@
         "avgCritOps": 3.3464566929133857,
         "avgKillOps": 2.8661417322834644,
         "avgTacOps": 3.4755905511811025,
-        "pickRate": 0.02011422895455674
+        "pickRate": 0.02011422895455674,
+        "avgMarginWin": 7.32,
+        "avgMarginLoss": -6.88628762541806,
+        "profile": "Offensive"
       },
       {
         "factionName": "Angels of Death",
@@ -8362,7 +8560,10 @@
         "avgCritOps": 2.8946162657502863,
         "avgKillOps": 3.0647193585337917,
         "avgTacOps": 3.049255441008018,
-        "pickRate": 0.06307424882046188
+        "pickRate": 0.06307424882046188,
+        "avgMarginWin": 7.288461538461538,
+        "avgMarginLoss": -7.518072289156627,
+        "profile": "Explosive"
       },
       {
         "factionName": "[deleted, duplicate] Plague Marines",
@@ -8375,7 +8576,10 @@
         "avgCritOps": 2.4166666666666665,
         "avgKillOps": 2.75,
         "avgTacOps": 2.25,
-        "pickRate": 0
+        "pickRate": 0,
+        "avgMarginWin": 11,
+        "avgMarginLoss": -8,
+        "profile": "Explosive"
       },
       {
         "factionName": "Fellgor Ravagers",
@@ -8388,7 +8592,10 @@
         "avgCritOps": 3.262645914396887,
         "avgKillOps": 2.72568093385214,
         "avgTacOps": 3.501945525291829,
-        "pickRate": 0.01750682890489198
+        "pickRate": 0.01750682890489198,
+        "avgMarginWin": 6.6125,
+        "avgMarginLoss": -6.408163265306122,
+        "profile": "Équilibrée"
       },
       {
         "factionName": "Blades of Khaine",
@@ -8401,7 +8608,10 @@
         "avgCritOps": 3.23728813559322,
         "avgKillOps": 3.1372881355932205,
         "avgTacOps": 3.5372881355932204,
-        "pickRate": 0.019493419418922273
+        "pickRate": 0.019493419418922273,
+        "avgMarginWin": 7.528169014084507,
+        "avgMarginLoss": -7.3068965517241375,
+        "profile": "Offensive"
       },
       {
         "factionName": "Kasrkin",
@@ -8414,7 +8624,10 @@
         "avgCritOps": 2.882899628252788,
         "avgKillOps": 3.08364312267658,
         "avgTacOps": 3.057620817843866,
-        "pickRate": 0.01825180034765334
+        "pickRate": 0.01825180034765334,
+        "avgMarginWin": 7.144,
+        "avgMarginLoss": -7.6498054474708175,
+        "profile": "Explosive"
       },
       {
         "factionName": "Goremongers",
@@ -8427,7 +8640,10 @@
         "avgCritOps": 3.296488946684005,
         "avgKillOps": 2.8998699609882963,
         "avgTacOps": 3.2522756827048114,
-        "pickRate": 0.024211571889744227
+        "pickRate": 0.024211571889744227,
+        "avgMarginWin": 7.5,
+        "avgMarginLoss": -7.66027397260274,
+        "profile": "Explosive"
       },
       {
         "factionName": "Blooded",
@@ -8440,7 +8656,10 @@
         "avgCritOps": 3.1228070175438596,
         "avgKillOps": 3.0789473684210527,
         "avgTacOps": 2.9473684210526314,
-        "pickRate": 0.003973181028060591
+        "pickRate": 0.003973181028060591,
+        "avgMarginWin": 6.188679245283019,
+        "avgMarginLoss": -6.163636363636364,
+        "profile": "Équilibrée"
       },
       {
         "factionName": "Celestian Insidiants",
@@ -8453,7 +8672,10 @@
         "avgCritOps": 3.2328334648776638,
         "avgKillOps": 2.8768745067087607,
         "avgTacOps": 3.483030781373323,
-        "pickRate": 0.04258753414452446
+        "pickRate": 0.04258753414452446,
+        "avgMarginWin": 6.746113989637306,
+        "avgMarginLoss": -7.162251655629139,
+        "profile": "Équilibrée"
       },
       {
         "factionName": "Exaction Squad",
@@ -8466,7 +8688,10 @@
         "avgCritOps": 3.211904761904762,
         "avgKillOps": 2.6904761904761907,
         "avgTacOps": 3.283333333333333,
-        "pickRate": 0.01427861931959275
+        "pickRate": 0.01427861931959275,
+        "avgMarginWin": 6.922680412371134,
+        "avgMarginLoss": -7.8238095238095235,
+        "profile": "Défensive"
       },
       {
         "factionName": "Vespid Stingwings",
@@ -8479,7 +8704,10 @@
         "avgCritOps": 2.914790996784566,
         "avgKillOps": 2.967845659163987,
         "avgTacOps": 3.3311897106109325,
-        "pickRate": 0.021604171840079463
+        "pickRate": 0.021604171840079463,
+        "avgMarginWin": 7.632142857142857,
+        "avgMarginLoss": -7.5474683544303796,
+        "profile": "Kamikaze"
       },
       {
         "factionName": "Tempestus Aquilons",
@@ -8492,7 +8720,10 @@
         "avgCritOps": 3.217809867629362,
         "avgKillOps": 2.732851985559567,
         "avgTacOps": 3.411552346570397,
-        "pickRate": 0.029302210081946858
+        "pickRate": 0.029302210081946858,
+        "avgMarginWin": 7.1880108991825615,
+        "avgMarginLoss": -6.810551558752998,
+        "profile": "Résistante"
       },
       {
         "factionName": "Sanctifiers",
@@ -8505,7 +8736,10 @@
         "avgCritOps": 2.9961977186311786,
         "avgKillOps": 2.802281368821293,
         "avgTacOps": 3.456273764258555,
-        "pickRate": 0.008443009684628756
+        "pickRate": 0.008443009684628756,
+        "avgMarginWin": 7.646551724137931,
+        "avgMarginLoss": -7.798507462686567,
+        "profile": "Kamikaze"
       },
       {
         "factionName": "Novitiates",
@@ -8518,7 +8752,10 @@
         "avgCritOps": 2.563380281690141,
         "avgKillOps": 2.6901408450704225,
         "avgTacOps": 2.8450704225352115,
-        "pickRate": 0.0024832381425378696
+        "pickRate": 0.0024832381425378696,
+        "avgMarginWin": 6.65625,
+        "avgMarginLoss": -8.405405405405405,
+        "profile": "Fragile"
       },
       {
         "factionName": "Deathwatch",
@@ -8531,7 +8768,10 @@
         "avgCritOps": 2.9123123123123125,
         "avgKillOps": 3.0426426426426425,
         "avgTacOps": 3.043843843843844,
-        "pickRate": 0.06046684877079712
+        "pickRate": 0.06046684877079712,
+        "avgMarginWin": 7.618980169971671,
+        "avgMarginLoss": -7.750865051903114,
+        "profile": "Kamikaze"
       },
       {
         "factionName": "Hernkyn Yaegir",
@@ -8544,7 +8784,10 @@
         "avgCritOps": 3.0795180722891566,
         "avgKillOps": 2.7734939759036146,
         "avgTacOps": 3.3084337349397592,
-        "pickRate": 0.013657809783958282
+        "pickRate": 0.013657809783958282,
+        "avgMarginWin": 7.005714285714285,
+        "avgMarginLoss": -7.216589861751152,
+        "profile": "Bouclier"
       },
       {
         "factionName": "Ratlings",
@@ -8557,7 +8800,10 @@
         "avgCritOps": 3.0293398533007334,
         "avgKillOps": 2.569682151589242,
         "avgTacOps": 3.3789731051344742,
-        "pickRate": 0.013781971691085176
+        "pickRate": 0.013781971691085176,
+        "avgMarginWin": 6.136094674556213,
+        "avgMarginLoss": -6.611374407582939,
+        "profile": "Bouclier"
       },
       {
         "factionName": "Void-Dancer Troupe",
@@ -8570,7 +8816,10 @@
         "avgCritOps": 2.393258426966292,
         "avgKillOps": 2.393258426966292,
         "avgTacOps": 2.707865168539326,
-        "pickRate": 0.0033523714924261236
+        "pickRate": 0.0033523714924261236,
+        "avgMarginWin": 8.342105263157896,
+        "avgMarginLoss": -8.729166666666666,
+        "profile": "Kamikaze"
       },
       {
         "factionName": "Scout Squad",
@@ -8583,7 +8832,10 @@
         "avgCritOps": 2.706451612903226,
         "avgKillOps": 2.7129032258064516,
         "avgTacOps": 3.087096774193548,
-        "pickRate": 0.011174571641420413
+        "pickRate": 0.011174571641420413,
+        "avgMarginWin": 6.5396825396825395,
+        "avgMarginLoss": -6.4879518072289155,
+        "profile": "Bouclier"
       },
       {
         "factionName": "XV26 Stealth Battlesuits",
@@ -8596,7 +8848,10 @@
         "avgCritOps": 2.661524500907441,
         "avgKillOps": 2.6941923774954626,
         "avgTacOps": 3.128856624319419,
-        "pickRate": 0.03849019120933698
+        "pickRate": 0.03849019120933698,
+        "avgMarginWin": 6.201357466063349,
+        "avgMarginLoss": -7.516666666666667,
+        "profile": "Fragile"
       },
       {
         "factionName": "Hierotek Circle",
@@ -8609,7 +8864,10 @@
         "avgCritOps": 2.76158940397351,
         "avgKillOps": 2.73841059602649,
         "avgTacOps": 2.834437086092715,
-        "pickRate": 0.010677924012912838
+        "pickRate": 0.010677924012912838,
+        "avgMarginWin": 6.5701754385964914,
+        "avgMarginLoss": -6.974193548387097,
+        "profile": "Bouclier"
       },
       {
         "factionName": "Plague Marines",
@@ -8622,7 +8880,10 @@
         "avgCritOps": 2.74294670846395,
         "avgKillOps": 2.8861024033437825,
         "avgTacOps": 2.9759665621734586,
-        "pickRate": 0.03290290538862677
+        "pickRate": 0.03290290538862677,
+        "avgMarginWin": 6.946666666666666,
+        "avgMarginLoss": -7.76803118908382,
+        "profile": "Fragile"
       },
       {
         "factionName": "Wyrmblade",
@@ -8635,7 +8896,10 @@
         "avgCritOps": 2.522222222222222,
         "avgKillOps": 2.611111111111111,
         "avgTacOps": 2.2777777777777777,
-        "pickRate": 0.0033523714924261236
+        "pickRate": 0.0033523714924261236,
+        "avgMarginWin": 6.257142857142857,
+        "avgMarginLoss": -8.104166666666666,
+        "profile": "Fragile"
       },
       {
         "factionName": "Hearthkyn Salvagers",
@@ -8648,7 +8912,10 @@
         "avgCritOps": 2.5891238670694863,
         "avgKillOps": 2.604229607250755,
         "avgTacOps": 2.8851963746223563,
-        "pickRate": 0.011298733548547305
+        "pickRate": 0.011298733548547305,
+        "avgMarginWin": 6.377952755905512,
+        "avgMarginLoss": -8.049180327868852,
+        "profile": "Fragile"
       },
       {
         "factionName": "Veteran Guardsmen",
@@ -8661,7 +8928,10 @@
         "avgCritOps": 2.580357142857143,
         "avgKillOps": 2.6607142857142856,
         "avgTacOps": 2.5089285714285716,
-        "pickRate": 0.004221504842314378
+        "pickRate": 0.004221504842314378,
+        "avgMarginWin": 7.190476190476191,
+        "avgMarginLoss": -9.612903225806452,
+        "profile": "Kamikaze"
       },
       {
         "factionName": "Battleclade",
@@ -8674,7 +8944,10 @@
         "avgCritOps": 2.7988505747126435,
         "avgKillOps": 2.718390804597701,
         "avgTacOps": 3.032567049808429,
-        "pickRate": 0.017010181276384404
+        "pickRate": 0.017010181276384404,
+        "avgMarginWin": 6.649484536082475,
+        "avgMarginLoss": -7.333333333333333,
+        "profile": "Bouclier"
       },
       {
         "factionName": "Warp Coven",
@@ -8687,7 +8960,10 @@
         "avgCritOps": 2.375,
         "avgKillOps": 2.625,
         "avgTacOps": 2.5125,
-        "pickRate": 0.003104047678172337
+        "pickRate": 0.003104047678172337,
+        "avgMarginWin": 7.071428571428571,
+        "avgMarginLoss": -8.83673469387755,
+        "profile": "Fragile"
       },
       {
         "factionName": "Kommandos",
@@ -8700,7 +8976,10 @@
         "avgCritOps": 2.194871794871795,
         "avgKillOps": 2.1025641025641026,
         "avgTacOps": 2.164102564102564,
-        "pickRate": 0.007325552520486714
+        "pickRate": 0.007325552520486714,
+        "avgMarginWin": 5.953846153846154,
+        "avgMarginLoss": -8,
+        "profile": "Fragile"
       },
       {
         "factionName": "Pathfinders",
@@ -8713,7 +8992,10 @@
         "avgCritOps": 2.0757575757575757,
         "avgKillOps": 2.3333333333333335,
         "avgTacOps": 2.106060606060606,
-        "pickRate": 0.002110752421157189
+        "pickRate": 0.002110752421157189,
+        "avgMarginWin": 7.166666666666667,
+        "avgMarginLoss": -8.666666666666666,
+        "profile": "Kamikaze"
       }
     ],
     "matchups": [
@@ -16034,7 +16316,10 @@
         "avgCritOps": 3.327272727272727,
         "avgKillOps": 3.4545454545454546,
         "avgTacOps": 3.5272727272727273,
-        "pickRate": 0.012556053811659192
+        "pickRate": 0.012556053811659192,
+        "avgMarginWin": 5.5,
+        "avgMarginLoss": -9.368421052631579,
+        "profile": "Chanceuse"
       },
       {
         "factionName": "Veteran Guardsmen",
@@ -16047,7 +16332,10 @@
         "avgCritOps": 3.933333333333333,
         "avgKillOps": 3.1333333333333333,
         "avgTacOps": 4.133333333333334,
-        "pickRate": 0.0053811659192825115
+        "pickRate": 0.0053811659192825115,
+        "avgMarginWin": 7.444444444444445,
+        "avgMarginLoss": -6.333333333333333,
+        "profile": "Dominante"
       },
       {
         "factionName": "Raveners",
@@ -16060,7 +16348,10 @@
         "avgCritOps": 3.452,
         "avgKillOps": 3.356,
         "avgTacOps": 3.808,
-        "pickRate": 0.06188340807174888
+        "pickRate": 0.06188340807174888,
+        "avgMarginWin": 7.244604316546763,
+        "avgMarginLoss": -7.021505376344086,
+        "profile": "Dominante"
       },
       {
         "factionName": "Ratlings",
@@ -16073,7 +16364,10 @@
         "avgCritOps": 3.610169491525424,
         "avgKillOps": 3.288135593220339,
         "avgTacOps": 3.9491525423728815,
-        "pickRate": 0.015246636771300448
+        "pickRate": 0.015246636771300448,
+        "avgMarginWin": 6.5,
+        "avgMarginLoss": -5.956521739130435,
+        "profile": "Contrôleuse"
       },
       {
         "factionName": "Exaction Squad",
@@ -16086,7 +16380,10 @@
         "avgCritOps": 3.425531914893617,
         "avgKillOps": 2.627659574468085,
         "avgTacOps": 3.606382978723404,
-        "pickRate": 0.021524663677130046
+        "pickRate": 0.021524663677130046,
+        "avgMarginWin": 6.461538461538462,
+        "avgMarginLoss": -7.324324324324325,
+        "profile": "Chanceuse"
       },
       {
         "factionName": "Hand of the Archon",
@@ -16099,7 +16396,10 @@
         "avgCritOps": 3.203125,
         "avgKillOps": 3.796875,
         "avgTacOps": 4.265625,
-        "pickRate": 0.015246636771300448
+        "pickRate": 0.015246636771300448,
+        "avgMarginWin": 8.91891891891892,
+        "avgMarginLoss": -6.814814814814815,
+        "profile": "Dominante"
       },
       {
         "factionName": "Farstalker Kinband",
@@ -16112,7 +16412,10 @@
         "avgCritOps": 3.5428571428571427,
         "avgKillOps": 3.0142857142857142,
         "avgTacOps": 4.2,
-        "pickRate": 0.017040358744394617
+        "pickRate": 0.017040358744394617,
+        "avgMarginWin": 7.421052631578948,
+        "avgMarginLoss": -6.035714285714286,
+        "profile": "Dominante"
       },
       {
         "factionName": "Brood Brothers",
@@ -16125,7 +16428,10 @@
         "avgCritOps": 3.5161290322580645,
         "avgKillOps": 3.096774193548387,
         "avgTacOps": 4.129032258064516,
-        "pickRate": 0.013452914798206279
+        "pickRate": 0.013452914798206279,
+        "avgMarginWin": 7.0606060606060606,
+        "avgMarginLoss": -6.384615384615385,
+        "profile": "Dominante"
       },
       {
         "factionName": "Fellgor Ravagers",
@@ -16138,7 +16444,10 @@
         "avgCritOps": 3.7333333333333334,
         "avgKillOps": 3.1523809523809523,
         "avgTacOps": 4.076190476190476,
-        "pickRate": 0.023318385650224215
+        "pickRate": 0.023318385650224215,
+        "avgMarginWin": 7.56140350877193,
+        "avgMarginLoss": -6.044444444444444,
+        "profile": "Dominante"
       },
       {
         "factionName": "Wolf Scouts",
@@ -16151,7 +16460,10 @@
         "avgCritOps": 3.115183246073298,
         "avgKillOps": 3.2094240837696337,
         "avgTacOps": 3.3769633507853403,
-        "pickRate": 0.04932735426008968
+        "pickRate": 0.04932735426008968,
+        "avgMarginWin": 8.450980392156863,
+        "avgMarginLoss": -7.54320987654321,
+        "profile": "Bulldozer"
       },
       {
         "factionName": "Warp Coven",
@@ -16164,7 +16476,10 @@
         "avgCritOps": 3.3333333333333335,
         "avgKillOps": 4,
         "avgTacOps": 3.5555555555555554,
-        "pickRate": 0.0026905829596412557
+        "pickRate": 0.0026905829596412557,
+        "avgMarginWin": 9.8,
+        "avgMarginLoss": -9.5,
+        "profile": "Bulldozer"
       },
       {
         "factionName": "Inquisitorial Agents",
@@ -16177,7 +16492,10 @@
         "avgCritOps": 3.816666666666667,
         "avgKillOps": 3.316666666666667,
         "avgTacOps": 3.8333333333333335,
-        "pickRate": 0.013452914798206279
+        "pickRate": 0.013452914798206279,
+        "avgMarginWin": 7.212121212121212,
+        "avgMarginLoss": -5.962962962962963,
+        "profile": "Dominante"
       },
       {
         "factionName": "Blades of Khaine",
@@ -16190,7 +16508,10 @@
         "avgCritOps": 3.4054054054054053,
         "avgKillOps": 2.9594594594594597,
         "avgTacOps": 3.6486486486486487,
-        "pickRate": 0.017937219730941704
+        "pickRate": 0.017937219730941704,
+        "avgMarginWin": 6.230769230769231,
+        "avgMarginLoss": -7.375,
+        "profile": "Défensive"
       },
       {
         "factionName": "Goremongers",
@@ -16203,7 +16524,10 @@
         "avgCritOps": 3.712962962962963,
         "avgKillOps": 3.2222222222222223,
         "avgTacOps": 3.861111111111111,
-        "pickRate": 0.02600896860986547
+        "pickRate": 0.02600896860986547,
+        "avgMarginWin": 6.982758620689655,
+        "avgMarginLoss": -6.770833333333333,
+        "profile": "Équilibrée"
       },
       {
         "factionName": "Hierotek Circle",
@@ -16216,7 +16540,10 @@
         "avgCritOps": 3.4078947368421053,
         "avgKillOps": 3.3684210526315788,
         "avgTacOps": 3.513157894736842,
-        "pickRate": 0.017937219730941704
+        "pickRate": 0.017937219730941704,
+        "avgMarginWin": 7.72972972972973,
+        "avgMarginLoss": -6.029411764705882,
+        "profile": "Offensive"
       },
       {
         "factionName": "Murderwing",
@@ -16229,7 +16556,10 @@
         "avgCritOps": 3.1956521739130435,
         "avgKillOps": 2.9184782608695654,
         "avgTacOps": 3.5760869565217392,
-        "pickRate": 0.045739910313901344
+        "pickRate": 0.045739910313901344,
+        "avgMarginWin": 6.877777777777778,
+        "avgMarginLoss": -8.204819277108435,
+        "profile": "Défensive"
       },
       {
         "factionName": "Tempestus Aquilons",
@@ -16242,7 +16572,10 @@
         "avgCritOps": 3.2666666666666666,
         "avgKillOps": 2.9444444444444446,
         "avgTacOps": 3.8222222222222224,
-        "pickRate": 0.0242152466367713
+        "pickRate": 0.0242152466367713,
+        "avgMarginWin": 7,
+        "avgMarginLoss": -7.488372093023256,
+        "profile": "Défensive"
       },
       {
         "factionName": "Imperial Navy Breachers",
@@ -16255,7 +16588,10 @@
         "avgCritOps": 3.4126984126984126,
         "avgKillOps": 3.1904761904761907,
         "avgTacOps": 3.9047619047619047,
-        "pickRate": 0.015246636771300448
+        "pickRate": 0.015246636771300448,
+        "avgMarginWin": 6.548387096774194,
+        "avgMarginLoss": -5.833333333333333,
+        "profile": "Équilibrée"
       },
       {
         "factionName": "Plague Marines",
@@ -16268,7 +16604,10 @@
         "avgCritOps": 3.282758620689655,
         "avgKillOps": 3.2896551724137932,
         "avgTacOps": 3.56551724137931,
-        "pickRate": 0.039461883408071746
+        "pickRate": 0.039461883408071746,
+        "avgMarginWin": 7.47887323943662,
+        "avgMarginLoss": -6.732394366197183,
+        "profile": "Offensive"
       },
       {
         "factionName": "Hunter Clade",
@@ -16281,7 +16620,10 @@
         "avgCritOps": 2.8333333333333335,
         "avgKillOps": 3.5,
         "avgTacOps": 3.5,
-        "pickRate": 0.0017937219730941704
+        "pickRate": 0.0017937219730941704,
+        "avgMarginWin": 4,
+        "avgMarginLoss": -5.333333333333333,
+        "profile": "Équilibrée"
       },
       {
         "factionName": "Deathwatch",
@@ -16294,7 +16636,10 @@
         "avgCritOps": 3.1623376623376624,
         "avgKillOps": 3.0714285714285716,
         "avgTacOps": 3.5974025974025974,
-        "pickRate": 0.03766816143497758
+        "pickRate": 0.03766816143497758,
+        "avgMarginWin": 8.712328767123287,
+        "avgMarginLoss": -7.6891891891891895,
+        "profile": "Explosive"
       },
       {
         "factionName": "Mandrakes",
@@ -16307,7 +16652,10 @@
         "avgCritOps": 3.0555555555555554,
         "avgKillOps": 3.3253968253968256,
         "avgTacOps": 3.9365079365079363,
-        "pickRate": 0.033183856502242155
+        "pickRate": 0.033183856502242155,
+        "avgMarginWin": 8.475409836065573,
+        "avgMarginLoss": -7.079365079365079,
+        "profile": "Offensive"
       },
       {
         "factionName": "Vespid Stingwings",
@@ -16320,7 +16668,10 @@
         "avgCritOps": 2.9577464788732395,
         "avgKillOps": 3.0985915492957745,
         "avgTacOps": 3.3661971830985915,
-        "pickRate": 0.017937219730941704
+        "pickRate": 0.017937219730941704,
+        "avgMarginWin": 6.967741935483871,
+        "avgMarginLoss": -8.030303030303031,
+        "profile": "Défensive"
       },
       {
         "factionName": "Battleclade",
@@ -16333,7 +16684,10 @@
         "avgCritOps": 3.234234234234234,
         "avgKillOps": 3,
         "avgTacOps": 3.5225225225225225,
-        "pickRate": 0.02780269058295964
+        "pickRate": 0.02780269058295964,
+        "avgMarginWin": 7.1568627450980395,
+        "avgMarginLoss": -5.818181818181818,
+        "profile": "Offensive"
       },
       {
         "factionName": "Scout Squad",
@@ -16346,7 +16700,10 @@
         "avgCritOps": 3.2,
         "avgKillOps": 3.2375,
         "avgTacOps": 3.375,
-        "pickRate": 0.021524663677130046
+        "pickRate": 0.021524663677130046,
+        "avgMarginWin": 6.108108108108108,
+        "avgMarginLoss": -6.8,
+        "profile": "Équilibrée"
       },
       {
         "factionName": "Angels of Death",
@@ -16359,7 +16716,10 @@
         "avgCritOps": 3.4496644295302015,
         "avgKillOps": 3.2114093959731544,
         "avgTacOps": 3.5805369127516777,
-        "pickRate": 0.08251121076233184
+        "pickRate": 0.08251121076233184,
+        "avgMarginWin": 7.335820895522388,
+        "avgMarginLoss": -6.952702702702703,
+        "profile": "Résistante"
       },
       {
         "factionName": "Blooded",
@@ -16372,7 +16732,10 @@
         "avgCritOps": 3.526315789473684,
         "avgKillOps": 3.210526315789474,
         "avgTacOps": 3.210526315789474,
-        "pickRate": 0.004484304932735426
+        "pickRate": 0.004484304932735426,
+        "avgMarginWin": 5.777777777777778,
+        "avgMarginLoss": -7,
+        "profile": "Bouclier"
       },
       {
         "factionName": "Celestian Insidiants",
@@ -16385,7 +16748,10 @@
         "avgCritOps": 3.302127659574468,
         "avgKillOps": 2.804255319148936,
         "avgTacOps": 3.6893617021276595,
-        "pickRate": 0.05291479820627803
+        "pickRate": 0.05291479820627803,
+        "avgMarginWin": 5.933962264150943,
+        "avgMarginLoss": -7.322033898305085,
+        "profile": "Fragile"
       },
       {
         "factionName": "Canoptek Circle",
@@ -16398,7 +16764,10 @@
         "avgCritOps": 3.088,
         "avgKillOps": 2.728,
         "avgTacOps": 3.44,
-        "pickRate": 0.029596412556053813
+        "pickRate": 0.029596412556053813,
+        "avgMarginWin": 6.296296296296297,
+        "avgMarginLoss": -7.225806451612903,
+        "profile": "Fragile"
       },
       {
         "factionName": "Nemesis Claw",
@@ -16411,7 +16780,10 @@
         "avgCritOps": 3.2577319587628866,
         "avgKillOps": 3.1649484536082473,
         "avgTacOps": 3.0670103092783507,
-        "pickRate": 0.05201793721973094
+        "pickRate": 0.05201793721973094,
+        "avgMarginWin": 7.619047619047619,
+        "avgMarginLoss": -7.504854368932039,
+        "profile": "Kamikaze"
       },
       {
         "factionName": "Sanctifiers",
@@ -16424,7 +16796,10 @@
         "avgCritOps": 3.642857142857143,
         "avgKillOps": 3.0357142857142856,
         "avgTacOps": 3.4642857142857144,
-        "pickRate": 0.008071748878923767
+        "pickRate": 0.008071748878923767,
+        "avgMarginWin": 7.416666666666667,
+        "avgMarginLoss": -7.133333333333334,
+        "profile": "Kamikaze"
       },
       {
         "factionName": "Elucidian Starstriders",
@@ -16437,7 +16812,10 @@
         "avgCritOps": 1.4736842105263157,
         "avgKillOps": 1.6842105263157894,
         "avgTacOps": 1.6842105263157894,
-        "pickRate": 0.004484304932735426
+        "pickRate": 0.004484304932735426,
+        "avgMarginWin": 11.125,
+        "avgMarginLoss": -7.1,
+        "profile": "Résistante"
       },
       {
         "factionName": "Wrecka Krew",
@@ -16450,7 +16828,10 @@
         "avgCritOps": 2.876543209876543,
         "avgKillOps": 3.1934156378600824,
         "avgTacOps": 3.3909465020576133,
-        "pickRate": 0.06367713004484304
+        "pickRate": 0.06367713004484304,
+        "avgMarginWin": 7.834951456310679,
+        "avgMarginLoss": -7.9147286821705425,
+        "profile": "Kamikaze"
       },
       {
         "factionName": "XV26 Stealth Battlesuits",
@@ -16463,7 +16844,10 @@
         "avgCritOps": 2.6265060240963853,
         "avgKillOps": 2.674698795180723,
         "avgTacOps": 3.6566265060240966,
-        "pickRate": 0.04125560538116592
+        "pickRate": 0.04125560538116592,
+        "avgMarginWin": 6.130434782608695,
+        "avgMarginLoss": -7.6,
+        "profile": "Fragile"
       },
       {
         "factionName": "Corsair Voidscarred",
@@ -16476,7 +16860,10 @@
         "avgCritOps": 3,
         "avgKillOps": 2.9047619047619047,
         "avgTacOps": 3.1904761904761907,
-        "pickRate": 0.0053811659192825115
+        "pickRate": 0.0053811659192825115,
+        "avgMarginWin": 4.222222222222222,
+        "avgMarginLoss": -8.166666666666666,
+        "profile": "Fragile"
       },
       {
         "factionName": "Hernkyn Yaegir",
@@ -16489,7 +16876,10 @@
         "avgCritOps": 3.8448275862068964,
         "avgKillOps": 2.896551724137931,
         "avgTacOps": 3.413793103448276,
-        "pickRate": 0.013452914798206279
+        "pickRate": 0.013452914798206279,
+        "avgMarginWin": 8.434782608695652,
+        "avgMarginLoss": -6.225806451612903,
+        "profile": "Résistante"
       },
       {
         "factionName": "Chaos Cult",
@@ -16502,7 +16892,10 @@
         "avgCritOps": 3.036363636363636,
         "avgKillOps": 3.4,
         "avgTacOps": 3.727272727272727,
-        "pickRate": 0.015246636771300448
+        "pickRate": 0.015246636771300448,
+        "avgMarginWin": 5.454545454545454,
+        "avgMarginLoss": -7.466666666666667,
+        "profile": "Fragile"
       },
       {
         "factionName": "Kasrkin",
@@ -16515,7 +16908,10 @@
         "avgCritOps": 2.8351648351648353,
         "avgKillOps": 2.901098901098901,
         "avgTacOps": 3.7362637362637363,
-        "pickRate": 0.021524663677130046
+        "pickRate": 0.021524663677130046,
+        "avgMarginWin": 6.514285714285714,
+        "avgMarginLoss": -7.830188679245283,
+        "profile": "Fragile"
       },
       {
         "factionName": "Phobos Strike Team",
@@ -16528,7 +16924,10 @@
         "avgCritOps": 3.0434782608695654,
         "avgKillOps": 3.0434782608695654,
         "avgTacOps": 3.608695652173913,
-        "pickRate": 0.006278026905829596
+        "pickRate": 0.006278026905829596,
+        "avgMarginWin": 7,
+        "avgMarginLoss": -5.642857142857143,
+        "profile": "Bouclier"
       },
       {
         "factionName": "Void-Dancer Troupe",
@@ -16541,7 +16940,10 @@
         "avgCritOps": 5,
         "avgKillOps": 1.6666666666666667,
         "avgTacOps": 2.6666666666666665,
-        "pickRate": 0.0008968609865470852
+        "pickRate": 0.0008968609865470852,
+        "avgMarginWin": 2,
+        "avgMarginLoss": -3,
+        "profile": "Bouclier"
       },
       {
         "factionName": "Legionary",
@@ -16554,7 +16956,10 @@
         "avgCritOps": 3.0714285714285716,
         "avgKillOps": 2.5714285714285716,
         "avgTacOps": 2.642857142857143,
-        "pickRate": 0.007174887892376682
+        "pickRate": 0.007174887892376682,
+        "avgMarginWin": 7.5,
+        "avgMarginLoss": -8.88888888888889,
+        "profile": "Kamikaze"
       },
       {
         "factionName": "Kommandos",
@@ -16567,7 +16972,10 @@
         "avgCritOps": 2.4285714285714284,
         "avgKillOps": 2.642857142857143,
         "avgTacOps": 1.9285714285714286,
-        "pickRate": 0.003587443946188341
+        "pickRate": 0.003587443946188341,
+        "avgMarginWin": 3.75,
+        "avgMarginLoss": -8.5,
+        "profile": "Fragile"
       },
       {
         "factionName": "Wyrmblade",
@@ -16580,7 +16988,10 @@
         "avgCritOps": 2.3333333333333335,
         "avgKillOps": 2.6666666666666665,
         "avgTacOps": 2.3333333333333335,
-        "pickRate": 0.0026905829596412557
+        "pickRate": 0.0026905829596412557,
+        "avgMarginWin": 11,
+        "avgMarginLoss": -7.5,
+        "profile": "Kamikaze"
       },
       {
         "factionName": "Pathfinders",
@@ -16593,7 +17004,10 @@
         "avgCritOps": 2.2222222222222223,
         "avgKillOps": 2.888888888888889,
         "avgTacOps": 1.3333333333333333,
-        "pickRate": 0.0026905829596412557
+        "pickRate": 0.0026905829596412557,
+        "avgMarginWin": 6,
+        "avgMarginLoss": -8.142857142857142,
+        "profile": "Fragile"
       }
     ],
     "matchups": [

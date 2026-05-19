@@ -6,6 +6,7 @@ import { FactionStats, Matchup } from "@/lib/types";
 import { analyzeTeam } from "@/lib/stats";
 import FactionPicker from "@/components/FactionPicker";
 import TeamSummary from "@/components/TeamSummary";
+import TeamProfiles from "@/components/TeamProfiles";
 import MatchupMatrix from "@/components/MatchupMatrix";
 import BattleSimulator from "@/components/BattleSimulator";
 import MetaOverview from "@/components/MetaOverview";
@@ -210,6 +211,8 @@ export default function Home() {
                 dangerousFactions={analysis.dangerousFactions}
                 threatFactions={analysis.threatFactions}
               />
+
+              <TeamProfiles teamStats={analysis.factionStats} />
 
               <MatchupMatrix
                 matrix={analysis.matchupMatrix}

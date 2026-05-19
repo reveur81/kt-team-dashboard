@@ -79,6 +79,10 @@ export function computeFactionStats(
       totalKillOps: number;
       totalTacOps: number;
       games: number;
+      totalMarginWin: number;
+      totalMarginLoss: number;
+      winsCount: number;
+      lossesCount: number;
     }
   > = {};
 
@@ -93,6 +97,10 @@ export function computeFactionStats(
         totalKillOps: 0,
         totalTacOps: 0,
         games: 0,
+        totalMarginWin: 0,
+        totalMarginLoss: 0,
+        winsCount: 0,
+        lossesCount: 0,
       };
     }
   }
@@ -119,33 +127,89 @@ export function computeFactionStats(
     d1.totalTacOps += g.faction1TacOps;
     d2.totalTacOps += g.faction2TacOps;
 
+    const margin1 = g.faction1Score - g.faction2Score;
+    const margin2 = g.faction2Score - g.faction1Score;
+
     if (g.faction1Result === 2) {
       d1.wins++;
+      d1.totalMarginWin += margin1;
+      d1.winsCount++;
       d2.losses++;
+      d2.totalMarginLoss += margin2;
+      d2.lossesCount++;
     } else if (g.faction2Result === 2) {
       d2.wins++;
+      d2.totalMarginWin += margin2;
+      d2.winsCount++;
       d1.losses++;
+      d1.totalMarginLoss += margin1;
+      d1.lossesCount++;
     } else {
       d1.draws++;
       d2.draws++;
     }
   }
 
+  // Seuils pour les profils
+  const allMarginWins: number[] = [];
+  const allMarginLosses: number[] = [];
+  for (const d of Object.values(factionData)) {
+    if (d.winsCount > 0) allMarginWins.push(d.totalMarginWin / d.winsCount);
+    if (d.lossesCount > 0) allMarginLosses.push(Math.abs(d.totalMarginLoss / d.lossesCount));
+  }
+  const medianMarginWin = median(allMarginWins);
+  const medianMarginLoss = median(allMarginLosses);
+
+  function getProfile(wr: number, marginWin: number, marginLoss: number): string {
+    const highWR = wr >= 0.55;
+    const lowWR = wr < 0.48;
+    const highMarginW = marginWin >= medianMarginWin;
+    const highMarginL = Math.abs(marginLoss) >= medianMarginLoss;
+
+    if (highWR && highMarginW && !highMarginL) return "Dominante";
+    if (highWR && highMarginW && highMarginL) return "Bulldozer";
+    if (highWR && !highMarginW && !highMarginL) return "Contrôleuse";
+    if (highWR && !highMarginW && highMarginL) return "Chanceuse";
+    if (lowWR && highMarginW && !highMarginL) return "Résistante";
+    if (lowWR && !highMarginW && !highMarginL) return "Bouclier";
+    if (lowWR && highMarginW && highMarginL) return "Kamikaze";
+    if (lowWR && !highMarginW && highMarginL) return "Fragile";
+    if (highMarginW && highMarginL) return "Explosive";
+    if (!highMarginW && !highMarginL) return "Équilibrée";
+    if (highMarginW) return "Offensive";
+    return "Défensive";
+  }
+
   return Object.entries(factionData)
-    .map(([name, d]) => ({
-      factionName: name,
-      gamesPlayed: d.games,
-      wins: d.wins,
-      losses: d.losses,
-      draws: d.draws,
-      winRate: (d.wins + d.losses) > 0 ? d.wins / (d.wins + d.losses) : 0,
-      avgScore: d.games > 0 ? d.totalScore / d.games : 0,
-      avgCritOps: d.games > 0 ? d.totalCritOps / d.games : 0,
-      avgKillOps: d.games > 0 ? d.totalKillOps / d.games : 0,
-      avgTacOps: d.games > 0 ? d.totalTacOps / d.games : 0,
-      pickRate: totalPlayers > 0 ? (factionPlayerCount[name] || 0) / totalPlayers : 0,
-    }))
+    .map(([name, d]) => {
+      const wr = (d.wins + d.losses) > 0 ? d.wins / (d.wins + d.losses) : 0;
+      const avgMarginWin = d.winsCount > 0 ? d.totalMarginWin / d.winsCount : 0;
+      const avgMarginLoss = d.lossesCount > 0 ? d.totalMarginLoss / d.lossesCount : 0;
+      return {
+        factionName: name,
+        gamesPlayed: d.games,
+        wins: d.wins,
+        losses: d.losses,
+        draws: d.draws,
+        winRate: wr,
+        avgScore: d.games > 0 ? d.totalScore / d.games : 0,
+        avgCritOps: d.games > 0 ? d.totalCritOps / d.games : 0,
+        avgKillOps: d.games > 0 ? d.totalKillOps / d.games : 0,
+        avgTacOps: d.games > 0 ? d.totalTacOps / d.games : 0,
+        pickRate: totalPlayers > 0 ? (factionPlayerCount[name] || 0) / totalPlayers : 0,
+        avgMarginWin,
+        avgMarginLoss,
+        profile: getProfile(wr, avgMarginWin, avgMarginLoss),
+      };
+    })
     .sort((a, b) => b.winRate - a.winRate);
+}
+
+function median(arr: number[]): number {
+  if (arr.length === 0) return 0;
+  const sorted = [...arr].sort((a, b) => a - b);
+  const mid = Math.floor(sorted.length / 2);
+  return sorted.length % 2 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
 }
 
 export function computeMatchups(pairings: BcpPairing[]): Matchup[] {

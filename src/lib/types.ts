@@ -70,7 +70,10 @@ export interface FactionStats {
   avgCritOps: number;
   avgKillOps: number;
   avgTacOps: number;
-  pickRate: number; // % of total players using this faction
+  pickRate: number;
+  avgMarginWin: number;  // marge moyenne en victoire (positif)
+  avgMarginLoss: number; // marge moyenne en défaite (négatif)
+  profile: string;       // tag de profil (Dominante, Explosive, etc.)
 }
 
 export interface Matchup {
