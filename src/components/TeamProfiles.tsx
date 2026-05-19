@@ -123,26 +123,32 @@ function marginLossColor(v: number): string {
 export default function TeamProfiles({ teamStats }: Props) {
   if (teamStats.length === 0) return null;
 
-  const avgDiff =
+  // Volatilité = moyenne de (margeV + |margeD|) par KT
+  const avgVolatility =
     teamStats.reduce((sum, f) => {
-      const expectedMargin =
-        f.winRate * f.avgMarginWin + (1 - f.winRate) * f.avgMarginLoss;
-      return sum + expectedMargin;
+      return sum + f.avgMarginWin + Math.abs(f.avgMarginLoss);
     }, 0) / teamStats.length;
+
+  // Seuils de volatilité
+  const volLabel =
+    avgVolatility >= 15 ? "Explosive" : avgVolatility >= 14 ? "Moyenne" : "Serrée";
+  const volColor =
+    avgVolatility >= 15
+      ? "text-red-400"
+      : avgVolatility >= 14
+        ? "text-yellow-300"
+        : "text-green-400";
 
   return (
     <div className="bg-neutral-900 rounded-xl p-6 border border-neutral-800">
       <div className="flex items-center justify-between mb-5">
         <h2 className="text-lg font-bold">Profils de points</h2>
         <div className="text-right">
-          <div
-            className={`text-2xl font-bold ${avgDiff >= 0 ? "text-green-400" : "text-red-400"}`}
-          >
-            {avgDiff >= 0 ? "+" : ""}
-            {avgDiff.toFixed(1)}
+          <div className={`text-2xl font-bold ${volColor}`}>
+            {avgVolatility.toFixed(1)}
           </div>
           <div className="text-[10px] text-neutral-400">
-            Diff. moyen attendu / ronde
+            Volatilité · {volLabel}
           </div>
         </div>
       </div>
