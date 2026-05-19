@@ -34,7 +34,7 @@ export default function FactionPicker({
               disabled={disabled}
               className={`
                 px-3 py-2 rounded-lg text-sm font-medium text-left transition-colors
-                border-2
+                border-2 w-full min-h-[52px]
                 ${
                   isSelected
                     ? "bg-amber-600 text-white border-amber-400"
