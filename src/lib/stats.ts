@@ -83,6 +83,10 @@ export function computeFactionStats(
       totalMarginLoss: number;
       winsCount: number;
       lossesCount: number;
+      totalScoreInWin: number;
+      totalScoreInLoss: number;
+      totalOppScoreInWin: number;
+      totalOppScoreInLoss: number;
     }
   > = {};
 
@@ -101,6 +105,10 @@ export function computeFactionStats(
         totalMarginLoss: 0,
         winsCount: 0,
         lossesCount: 0,
+        totalScoreInWin: 0,
+        totalScoreInLoss: 0,
+        totalOppScoreInWin: 0,
+        totalOppScoreInLoss: 0,
       };
     }
   }
@@ -134,16 +142,24 @@ export function computeFactionStats(
       d1.wins++;
       d1.totalMarginWin += margin1;
       d1.winsCount++;
+      d1.totalScoreInWin += g.faction1Score;
+      d1.totalOppScoreInWin += g.faction2Score;
       d2.losses++;
       d2.totalMarginLoss += margin2;
       d2.lossesCount++;
+      d2.totalScoreInLoss += g.faction2Score;
+      d2.totalOppScoreInLoss += g.faction1Score;
     } else if (g.faction2Result === 2) {
       d2.wins++;
       d2.totalMarginWin += margin2;
       d2.winsCount++;
+      d2.totalScoreInWin += g.faction2Score;
+      d2.totalOppScoreInWin += g.faction1Score;
       d1.losses++;
       d1.totalMarginLoss += margin1;
       d1.lossesCount++;
+      d1.totalScoreInLoss += g.faction1Score;
+      d1.totalOppScoreInLoss += g.faction2Score;
     } else {
       d1.draws++;
       d2.draws++;
@@ -175,9 +191,7 @@ export function computeFactionStats(
     if (lowWR && highMarginW && highMarginL) return "Kamikaze";
     if (lowWR && !highMarginW && highMarginL) return "Fragile";
     if (highMarginW && highMarginL) return "Explosive";
-    if (!highMarginW && !highMarginL) return "Équilibrée";
-    if (highMarginW) return "Offensive";
-    return "Défensive";
+    return "Équilibrée";
   }
 
   return Object.entries(factionData)
@@ -199,6 +213,10 @@ export function computeFactionStats(
         pickRate: totalPlayers > 0 ? (factionPlayerCount[name] || 0) / totalPlayers : 0,
         avgMarginWin,
         avgMarginLoss,
+        avgScoreInWin: d.winsCount > 0 ? d.totalScoreInWin / d.winsCount : 0,
+        avgScoreInLoss: d.lossesCount > 0 ? d.totalScoreInLoss / d.lossesCount : 0,
+        avgOppScoreInWin: d.winsCount > 0 ? d.totalOppScoreInWin / d.winsCount : 0,
+        avgOppScoreInLoss: d.lossesCount > 0 ? d.totalOppScoreInLoss / d.lossesCount : 0,
         profile: getProfile(wr, avgMarginWin, avgMarginLoss),
       };
     })
