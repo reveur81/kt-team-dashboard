@@ -98,6 +98,9 @@ export function computeFactionStats(
   }
 
   for (const g of games) {
+    // Exclure les matchups miroir
+    if (g.faction1 === g.faction2) continue;
+
     ensure(g.faction1);
     ensure(g.faction2);
 
