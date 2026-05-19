@@ -12,6 +12,23 @@ import MetaOverview from "@/components/MetaOverview";
 
 const TEAM_SIZE = 5;
 
+const DECLASSIFIED_KT = [
+  "Kommandos",
+  "Veteran Guardsmen",
+  "Novitiates",
+  "Pathfinders",
+  "Phobos Strike Team",
+  "Corsair Voidscarred",
+  "Legionary",
+  "Warp Coven",
+  "Wyrmblade",
+  "Hunter Clade",
+  "Void-Dancer Troupe",
+  "Blooded",
+  "Gellerpox Infected",
+  "Elucidian Starstriders",
+];
+
 type Quarter = "all" | "q1" | "q2";
 
 interface PeriodData {
@@ -24,19 +41,36 @@ interface PeriodData {
 
 const hasQuarters = "q1" in ktData;
 
-function getPeriodData(quarter: Quarter): PeriodData {
+function isDeleted(name: string) {
+  return name.toLowerCase().includes("deleted");
+}
+
+function getRawPeriodData(quarter: Quarter): PeriodData {
   const src = hasQuarters ? (ktData as any)[quarter] : ktData;
   return {
     eventsCount: src.eventsCount,
     totalPairings: src.totalPairings,
     totalPlayers: src.totalPlayers,
     factionStats: (src.factionStats as FactionStats[]).filter(
-      (f) => !f.factionName.toLowerCase().includes("deleted")
+      (f) => !isDeleted(f.factionName)
     ),
     matchups: (src.matchups as Matchup[]).filter(
+      (m) => !isDeleted(m.faction1) && !isDeleted(m.faction2)
+    ),
+  };
+}
+
+function filterDeclassified(data: PeriodData, show: boolean): PeriodData {
+  if (show) return data;
+  return {
+    ...data,
+    factionStats: data.factionStats.filter(
+      (f) => !DECLASSIFIED_KT.includes(f.factionName)
+    ),
+    matchups: data.matchups.filter(
       (m) =>
-        !m.faction1.toLowerCase().includes("deleted") &&
-        !m.faction2.toLowerCase().includes("deleted")
+        !DECLASSIFIED_KT.includes(m.faction1) &&
+        !DECLASSIFIED_KT.includes(m.faction2)
     ),
   };
 }
@@ -53,8 +87,12 @@ export default function Home() {
   const [selected, setSelected] = useState<string[]>([]);
   const [tab, setTab] = useState<Tab>("team");
   const [quarter, setQuarter] = useState<Quarter>("all");
+  const [showDeclassified, setShowDeclassified] = useState(false);
 
-  const periodData = useMemo(() => getPeriodData(quarter), [quarter]);
+  const periodData = useMemo(() => {
+    const raw = getRawPeriodData(quarter);
+    return filterDeclassified(raw, showDeclassified);
+  }, [quarter, showDeclassified]);
 
   const handleToggle = (faction: string) => {
     setSelected((prev) =>
@@ -97,7 +135,7 @@ export default function Home() {
         </p>
       </header>
 
-      {/* Tabs + Quarter filter */}
+      {/* Tabs + Quarter filter + Declassified toggle */}
       <div className="flex flex-wrap items-center gap-4 mb-6">
         <div className="flex gap-2">
           {(
@@ -138,6 +176,17 @@ export default function Home() {
             ))}
           </div>
         )}
+
+        <button
+          onClick={() => setShowDeclassified(!showDeclassified)}
+          className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-colors border ${
+            showDeclassified
+              ? "border-purple-500 bg-purple-900/30 text-purple-300"
+              : "border-neutral-700 bg-neutral-800 text-neutral-400 hover:text-white"
+          }`}
+        >
+          {showDeclassified ? "Declassified visibles" : "Declassified masquées"}
+        </button>
       </div>
 
       {tab === "meta" && (
