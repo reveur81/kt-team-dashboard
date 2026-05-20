@@ -121,7 +121,7 @@ export default function Home() {
   }, [selected, periodData]);
 
   return (
-    <main className="max-w-7xl mx-auto px-4 py-8">
+    <main className="w-full max-w-7xl mx-auto px-4 py-8 overflow-hidden">
       <header className="mb-8">
         <h1 className="text-3xl font-bold">
           <span className="text-amber-400">KT</span> Team Dashboard
