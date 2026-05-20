@@ -34,13 +34,13 @@ export default function FactionPicker({
               disabled={disabled}
               className={`
                 min-w-0 px-2 h-[52px] rounded-lg text-sm font-medium text-left transition-colors
-                border-2
+                border border-neutral-700
                 ${
                   isSelected
-                    ? "bg-amber-600 text-white border-amber-400"
+                    ? "bg-amber-600 text-white !border-amber-400"
                     : disabled
-                      ? "bg-neutral-800 text-neutral-600 border-neutral-800 cursor-not-allowed"
-                      : "bg-neutral-800 text-neutral-200 border-neutral-800 hover:bg-neutral-700 hover:border-neutral-700"
+                      ? "bg-neutral-800 text-neutral-600 cursor-not-allowed"
+                      : "bg-neutral-800 text-neutral-200 hover:bg-neutral-700"
                 }
               `}
             >
