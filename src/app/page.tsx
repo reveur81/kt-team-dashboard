@@ -134,6 +134,18 @@ export default function Home() {
             {(ktData as any).period?.start} → {(ktData as any).period?.end}
           </span>
         </p>
+        {(ktData as any).generatedAt && (
+          <p className="text-neutral-500 text-xs mt-1">
+            Données mises à jour le{" "}
+            {new Date((ktData as any).generatedAt).toLocaleDateString("fr-FR", {
+              day: "numeric",
+              month: "long",
+              year: "numeric",
+              hour: "2-digit",
+              minute: "2-digit",
+            })}
+          </p>
+        )}
       </header>
 
       {/* Tabs + Quarter filter + Declassified toggle */}
@@ -241,6 +253,19 @@ export default function Home() {
           )}
         </div>
       )}
+
+      <footer className="mt-12 pt-4 border-t border-neutral-800 text-center text-neutral-600 text-xs">
+        Version du{" "}
+        {process.env.BUILD_TIMESTAMP
+          ? new Date(process.env.BUILD_TIMESTAMP).toLocaleDateString("fr-FR", {
+              day: "numeric",
+              month: "long",
+              year: "numeric",
+              hour: "2-digit",
+              minute: "2-digit",
+            })
+          : "—"}
+      </footer>
     </main>
   );
 }
