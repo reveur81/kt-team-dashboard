@@ -13,8 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - uses: actions/setup-node@v4
         with:
@@ -29,11 +27,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          cp src/data/kt-stats.json /tmp/kt-stats.json
+          git fetch origin main
+          git checkout origin/main -- .
+          cp /tmp/kt-stats.json src/data/kt-stats.json
           git add src/data/kt-stats.json
           if git diff --cached --quiet; then
             echo "Pas de changement dans les données"
           else
             git commit -m "MAJ automatique des données KT $(date +%Y-%m-%d)"
-            git pull --rebase
-            git push
+            git push origin main
           fi
