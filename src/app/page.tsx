@@ -10,6 +10,7 @@ import TeamProfiles from "@/components/TeamProfiles";
 import MatchupMatrix from "@/components/MatchupMatrix";
 import BattleSimulator from "@/components/BattleSimulator";
 import MetaOverview from "@/components/MetaOverview";
+import AllProfiles from "@/components/AllProfiles";
 
 const TEAM_SIZE = 5;
 
@@ -82,7 +83,7 @@ const QUARTER_LABELS: Record<Quarter, string> = {
   q2: "Q2 (Mai+)",
 };
 
-type Tab = "team" | "simulator" | "meta";
+type Tab = "team" | "simulator" | "profiles" | "meta";
 
 export default function Home() {
   const [selected, setSelected] = useState<string[]>([]);
@@ -155,6 +156,7 @@ export default function Home() {
             [
               ["team", "Team Builder"],
               ["simulator", "Simulateur"],
+              ["profiles", "Profils"],
               ["meta", "Méta"],
             ] as [Tab, string][]
           ).map(([t, label]) => (
@@ -201,6 +203,10 @@ export default function Home() {
           {showDeclassified ? "Declassified visibles" : "Declassified masquées"}
         </button>
       </div>
+
+      {tab === "profiles" && (
+        <AllProfiles factionStats={periodData.factionStats} />
+      )}
 
       {tab === "meta" && (
         <MetaOverview factionStats={periodData.factionStats} />
