@@ -103,6 +103,28 @@ export interface MatchupMatrixRow {
   avgWinRate: number;
 }
 
+// Scout / Tournament types
+
+export interface TournamentStanding {
+  n: string;   // player name
+  f: string;   // faction
+  w: number;   // wins
+  l: number;   // losses
+  d: number;   // draws
+  s: number;   // total score
+  os: number;  // total opponent score
+}
+
+export interface Tournament {
+  name: string;
+  date: string;
+  players: number;
+  rounds: number;
+  country: string;
+  city: string;
+  standings: TournamentStanding[];
+}
+
 export interface TeamAnalysis {
   team: TeamSelection;
   factionStats: FactionStats[];

@@ -98,6 +98,98 @@ async function main() {
   const q1Stats = buildStats(q1Pairings, q1Players, q1Events, "Q1");
   const q2Stats = buildStats(q2Pairings, q2Players, q2Events, "Q2");
 
+  // Build tournament details for Scout tab
+  console.log("\nBuilding tournament details for Scout...");
+
+  // Index pairings by eventId
+  const pairingsByEvent: Record<string, BcpPairing[]> = {};
+  for (const p of allPairings) {
+    const eid = p.eventId;
+    if (!eid) continue;
+    if (!pairingsByEvent[eid]) pairingsByEvent[eid] = [];
+    pairingsByEvent[eid].push(p);
+  }
+
+  const tournaments: any[] = [];
+
+  for (const event of finishedEvents) {
+    const eventPairings = pairingsByEvent[event.id] || [];
+    if (eventPairings.length === 0) continue;
+
+    const playerStats: Record<string, {
+      name: string;
+      faction: string;
+      wins: number;
+      losses: number;
+      draws: number;
+      totalScore: number;
+      totalOppScore: number;
+      games: number;
+    }> = {};
+
+    for (const pairing of eventPairings) {
+      const meta = pairing.metaData;
+      if (!meta) continue;
+
+      for (const side of ["player1", "player2"] as const) {
+        const player = pairing[side];
+        if (!player?.id) continue;
+        const id = player.id;
+
+        const myScoreKey = side === "player1" ? "p1-gamePoints" : "p2-gamePoints";
+        const oppScoreKey = side === "player1" ? "p2-gamePoints" : "p1-gamePoints";
+        const myScore = Number(meta[myScoreKey]) || 0;
+        const oppScore = Number(meta[oppScoreKey]) || 0;
+
+        if (!playerStats[id]) {
+          playerStats[id] = {
+            name: `${player.firstName} ${player.lastName}`.trim(),
+            faction: player.army?.name || player.faction?.name || "Unknown",
+            wins: 0, losses: 0, draws: 0,
+            totalScore: 0, totalOppScore: 0, games: 0,
+          };
+        }
+
+        playerStats[id].games++;
+        playerStats[id].totalScore += myScore;
+        playerStats[id].totalOppScore += oppScore;
+        if (myScore > oppScore) playerStats[id].wins++;
+        else if (myScore < oppScore) playerStats[id].losses++;
+        else playerStats[id].draws++;
+      }
+    }
+
+    const players = Object.values(playerStats)
+      .filter(p => p.games > 0)
+      .sort((a, b) => {
+        if (b.wins !== a.wins) return b.wins - a.wins;
+        return (b.totalScore - b.totalOppScore) - (a.totalScore - a.totalOppScore);
+      });
+
+    if (players.length > 0) {
+      tournaments.push({
+        name: event.name,
+        date: event.eventDate?.slice(0, 10),
+        players: event.totalPlayers,
+        rounds: event.numberOfRounds,
+        country: event.country || "",
+        city: event.city || "",
+        standings: players.map(p => ({
+          n: p.name,
+          f: p.faction,
+          w: p.wins,
+          l: p.losses,
+          d: p.draws,
+          s: p.totalScore,
+          os: p.totalOppScore,
+        })),
+      });
+    }
+  }
+
+  tournaments.sort((a, b) => b.date.localeCompare(a.date));
+  console.log(`Built details for ${tournaments.length} tournaments`);
+
   const output = {
     generatedAt: new Date().toISOString(),
     period: { start: startDate, end: new Date().toISOString().split("T")[0] },
@@ -105,10 +197,11 @@ async function main() {
     all: allStats,
     q1: q1Stats,
     q2: q2Stats,
+    tournaments,
   };
 
   const outPath = join(DATA_DIR, "kt-stats.json");
-  writeFileSync(outPath, JSON.stringify(output, null, 2));
+  writeFileSync(outPath, JSON.stringify(output));
   console.log(`\nData saved to ${outPath}`);
 
   // Print top 10 factions

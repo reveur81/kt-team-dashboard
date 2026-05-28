@@ -11,6 +11,8 @@ import MatchupMatrix from "@/components/MatchupMatrix";
 import BattleSimulator from "@/components/BattleSimulator";
 import MetaOverview from "@/components/MetaOverview";
 import AllProfiles from "@/components/AllProfiles";
+import ScoutView from "@/components/ScoutView";
+import { Tournament } from "@/lib/types";
 
 const TEAM_SIZE = 5;
 
@@ -83,7 +85,7 @@ const QUARTER_LABELS: Record<Quarter, string> = {
   q2: "Q2 (Mai+)",
 };
 
-type Tab = "team" | "simulator" | "profiles" | "meta";
+type Tab = "team" | "simulator" | "profiles" | "scout" | "meta";
 
 export default function Home() {
   const [selected, setSelected] = useState<string[]>([]);
@@ -157,6 +159,7 @@ export default function Home() {
               ["team", "Team Builder"],
               ["simulator", "Simulateur"],
               ["profiles", "Profils"],
+              ["scout", "Scout"],
               ["meta", "Méta"],
             ] as [Tab, string][]
           ).map(([t, label]) => (
@@ -206,6 +209,10 @@ export default function Home() {
 
       {tab === "profiles" && (
         <AllProfiles factionStats={periodData.factionStats} />
+      )}
+
+      {tab === "scout" && (
+        <ScoutView tournaments={((ktData as any).tournaments || []) as Tournament[]} />
       )}
 
       {tab === "meta" && (
