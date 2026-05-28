@@ -154,7 +154,7 @@ export default function Home() {
 
       {/* Tabs + Quarter filter + Declassified toggle */}
       <div className="flex flex-wrap items-center gap-4 mb-6">
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2">
           {(
             [
               ["team", "Team Builder"],
