@@ -11,6 +11,86 @@ import { join } from "path";
 
 const DATA_DIR = join(__dirname, "..", "src", "data");
 
+const COUNTRY_MAP: Record<string, string> = {
+  // English variants
+  "United States": "USA",
+  "US": "USA",
+  "United Kingdom": "UK",
+  "GB": "UK",
+  "CA": "Canada",
+  "New Zealand": "New Zealand",
+  // Spanish
+  "España": "Spain",
+  "ES": "Spain",
+  "Espanya": "Spain",
+  "México": "Mexico",
+  "Mexico": "Mexico",
+  "Argentina": "Argentina",
+  "Chile": "Chile",
+  "Colombia": "Colombia",
+  "Ecuador": "Ecuador",
+  "Peru": "Peru",
+  "Perú": "Peru",
+  "Venezuela": "Venezuela",
+  "El Salvador": "El Salvador",
+  "Puerto Rico": "Puerto Rico",
+  "Brasil": "Brazil",
+  // European
+  "France": "France",
+  "Italia": "Italy",
+  "IT": "Italy",
+  "Italy": "Italy",
+  "Deutschland": "Germany",
+  "DE": "Germany",
+  "Germany": "Germany",
+  "Polska": "Poland",
+  "Poland": "Poland",
+  "PL": "Poland",
+  "Danmark": "Denmark",
+  "Denmark": "Denmark",
+  "Nederland": "Netherlands",
+  "Netherlands": "Netherlands",
+  "Portugal": "Portugal",
+  "Česko": "Czechia",
+  "CZ": "Czechia",
+  "Czechia": "Czechia",
+  "Hungary": "Hungary",
+  "Sweden": "Sweden",
+  "SE": "Sweden",
+  "Norge": "Norway",
+  "Norway": "Norway",
+  "Suomi": "Finland",
+  "Finland": "Finland",
+  "Ireland": "Ireland",
+  "Serbia": "Serbia",
+  "Slovakia": "Slovakia",
+  "Malta": "Malta",
+  "Suisse": "Switzerland",
+  "Україна": "Ukraine",
+  "Ukraine": "Ukraine",
+  // Asia / Pacific
+  "Türkiye": "Turkey",
+  "Philippines": "Philippines",
+  "Singapore": "Singapore",
+  "SG": "Singapore",
+  "Indonesia": "Indonesia",
+  "Japan": "Japan",
+  "中国": "China",
+  "Китай": "China",
+  "HK": "Hong Kong",
+  "ישראל": "Israel",
+  "ประเทศไทย": "Thailand",
+  // Other
+  "Australia": "Australia",
+  "South Africa": "South Africa",
+  "RU": "Russia",
+  "Россия": "Russia",
+};
+
+function normalizeCountry(raw: string): string {
+  return COUNTRY_MAP[raw] || raw;
+}
+
 async function main() {
   mkdirSync(DATA_DIR, { recursive: true });
 
@@ -172,7 +252,7 @@ async function main() {
         date: event.eventDate?.slice(0, 10),
         players: event.totalPlayers,
         rounds: event.numberOfRounds,
-        country: event.country || "",
+        country: normalizeCountry(event.country || ""),
         city: event.city || "",
         standings: players.map(p => ({
           n: p.name,
