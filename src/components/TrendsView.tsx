@@ -180,26 +180,20 @@ export default function TrendsView({ tournaments }: Props) {
                       : "bg-neutral-800/50 border border-transparent hover:bg-neutral-800"
                   }`}
                 >
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2 min-w-0">
+                  <div className="flex items-center justify-between gap-2">
+                    <div className="flex items-center gap-2 min-w-0 shrink-0">
                       <span className="text-base">{flag}</span>
-                      <span className="font-medium text-sm">{s.country}</span>
-                      <span className="text-amber-400 text-sm font-bold">{s.faction}</span>
+                      <span className="font-medium text-sm whitespace-nowrap">{s.country}</span>
                     </div>
-                    <div className="flex items-center gap-3 shrink-0">
-                      <span className="text-xs text-neutral-400">
+                    <div className="text-sm text-amber-400 font-bold min-w-0 truncate">{s.faction}</div>
+                    <div className="flex items-center gap-2 shrink-0">
+                      <span className="text-xs text-neutral-400 hidden sm:inline">
                         {(s.localRate * 100).toFixed(1)}% vs {(s.globalRate * 100).toFixed(1)}%
                       </span>
                       <span className="text-xs text-neutral-500">
                         ({s.localCount}/{s.countryTotal})
                       </span>
-                      <div className="w-16 bg-neutral-700 rounded-full h-1.5 hidden sm:block">
-                        <div
-                          className="bg-amber-500 h-1.5 rounded-full"
-                          style={{ width: `${barWidth}%` }}
-                        />
-                      </div>
-                      <span className={`text-sm font-bold w-12 text-right ${
+                      <span className={`text-sm font-bold w-10 text-right ${
                         s.ratio >= 3 ? "text-red-400" : s.ratio >= 2 ? "text-amber-400" : "text-yellow-300"
                       }`}>
                         {s.ratio.toFixed(1)}x
