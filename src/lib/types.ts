@@ -70,6 +70,9 @@ export interface FactionStats {
   avgCritOps: number;
   avgKillOps: number;
   avgTacOps: number;
+  avgOppCritOps: number;
+  avgOppKillOps: number;
+  avgOppTacOps: number;
   pickRate: number;
   avgMarginWin: number;
   avgMarginLoss: number;

@@ -78,6 +78,9 @@ export function computeFactionStats(
       totalCritOps: number;
       totalKillOps: number;
       totalTacOps: number;
+      totalOppCritOps: number;
+      totalOppKillOps: number;
+      totalOppTacOps: number;
       games: number;
       totalMarginWin: number;
       totalMarginLoss: number;
@@ -100,6 +103,9 @@ export function computeFactionStats(
         totalCritOps: 0,
         totalKillOps: 0,
         totalTacOps: 0,
+        totalOppCritOps: 0,
+        totalOppKillOps: 0,
+        totalOppTacOps: 0,
         games: 0,
         totalMarginWin: 0,
         totalMarginLoss: 0,
@@ -134,6 +140,12 @@ export function computeFactionStats(
     d2.totalKillOps += g.faction2KillOps;
     d1.totalTacOps += g.faction1TacOps;
     d2.totalTacOps += g.faction2TacOps;
+    d1.totalOppCritOps += g.faction2CritOps;
+    d2.totalOppCritOps += g.faction1CritOps;
+    d1.totalOppKillOps += g.faction2KillOps;
+    d2.totalOppKillOps += g.faction1KillOps;
+    d1.totalOppTacOps += g.faction2TacOps;
+    d2.totalOppTacOps += g.faction1TacOps;
 
     const margin1 = g.faction1Score - g.faction2Score;
     const margin2 = g.faction2Score - g.faction1Score;
@@ -216,6 +228,9 @@ export function computeFactionStats(
         avgCritOps: d.games > 0 ? d.totalCritOps / d.games : 0,
         avgKillOps: d.games > 0 ? d.totalKillOps / d.games : 0,
         avgTacOps: d.games > 0 ? d.totalTacOps / d.games : 0,
+        avgOppCritOps: d.games > 0 ? d.totalOppCritOps / d.games : 0,
+        avgOppKillOps: d.games > 0 ? d.totalOppKillOps / d.games : 0,
+        avgOppTacOps: d.games > 0 ? d.totalOppTacOps / d.games : 0,
         pickRate: totalPlayers > 0 ? (factionPlayerCount[name] || 0) / totalPlayers : 0,
         avgMarginWin,
         avgMarginLoss,
