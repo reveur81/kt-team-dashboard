@@ -39,16 +39,17 @@ const FLAG_MAP: Record<string, string> = {
   "El Salvador": "🇸🇻", "Puerto Rico": "🇵🇷", Malta: "🇲🇹",
 };
 
-type Period = "all" | "q2";
+type Period = "all" | "q2" | "q3";
 
 export default function TrendsView({ tournaments }: Props) {
-  const [period, setPeriod] = useState<Period>("q2");
+  const [period, setPeriod] = useState<Period>("q3");
   const [minPlayers, setMinPlayers] = useState(15);
   const [selectedCountry, setSelectedCountry] = useState<string | null>(null);
 
   const { signals, countryStats, globalPicks, globalTotal } = useMemo(() => {
     const filtered = tournaments.filter((t) => {
-      if (period === "q2" && t.date < "2026-05-01") return false;
+      if (period === "q2" && (t.date < "2026-05-01" || t.date >= "2026-08-26")) return false;
+      if (period === "q3" && t.date < "2026-08-26") return false;
       return true;
     });
 
@@ -125,7 +126,7 @@ export default function TrendsView({ tournaments }: Props) {
       <div className="bg-neutral-900 rounded-xl p-4 border border-neutral-800">
         <div className="flex flex-wrap items-end gap-4">
           <div className="flex gap-1 bg-neutral-800 rounded-lg p-1">
-            {(["q2", "all"] as Period[]).map((p) => (
+            {(["q3", "q2", "all"] as Period[]).map((p) => (
               <button
                 key={p}
                 onClick={() => { setPeriod(p); setSelectedCountry(null); }}
@@ -133,7 +134,7 @@ export default function TrendsView({ tournaments }: Props) {
                   period === p ? "bg-neutral-600 text-white" : "text-neutral-400 hover:text-white"
                 }`}
               >
-                {p === "q2" ? "Q2 (Mai+)" : "Toute l'année"}
+                {p === "q3" ? "Q3 (Août+)" : p === "q2" ? "Q2 (Mai–Août)" : "Toute l'année"}
               </button>
             ))}
           </div>

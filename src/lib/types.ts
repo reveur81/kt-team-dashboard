@@ -26,6 +26,10 @@ export interface BcpPlayer {
     id: string;
     name: string;
   };
+  team?: {
+    id: string;
+    name: string;
+  };
   dropped: boolean;
 }
 

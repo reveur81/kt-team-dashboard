@@ -34,7 +34,7 @@ const DECLASSIFIED_KT = [
   "Elucidian Starstriders",
 ];
 
-type Quarter = "all" | "q1" | "q2";
+type Quarter = "all" | "q1" | "q2" | "q3";
 
 interface PeriodData {
   eventsCount: number;
@@ -83,7 +83,8 @@ function filterDeclassified(data: PeriodData, show: boolean): PeriodData {
 const QUARTER_LABELS: Record<Quarter, string> = {
   all: "Tout",
   q1: "Q1 (Jan–Avr)",
-  q2: "Q2 (Mai+)",
+  q2: "Q2 (Mai–Août)",
+  q3: "Q3 (Août+)",
 };
 
 type Tab = "team" | "simulator" | "profiles" | "trends" | "scout" | "meta";

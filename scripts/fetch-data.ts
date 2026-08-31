@@ -146,18 +146,24 @@ async function main() {
     `\nTotal: ${allPairings.length} pairings, ${allPlayers.length} players`
   );
 
-  // Split by quarter: Q1 = Jan 1 - Apr 30, Q2 = May 1+
+  // Split by quarter (dataslate boundaries):
+  // Q1 = Jan 1 – Apr 30, Q2 = May 1 – Aug 25, Q3 = Aug 26+
   const Q1_END = "2026-05-01T00:00:00.000Z";
+  const Q2_END = "2026-08-26T00:00:00.000Z";
 
   const q1Pairings = allPairings.filter((p: any) => p.eventDate < Q1_END);
-  const q2Pairings = allPairings.filter((p: any) => p.eventDate >= Q1_END);
+  const q2Pairings = allPairings.filter((p: any) => p.eventDate >= Q1_END && p.eventDate < Q2_END);
+  const q3Pairings = allPairings.filter((p: any) => p.eventDate >= Q2_END);
   const q1Players = allPlayers.filter((p: any) => p.eventDate < Q1_END);
-  const q2Players = allPlayers.filter((p: any) => p.eventDate >= Q1_END);
+  const q2Players = allPlayers.filter((p: any) => p.eventDate >= Q1_END && p.eventDate < Q2_END);
+  const q3Players = allPlayers.filter((p: any) => p.eventDate >= Q2_END);
   const q1Events = finishedEvents.filter((e) => e.eventDate < Q1_END);
-  const q2Events = finishedEvents.filter((e) => e.eventDate >= Q1_END);
+  const q2Events = finishedEvents.filter((e) => e.eventDate >= Q1_END && e.eventDate < Q2_END);
+  const q3Events = finishedEvents.filter((e) => e.eventDate >= Q2_END);
 
   console.log(`Q1: ${q1Pairings.length} pairings, ${q1Players.length} players, ${q1Events.length} events`);
   console.log(`Q2: ${q2Pairings.length} pairings, ${q2Players.length} players, ${q2Events.length} events`);
+  console.log(`Q3: ${q3Pairings.length} pairings, ${q3Players.length} players, ${q3Events.length} events`);
 
   // Compute stats for each period
   function buildStats(pairings: BcpPairing[], players: BcpPlayer[], events: typeof finishedEvents, label: string) {
@@ -177,6 +183,7 @@ async function main() {
   const allStats = buildStats(allPairings, allPlayers, finishedEvents, "All");
   const q1Stats = buildStats(q1Pairings, q1Players, q1Events, "Q1");
   const q2Stats = buildStats(q2Pairings, q2Players, q2Events, "Q2");
+  const q3Stats = buildStats(q3Pairings, q3Players, q3Events, "Q3");
 
   // Build tournament details for Scout tab
   console.log("\nBuilding tournament details for Scout...");
@@ -277,6 +284,7 @@ async function main() {
     all: allStats,
     q1: q1Stats,
     q2: q2Stats,
+    q3: q3Stats,
     tournaments,
   };
 
